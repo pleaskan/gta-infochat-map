@@ -1,0 +1,228 @@
+{
+  "_aide": "Style des catégories de tips (clé = valeur exacte de « categorie » dans le geojson). Une catégorie absente utilise « defaut ». « perso » = catégories de MES marqueurs (ne pas changer les id : ils sont utilisés par les données sauvegardées).",
+  "defaut": {
+    "couleur": "#9aa5b1",
+    "icone": "📍"
+  },
+  "categories": {
+    "argent": {
+      "nom": "Argent",
+      "couleur": "#80ed99",
+      "icone": "💰"
+    },
+    "armes": {
+      "nom": "Armes",
+      "couleur": "#ef476f",
+      "icone": "🔫"
+    },
+    "vehicules": {
+      "nom": "Véhicules",
+      "couleur": "#4cc9f0",
+      "icone": "🚗"
+    },
+    "collectibles": {
+      "nom": "Collectibles",
+      "couleur": "#ffd166",
+      "icone": "⭐"
+    },
+    "secrets": {
+      "nom": "Secrets",
+      "couleur": "#8ecae6",
+      "icone": "🔑"
+    },
+    "missions": {
+      "nom": "Missions",
+      "couleur": "#ff4d6d",
+      "icone": "🎯"
+    },
+    "activites": {
+      "nom": "Activités",
+      "couleur": "#f4a261",
+      "icone": "🎳"
+    },
+    "magasins": {
+      "nom": "Magasins",
+      "couleur": "#06d6a0",
+      "icone": "🛒"
+    },
+    "police": {
+      "nom": "Police / recherche",
+      "couleur": "#ff8c42",
+      "icone": "🚔"
+    },
+    "planques": {
+      "nom": "Planques",
+      "couleur": "#b388ff",
+      "icone": "🏠"
+    },
+    "astuces": {
+      "nom": "Astuces",
+      "couleur": "#e9c46a",
+      "icone": "💡"
+    },
+    "glitch": {
+      "nom": "Glitchs",
+      "couleur": "#c77dff",
+      "icone": "🐞"
+    },
+    "exploration": {
+      "nom": "Exploration",
+      "couleur": "#90be6d",
+      "icone": "🧭"
+    },
+    "personnages": {
+      "nom": "Personnages",
+      "couleur": "#f28482",
+      "icone": "🧑"
+    },
+    "autre": {
+      "nom": "Autre",
+      "couleur": "#9aa5b1",
+      "icone": "📌"
+    }
+  },
+  "types_lieu": {
+    "quartier": {
+      "nom": "Quartier",
+      "icone": "🏘️"
+    },
+    "ville": {
+      "nom": "Ville",
+      "icone": "🏙️"
+    },
+    "region": {
+      "nom": "Région",
+      "icone": "🗺️"
+    },
+    "batiment": {
+      "nom": "Bâtiment",
+      "icone": "🏢"
+    },
+    "point_interet": {
+      "nom": "Point d'intérêt",
+      "icone": "📍"
+    },
+    "mission": {
+      "nom": "Mission",
+      "icone": "🎯"
+    },
+    "route": {
+      "nom": "Route",
+      "icone": "🛣️"
+    },
+    "autre": {
+      "nom": "Autre",
+      "icone": "❔"
+    }
+  },
+  "perso": [
+    {
+      "id": "obj",
+      "nom": "Mission principale",
+      "icone": "🎯",
+      "couleur": "#ff4d6d"
+    },
+    {
+      "id": "side",
+      "nom": "Quête annexe",
+      "icone": "📜",
+      "couleur": "#f78fb3"
+    },
+    {
+      "id": "wpn",
+      "nom": "Armes",
+      "icone": "🔫",
+      "couleur": "#ef476f"
+    },
+    {
+      "id": "shop",
+      "nom": "Magasin",
+      "icone": "🛒",
+      "couleur": "#06d6a0"
+    },
+    {
+      "id": "col",
+      "nom": "Collectible",
+      "icone": "⭐",
+      "couleur": "#ffd166"
+    },
+    {
+      "id": "act",
+      "nom": "Activité",
+      "icone": "🎳",
+      "couleur": "#f4a261"
+    },
+    {
+      "id": "heist",
+      "nom": "Braquage / argent",
+      "icone": "💰",
+      "couleur": "#80ed99"
+    },
+    {
+      "id": "veh",
+      "nom": "Véhicule",
+      "icone": "🚗",
+      "couleur": "#4cc9f0"
+    },
+    {
+      "id": "fast",
+      "nom": "Voyage rapide / hélico",
+      "icone": "🚁",
+      "couleur": "#48cae4"
+    },
+    {
+      "id": "safe",
+      "nom": "Planque",
+      "icone": "🏠",
+      "couleur": "#b388ff"
+    },
+    {
+      "id": "sec",
+      "nom": "Secret / Easter egg",
+      "icone": "🔑",
+      "couleur": "#8ecae6"
+    },
+    {
+      "id": "dng",
+      "nom": "Danger / Police",
+      "icone": "🚔",
+      "couleur": "#ff8c42"
+    },
+    {
+      "id": "cloth",
+      "nom": "Vêtements / Coiffeur",
+      "icone": "👕",
+      "couleur": "#cdb4db"
+    },
+    {
+      "id": "food",
+      "nom": "Nourriture / Soins",
+      "icone": "🍔",
+      "couleur": "#ffb703"
+    },
+    {
+      "id": "fish",
+      "nom": "Pêche / Chasse",
+      "icone": "🎣",
+      "couleur": "#90e0ef"
+    },
+    {
+      "id": "photo",
+      "nom": "Point de vue / Photo",
+      "icone": "📷",
+      "couleur": "#bde0fe"
+    },
+    {
+      "id": "npc",
+      "nom": "Contact / PNJ",
+      "icone": "👤",
+      "couleur": "#ffc8dd"
+    },
+    {
+      "id": "note",
+      "nom": "Note",
+      "icone": "📌",
+      "couleur": "#e0e0e0"
+    }
+  ]
+}

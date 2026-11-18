@@ -1,0 +1,9 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "genere_le": "2026-11-18T23:07:56+00:00",
+  "source": "gta6-tips (pipeline TikTok)",
+  "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
+ },
+ "features": []
+}

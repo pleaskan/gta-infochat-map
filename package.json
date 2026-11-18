@@ -1,0 +1,7 @@
+{
+  "name": "carte-gta6",
+  "private": true,
+  "type": "module",
+  "description": "Carte GTA 6 annotable (PWA statique). Aucun build : ce fichier sert uniquement à lancer les tests.",
+  "scripts": { "test": "node --test tests/unitaires.test.mjs" }
+}

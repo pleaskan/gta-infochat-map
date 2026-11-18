@@ -1,0 +1,1516 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "genere_le": "2026-11-18T12:00:00Z",
+  "source": "exemple factice (tools/generer_tips_exemple.py)"
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.676,
+     0.623
+    ]
+   },
+   "properties": {
+    "lieu": "Marina Nord",
+    "type": "quartier",
+    "rayon": 0.03,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00001",
+      "categorie": "planques",
+      "enonce": "Lit pour sauvegarder",
+      "precision": "Visible depuis la route.",
+      "nb_sources": 4,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000007",
+       "https://www.tiktok.com/@exemple/video/7300000000000000008",
+       "https://www.tiktok.com/@exemple/video/7300000000000000009"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.6749,
+     0.7363
+    ]
+   },
+   "properties": {
+    "lieu": "Quartier des Docks",
+    "type": "ville",
+    "rayon": 0.05,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00002",
+      "categorie": "missions",
+      "enonce": "Contact qui donne une prime",
+      "precision": "Visible depuis la route.",
+      "nb_sources": 2,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000014",
+       "https://www.tiktok.com/@exemple/video/7300000000000000015"
+      ]
+     },
+     {
+      "id": "tip-00003",
+      "categorie": "missions",
+      "enonce": "Point de départ d'une mission annexe",
+      "precision": "",
+      "nb_sources": 1,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000021"
+      ]
+     },
+     {
+      "id": "tip-00004",
+      "categorie": "missions",
+      "enonce": "Point de départ d'une mission annexe",
+      "precision": "Monter par l'échelle à gauche.",
+      "nb_sources": 1,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000028"
+      ]
+     },
+     {
+      "id": "tip-00005",
+      "categorie": "missions",
+      "enonce": "Contact qui donne une prime",
+      "precision": "Monter par l'échelle à gauche.",
+      "nb_sources": 6,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000035",
+       "https://www.tiktok.com/@exemple/video/7300000000000000036",
+       "https://www.tiktok.com/@exemple/video/7300000000000000037"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5987,
+     0.7871
+    ]
+   },
+   "properties": {
+    "lieu": "Phare de la Pointe",
+    "type": "region",
+    "rayon": 0.015,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00006",
+      "categorie": "missions",
+      "enonce": "Raccourci pour la mission du port",
+      "precision": "Monter par l'échelle à gauche.",
+      "nb_sources": 3,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000042",
+       "https://www.tiktok.com/@exemple/video/7300000000000000043",
+       "https://www.tiktok.com/@exemple/video/7300000000000000044"
+      ]
+     },
+     {
+      "id": "tip-00007",
+      "categorie": "missions",
+      "enonce": "Point de départ d'une mission annexe",
+      "precision": "",
+      "nb_sources": 2,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000049",
+       "https://www.tiktok.com/@exemple/video/7300000000000000050"
+      ]
+     },
+     {
+      "id": "tip-00008",
+      "categorie": "police",
+      "enonce": "Tunnel pour perdre 2 étoiles",
+      "precision": "Uniquement de nuit.",
+      "nb_sources": 6,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000056",
+       "https://www.tiktok.com/@exemple/video/7300000000000000057",
+       "https://www.tiktok.com/@exemple/video/7300000000000000058"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.3007,
+     0.4295
+    ]
+   },
+   "properties": {
+    "lieu": "Station-service Route 1",
+    "type": "batiment",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00009",
+      "categorie": "magasins",
+      "enonce": "Réduction de 20 % le dimanche",
+      "precision": "Monter par l'échelle à gauche.",
+      "nb_sources": 6,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000063",
+       "https://www.tiktok.com/@exemple/video/7300000000000000064",
+       "https://www.tiktok.com/@exemple/video/7300000000000000065"
+      ]
+     },
+     {
+      "id": "tip-00010",
+      "categorie": "collectibles",
+      "enonce": "Graffiti à photographier",
+      "precision": "",
+      "nb_sources": 3,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000070",
+       "https://www.tiktok.com/@exemple/video/7300000000000000071",
+       "https://www.tiktok.com/@exemple/video/7300000000000000072"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5314,
+     0.3291
+    ]
+   },
+   "properties": {
+    "lieu": "Casse auto du Marais",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00011",
+      "categorie": "argent",
+      "enonce": "Coffre avec 5000 $ derrière le comptoir",
+      "precision": "Côté est, près de l'entrée.",
+      "nb_sources": 6,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000077",
+       "https://www.tiktok.com/@exemple/video/7300000000000000078",
+       "https://www.tiktok.com/@exemple/video/7300000000000000079"
+      ]
+     },
+     {
+      "id": "tip-00012",
+      "categorie": "astuces",
+      "enonce": "Rampe pour un saut cascade",
+      "precision": "",
+      "nb_sources": 3,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000084",
+       "https://www.tiktok.com/@exemple/video/7300000000000000085",
+       "https://www.tiktok.com/@exemple/video/7300000000000000086"
+      ]
+     },
+     {
+      "id": "tip-00013",
+      "categorie": "argent",
+      "enonce": "Coffre avec 5000 $ derrière le comptoir",
+      "precision": "Après la mission 3.",
+      "nb_sources": 3,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000091",
+       "https://www.tiktok.com/@exemple/video/7300000000000000092",
+       "https://www.tiktok.com/@exemple/video/7300000000000000093"
+      ]
+     },
+     {
+      "id": "tip-00014",
+      "categorie": "argent",
+      "enonce": "Mallette cachée sous le ponton",
+      "precision": "Monter par l'échelle à gauche.",
+      "nb_sources": 2,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000098",
+       "https://www.tiktok.com/@exemple/video/7300000000000000099"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4452,
+     0.7177
+    ]
+   },
+   "properties": {
+    "lieu": "Plage des Palmiers",
+    "type": "mission",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00015",
+      "categorie": "secrets",
+      "enonce": "Passage secret derrière l'étagère",
+      "precision": "Après la mission 3.",
+      "nb_sources": 6,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000105",
+       "https://www.tiktok.com/@exemple/video/7300000000000000106",
+       "https://www.tiktok.com/@exemple/video/7300000000000000107"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5939,
+     0.2697
+    ]
+   },
+   "properties": {
+    "lieu": "Centre commercial Azur",
+    "type": "route",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00016",
+      "categorie": "police",
+      "enonce": "Barrage fréquent à éviter",
+      "precision": "",
+      "nb_sources": 12,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000112",
+       "https://www.tiktok.com/@exemple/video/7300000000000000113",
+       "https://www.tiktok.com/@exemple/video/7300000000000000114"
+      ]
+     },
+     {
+      "id": "tip-00017",
+      "categorie": "planques",
+      "enonce": "Garage 2 places inclus",
+      "precision": "Visible depuis la route.",
+      "nb_sources": 4,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000119",
+       "https://www.tiktok.com/@exemple/video/7300000000000000120",
+       "https://www.tiktok.com/@exemple/video/7300000000000000121"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4449,
+     0.4812
+    ]
+   },
+   "properties": {
+    "lieu": "Aérodrome abandonné",
+    "type": "autre",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00018",
+      "categorie": "activites",
+      "enonce": "Pêche rentable au coucher du soleil",
+      "precision": "Visible depuis la route.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000126"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4707,
+     0.2436
+    ]
+   },
+   "properties": {
+    "lieu": "Ranch Cypress",
+    "type": "quartier",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00019",
+      "categorie": "argent",
+      "enonce": "Mallette cachée sous le ponton",
+      "precision": "Visible depuis la route.",
+      "nb_sources": 1,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000133"
+      ]
+     },
+     {
+      "id": "tip-00020",
+      "categorie": "argent",
+      "enonce": "Coffre avec 5000 $ derrière le comptoir",
+      "precision": "Côté est, près de l'entrée.",
+      "nb_sources": 5,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000140",
+       "https://www.tiktok.com/@exemple/video/7300000000000000141",
+       "https://www.tiktok.com/@exemple/video/7300000000000000142"
+      ]
+     },
+     {
+      "id": "tip-00021",
+      "categorie": "argent",
+      "enonce": "Coffre avec 5000 $ derrière le comptoir",
+      "precision": "Côté est, près de l'entrée.",
+      "nb_sources": 2,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000147",
+       "https://www.tiktok.com/@exemple/video/7300000000000000148"
+      ]
+     },
+     {
+      "id": "tip-00022",
+      "categorie": "astuces",
+      "enonce": "Sauvegarde rapide à côté",
+      "precision": "Après la mission 3.",
+      "nb_sources": 1,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000154"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4085,
+     0.485
+    ]
+   },
+   "properties": {
+    "lieu": "Pont du Lac",
+    "type": "ville",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00023",
+      "categorie": "collectibles",
+      "enonce": "Figurine cachée sous l'escalier",
+      "precision": "",
+      "nb_sources": 6,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000161",
+       "https://www.tiktok.com/@exemple/video/7300000000000000162",
+       "https://www.tiktok.com/@exemple/video/7300000000000000163"
+      ]
+     },
+     {
+      "id": "tip-00024",
+      "categorie": "armes",
+      "enonce": "Munitions gratuites près des conteneurs",
+      "precision": "Monter par l'échelle à gauche.",
+      "nb_sources": 12,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000168",
+       "https://www.tiktok.com/@exemple/video/7300000000000000169",
+       "https://www.tiktok.com/@exemple/video/7300000000000000170"
+      ]
+     },
+     {
+      "id": "tip-00025",
+      "categorie": "armes",
+      "enonce": "Munitions gratuites près des conteneurs",
+      "precision": "",
+      "nb_sources": 2,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000175",
+       "https://www.tiktok.com/@exemple/video/7300000000000000176"
+      ]
+     },
+     {
+      "id": "tip-00026",
+      "categorie": "armes",
+      "enonce": "Gilet pare-balles sur le toit",
+      "precision": "Uniquement de nuit.",
+      "nb_sources": 8,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000182",
+       "https://www.tiktok.com/@exemple/video/7300000000000000183",
+       "https://www.tiktok.com/@exemple/video/7300000000000000184"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.7062,
+     0.4438
+    ]
+   },
+   "properties": {
+    "lieu": "Motel Flamingo",
+    "type": "region",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00027",
+      "categorie": "planques",
+      "enonce": "Garage 2 places inclus",
+      "precision": "Après la mission 3.",
+      "nb_sources": 6,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000189",
+       "https://www.tiktok.com/@exemple/video/7300000000000000190",
+       "https://www.tiktok.com/@exemple/video/7300000000000000191"
+      ]
+     },
+     {
+      "id": "tip-00028",
+      "categorie": "planques",
+      "enonce": "Appartement achetable pas cher",
+      "precision": "",
+      "nb_sources": 2,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000196",
+       "https://www.tiktok.com/@exemple/video/7300000000000000197"
+      ]
+     },
+     {
+      "id": "tip-00029",
+      "categorie": "planques",
+      "enonce": "Lit pour sauvegarder",
+      "precision": "Visible depuis la route.",
+      "nb_sources": 5,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000203",
+       "https://www.tiktok.com/@exemple/video/7300000000000000204",
+       "https://www.tiktok.com/@exemple/video/7300000000000000205"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.6781,
+     0.4548
+    ]
+   },
+   "properties": {
+    "lieu": "Port de pêche",
+    "type": "batiment",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00030",
+      "categorie": "missions",
+      "enonce": "Contact qui donne une prime",
+      "precision": "Uniquement de nuit.",
+      "nb_sources": 8,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000210",
+       "https://www.tiktok.com/@exemple/video/7300000000000000211",
+       "https://www.tiktok.com/@exemple/video/7300000000000000212"
+      ]
+     },
+     {
+      "id": "tip-00031",
+      "categorie": "missions",
+      "enonce": "Point de départ d'une mission annexe",
+      "precision": "Après la mission 3.",
+      "nb_sources": 3,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000217",
+       "https://www.tiktok.com/@exemple/video/7300000000000000218",
+       "https://www.tiktok.com/@exemple/video/7300000000000000219"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.626,
+     0.736
+    ]
+   },
+   "properties": {
+    "lieu": "Belvédère du Mont",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00032",
+      "categorie": "activites",
+      "enonce": "Pêche rentable au coucher du soleil",
+      "precision": "Visible depuis la route.",
+      "nb_sources": 4,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000224",
+       "https://www.tiktok.com/@exemple/video/7300000000000000225",
+       "https://www.tiktok.com/@exemple/video/7300000000000000226"
+      ]
+     },
+     {
+      "id": "tip-00033",
+      "categorie": "activites",
+      "enonce": "Salle d'arcade jouable",
+      "precision": "",
+      "nb_sources": 8,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000231",
+       "https://www.tiktok.com/@exemple/video/7300000000000000232",
+       "https://www.tiktok.com/@exemple/video/7300000000000000233"
+      ]
+     },
+     {
+      "id": "tip-00034",
+      "categorie": "activites",
+      "enonce": "Salle d'arcade jouable",
+      "precision": "",
+      "nb_sources": 3,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000238",
+       "https://www.tiktok.com/@exemple/video/7300000000000000239",
+       "https://www.tiktok.com/@exemple/video/7300000000000000240"
+      ]
+     },
+     {
+      "id": "tip-00035",
+      "categorie": "activites",
+      "enonce": "Salle d'arcade jouable",
+      "precision": "",
+      "nb_sources": 6,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000245",
+       "https://www.tiktok.com/@exemple/video/7300000000000000246",
+       "https://www.tiktok.com/@exemple/video/7300000000000000247"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.6268,
+     0.711
+    ]
+   },
+   "properties": {
+    "lieu": "Zone industrielle Est",
+    "type": "mission",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00036",
+      "categorie": "missions",
+      "enonce": "Raccourci pour la mission du port",
+      "precision": "",
+      "nb_sources": 4,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000252",
+       "https://www.tiktok.com/@exemple/video/7300000000000000253",
+       "https://www.tiktok.com/@exemple/video/7300000000000000254"
+      ]
+     },
+     {
+      "id": "tip-00037",
+      "categorie": "police",
+      "enonce": "Tunnel pour perdre 2 étoiles",
+      "precision": "",
+      "nb_sources": 8,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000259",
+       "https://www.tiktok.com/@exemple/video/7300000000000000260",
+       "https://www.tiktok.com/@exemple/video/7300000000000000261"
+      ]
+     },
+     {
+      "id": "tip-00038",
+      "categorie": "missions",
+      "enonce": "Contact qui donne une prime",
+      "precision": "Côté est, près de l'entrée.",
+      "nb_sources": 2,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000266",
+       "https://www.tiktok.com/@exemple/video/7300000000000000267"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.7395,
+     0.5138
+    ]
+   },
+   "properties": {
+    "lieu": "Vieux fort espagnol",
+    "type": "route",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00039",
+      "categorie": "activites",
+      "enonce": "Salle d'arcade jouable",
+      "precision": "Après la mission 3.",
+      "nb_sources": 5,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000273",
+       "https://www.tiktok.com/@exemple/video/7300000000000000274",
+       "https://www.tiktok.com/@exemple/video/7300000000000000275"
+      ]
+     },
+     {
+      "id": "tip-00040",
+      "categorie": "armes",
+      "enonce": "Gilet pare-balles sur le toit",
+      "precision": "Monter par l'échelle à gauche.",
+      "nb_sources": 2,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000280",
+       "https://www.tiktok.com/@exemple/video/7300000000000000281"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4137,
+     0.5463
+    ]
+   },
+   "properties": {
+    "lieu": "Club de golf",
+    "type": "autre",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00041",
+      "categorie": "vehicules",
+      "enonce": "Moto tout-terrain garée derrière",
+      "precision": "",
+      "nb_sources": 5,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000287",
+       "https://www.tiktok.com/@exemple/video/7300000000000000288",
+       "https://www.tiktok.com/@exemple/video/7300000000000000289"
+      ]
+     },
+     {
+      "id": "tip-00042",
+      "categorie": "collectibles",
+      "enonce": "Figurine cachée sous l'escalier",
+      "precision": "Uniquement de nuit.",
+      "nb_sources": 8,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000294",
+       "https://www.tiktok.com/@exemple/video/7300000000000000295",
+       "https://www.tiktok.com/@exemple/video/7300000000000000296"
+      ]
+     },
+     {
+      "id": "tip-00043",
+      "categorie": "collectibles",
+      "enonce": "Graffiti à photographier",
+      "precision": "Uniquement de nuit.",
+      "nb_sources": 2,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000301",
+       "https://www.tiktok.com/@exemple/video/7300000000000000302"
+      ]
+     },
+     {
+      "id": "tip-00044",
+      "categorie": "police",
+      "enonce": "Barrage fréquent à éviter",
+      "precision": "",
+      "nb_sources": 1,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000308"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.3023,
+     0.5076
+    ]
+   },
+   "properties": {
+    "lieu": "Commissariat central",
+    "type": "quartier",
+    "rayon": 0.015,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00045",
+      "categorie": "astuces",
+      "enonce": "Point de vue pour repérer la zone",
+      "precision": "Visible depuis la route.",
+      "nb_sources": 8,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000315",
+       "https://www.tiktok.com/@exemple/video/7300000000000000316",
+       "https://www.tiktok.com/@exemple/video/7300000000000000317"
+      ]
+     },
+     {
+      "id": "tip-00046",
+      "categorie": "astuces",
+      "enonce": "Sauvegarde rapide à côté",
+      "precision": "Côté est, près de l'entrée.",
+      "nb_sources": 12,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000322",
+       "https://www.tiktok.com/@exemple/video/7300000000000000323",
+       "https://www.tiktok.com/@exemple/video/7300000000000000324"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5548,
+     0.3393
+    ]
+   },
+   "properties": {
+    "lieu": "Garage Hector",
+    "type": "ville",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00047",
+      "categorie": "armes",
+      "enonce": "Fusil à pompe dans la remise",
+      "precision": "Uniquement de nuit.",
+      "nb_sources": 2,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000329",
+       "https://www.tiktok.com/@exemple/video/7300000000000000330"
+      ]
+     },
+     {
+      "id": "tip-00048",
+      "categorie": "activites",
+      "enonce": "Pêche rentable au coucher du soleil",
+      "precision": "Monter par l'échelle à gauche.",
+      "nb_sources": 3,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000336",
+       "https://www.tiktok.com/@exemple/video/7300000000000000337",
+       "https://www.tiktok.com/@exemple/video/7300000000000000338"
+      ]
+     },
+     {
+      "id": "tip-00049",
+      "categorie": "easter_egg",
+      "enonce": "Clin d'œil à un ancien GTA",
+      "precision": "Visible depuis la route.",
+      "nb_sources": 6,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000343",
+       "https://www.tiktok.com/@exemple/video/7300000000000000344",
+       "https://www.tiktok.com/@exemple/video/7300000000000000345"
+      ]
+     },
+     {
+      "id": "tip-00050",
+      "categorie": "easter_egg",
+      "enonce": "Ovni visible par temps clair",
+      "precision": "",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000350"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.6054,
+     0.3695
+    ]
+   },
+   "properties": {
+    "lieu": "Marché couvert",
+    "type": "region",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00051",
+      "categorie": "collectibles",
+      "enonce": "Graffiti à photographier",
+      "precision": "Après la mission 3.",
+      "nb_sources": 5,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000357",
+       "https://www.tiktok.com/@exemple/video/7300000000000000358",
+       "https://www.tiktok.com/@exemple/video/7300000000000000359"
+      ]
+     },
+     {
+      "id": "tip-00052",
+      "categorie": "police",
+      "enonce": "Bonne planque pour semer la police",
+      "precision": "Visible depuis la route.",
+      "nb_sources": 5,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000364",
+       "https://www.tiktok.com/@exemple/video/7300000000000000365",
+       "https://www.tiktok.com/@exemple/video/7300000000000000366"
+      ]
+     },
+     {
+      "id": "tip-00053",
+      "categorie": "collectibles",
+      "enonce": "Graffiti à photographier",
+      "precision": "Côté est, près de l'entrée.",
+      "nb_sources": 12,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000371",
+       "https://www.tiktok.com/@exemple/video/7300000000000000372",
+       "https://www.tiktok.com/@exemple/video/7300000000000000373"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4752,
+     0.4301
+    ]
+   },
+   "properties": {
+    "lieu": "Gare routière",
+    "type": "batiment",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00054",
+      "categorie": "planques",
+      "enonce": "Garage 2 places inclus",
+      "precision": "",
+      "nb_sources": 3,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000378",
+       "https://www.tiktok.com/@exemple/video/7300000000000000379",
+       "https://www.tiktok.com/@exemple/video/7300000000000000380"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5675,
+     0.7168
+    ]
+   },
+   "properties": {
+    "lieu": "Île aux pélicans",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00055",
+      "categorie": "police",
+      "enonce": "Tunnel pour perdre 2 étoiles",
+      "precision": "",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000385"
+      ]
+     },
+     {
+      "id": "tip-00056",
+      "categorie": "argent",
+      "enonce": "Distributeur piratable la nuit",
+      "precision": "Uniquement de nuit.",
+      "nb_sources": 6,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000392",
+       "https://www.tiktok.com/@exemple/video/7300000000000000393",
+       "https://www.tiktok.com/@exemple/video/7300000000000000394"
+      ]
+     },
+     {
+      "id": "tip-00057",
+      "categorie": "easter_egg",
+      "enonce": "Clin d'œil à un ancien GTA",
+      "precision": "Monter par l'échelle à gauche.",
+      "nb_sources": 12,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000399",
+       "https://www.tiktok.com/@exemple/video/7300000000000000400",
+       "https://www.tiktok.com/@exemple/video/7300000000000000401"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5769,
+     0.3575
+    ]
+   },
+   "properties": {
+    "lieu": "Parc des expositions",
+    "type": "mission",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00058",
+      "categorie": "vehicules",
+      "enonce": "Voiture de sport qui apparaît le soir",
+      "precision": "Monter par l'échelle à gauche.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000406"
+      ]
+     },
+     {
+      "id": "tip-00059",
+      "categorie": "vehicules",
+      "enonce": "Moto tout-terrain garée derrière",
+      "precision": "",
+      "nb_sources": 8,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000413",
+       "https://www.tiktok.com/@exemple/video/7300000000000000414",
+       "https://www.tiktok.com/@exemple/video/7300000000000000415"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.671,
+     0.6559
+    ]
+   },
+   "properties": {
+    "lieu": "Hôpital Sainte-Claire",
+    "type": "route",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00060",
+      "categorie": "activites",
+      "enonce": "Course de rue chaque vendredi",
+      "precision": "Monter par l'échelle à gauche.",
+      "nb_sources": 5,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000420",
+       "https://www.tiktok.com/@exemple/video/7300000000000000421",
+       "https://www.tiktok.com/@exemple/video/7300000000000000422"
+      ]
+     },
+     {
+      "id": "tip-00061",
+      "categorie": "activites",
+      "enonce": "Salle d'arcade jouable",
+      "precision": "",
+      "nb_sources": 2,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000427",
+       "https://www.tiktok.com/@exemple/video/7300000000000000428"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.536,
+     0.3003
+    ]
+   },
+   "properties": {
+    "lieu": "Concession de luxe",
+    "type": "autre",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00062",
+      "categorie": "missions",
+      "enonce": "Raccourci pour la mission du port",
+      "precision": "Côté est, près de l'entrée.",
+      "nb_sources": 6,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000434",
+       "https://www.tiktok.com/@exemple/video/7300000000000000435",
+       "https://www.tiktok.com/@exemple/video/7300000000000000436"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.6255,
+     0.4127
+    ]
+   },
+   "properties": {
+    "lieu": "Bayou noir",
+    "type": "quartier",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00063",
+      "categorie": "armes",
+      "enonce": "Munitions gratuites près des conteneurs",
+      "precision": "Après la mission 3.",
+      "nb_sources": 4,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000441",
+       "https://www.tiktok.com/@exemple/video/7300000000000000442",
+       "https://www.tiktok.com/@exemple/video/7300000000000000443"
+      ]
+     },
+     {
+      "id": "tip-00064",
+      "categorie": "armes",
+      "enonce": "Munitions gratuites près des conteneurs",
+      "precision": "Uniquement de nuit.",
+      "nb_sources": 3,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000448",
+       "https://www.tiktok.com/@exemple/video/7300000000000000449",
+       "https://www.tiktok.com/@exemple/video/7300000000000000450"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4842,
+     0.5499
+    ]
+   },
+   "properties": {
+    "lieu": "Cimetière marin",
+    "type": "ville",
+    "rayon": 0.03,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00065",
+      "categorie": "argent",
+      "enonce": "Coffre avec 5000 $ derrière le comptoir",
+      "precision": "Après la mission 3.",
+      "nb_sources": 6,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000455",
+       "https://www.tiktok.com/@exemple/video/7300000000000000456",
+       "https://www.tiktok.com/@exemple/video/7300000000000000457"
+      ]
+     },
+     {
+      "id": "tip-00066",
+      "categorie": "vehicules",
+      "enonce": "Voiture de sport qui apparaît le soir",
+      "precision": "Uniquement de nuit.",
+      "nb_sources": 3,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000462",
+       "https://www.tiktok.com/@exemple/video/7300000000000000463",
+       "https://www.tiktok.com/@exemple/video/7300000000000000464"
+      ]
+     },
+     {
+      "id": "tip-00067",
+      "categorie": "collectibles",
+      "enonce": "Carte postale sur le panneau",
+      "precision": "Uniquement de nuit.",
+      "nb_sources": 2,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000469",
+       "https://www.tiktok.com/@exemple/video/7300000000000000470"
+      ]
+     },
+     {
+      "id": "tip-00068",
+      "categorie": "easter_egg",
+      "enonce": "Clin d'œil à un ancien GTA",
+      "precision": "Uniquement de nuit.",
+      "nb_sources": 8,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000476",
+       "https://www.tiktok.com/@exemple/video/7300000000000000477",
+       "https://www.tiktok.com/@exemple/video/7300000000000000478"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5265,
+     0.6429
+    ]
+   },
+   "properties": {
+    "lieu": "Studio de tatouage",
+    "type": "region",
+    "rayon": 0.05,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00069",
+      "categorie": "missions",
+      "enonce": "Contact qui donne une prime",
+      "precision": "Côté est, près de l'entrée.",
+      "nb_sources": 5,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000483",
+       "https://www.tiktok.com/@exemple/video/7300000000000000484",
+       "https://www.tiktok.com/@exemple/video/7300000000000000485"
+      ]
+     },
+     {
+      "id": "tip-00070",
+      "categorie": "missions",
+      "enonce": "Contact qui donne une prime",
+      "precision": "Après la mission 3.",
+      "nb_sources": 8,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000490",
+       "https://www.tiktok.com/@exemple/video/7300000000000000491",
+       "https://www.tiktok.com/@exemple/video/7300000000000000492"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4346,
+     0.7484
+    ]
+   },
+   "properties": {
+    "lieu": "Base militaire (clôture)",
+    "type": "batiment",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00071",
+      "categorie": "missions",
+      "enonce": "Contact qui donne une prime",
+      "precision": "Visible depuis la route.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000497"
+      ]
+     },
+     {
+      "id": "tip-00072",
+      "categorie": "missions",
+      "enonce": "Raccourci pour la mission du port",
+      "precision": "Côté est, près de l'entrée.",
+      "nb_sources": 2,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000504",
+       "https://www.tiktok.com/@exemple/video/7300000000000000505"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.3175,
+     0.4808
+    ]
+   },
+   "properties": {
+    "lieu": "Stade municipal",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00073",
+      "categorie": "magasins",
+      "enonce": "Mods moteur moins chers ici",
+      "precision": "Côté est, près de l'entrée.",
+      "nb_sources": 8,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000511",
+       "https://www.tiktok.com/@exemple/video/7300000000000000512",
+       "https://www.tiktok.com/@exemple/video/7300000000000000513"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4753,
+     0.7015
+    ]
+   },
+   "properties": {
+    "lieu": "Tour Horizon",
+    "type": "mission",
+    "rayon": null,
+    "carte_version": "test-v1",
+    "tips": [
+     {
+      "id": "tip-00074",
+      "categorie": "missions",
+      "enonce": "Raccourci pour la mission du port",
+      "precision": "Uniquement de nuit.",
+      "nb_sources": 8,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000518",
+       "https://www.tiktok.com/@exemple/video/7300000000000000519",
+       "https://www.tiktok.com/@exemple/video/7300000000000000520"
+      ]
+     },
+     {
+      "id": "tip-00075",
+      "categorie": "missions",
+      "enonce": "Raccourci pour la mission du port",
+      "precision": "",
+      "nb_sources": 5,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000525",
+       "https://www.tiktok.com/@exemple/video/7300000000000000526",
+       "https://www.tiktok.com/@exemple/video/7300000000000000527"
+      ]
+     },
+     {
+      "id": "tip-00076",
+      "categorie": "missions",
+      "enonce": "Contact qui donne une prime",
+      "precision": "Côté est, près de l'entrée.",
+      "nb_sources": 12,
+      "verifie_en_jeu": true,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000532",
+       "https://www.tiktok.com/@exemple/video/7300000000000000533",
+       "https://www.tiktok.com/@exemple/video/7300000000000000534"
+      ]
+     },
+     {
+      "id": "tip-00077",
+      "categorie": "missions",
+      "enonce": "Contact qui donne une prime",
+      "precision": "Uniquement de nuit.",
+      "nb_sources": 2,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@exemple/video/7300000000000000539",
+       "https://www.tiktok.com/@exemple/video/7300000000000000540"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [0.4, 0.5] },
+      "properties": { "lieu": "Valide", "type": "bizarre", "rayon": 5, "carte_version": "test-v1",
+        "tips": [
+          { "id": "v1", "categorie": "argent", "enonce": "ok", "nb_sources": 2, "verifie_en_jeu": true, "urls": ["https://exemple.org/v", "javascript:alert(1)"] },
+          { "enonce": "tip sans id", "categorie": "armes" },
+          { "id": "v3", "categorie": "armes" },
+          { "id": "v1", "enonce": "doublon" }
+        ] } },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [1.0005, 0] },
+      "properties": { "lieu": "Deux", "tips": [ { "id": "d1", "enonce": "x" } ] } },
+    { "type": "Feature", "geometry": { "type": "LineString", "coordinates": [[0, 0], [1, 1]] }, "properties": { "lieu": "Ligne", "tips": [] } },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [-0.57, 44.83] }, "properties": { "lieu": "LatLon", "tips": [ { "id": "ll", "enonce": "x" } ] } },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": ["a", 1] }, "properties": { "lieu": "Texte", "tips": [ { "id": "tx", "enonce": "x" } ] } },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [0.2, 0.2] }, "properties": { "tips": [ { "id": "sl", "enonce": "x" } ] } },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [0.3, 0.3] }, "properties": { "lieu": "Sans tips", "tips": [] } },
+    null
+  ]
+}
