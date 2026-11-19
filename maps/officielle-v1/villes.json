@@ -1,0 +1,263 @@
+{
+ "_aide": "Villes et quartiers (étiquettes progressives au zoom). x, y normalisés 0..1 ; rang 1..3. Généré par tools/generer_villes.py.",
+ "villes": [
+  {
+   "nom": "Vice City",
+   "x": 0.6701,
+   "y": 0.5203,
+   "rang": 1
+  },
+  {
+   "nom": "Port Gellhorn",
+   "x": 0.3039,
+   "y": 0.357,
+   "rang": 1
+  },
+  {
+   "nom": "Ambrosia",
+   "x": 0.5553,
+   "y": 0.357,
+   "rang": 1
+  },
+  {
+   "nom": "Hamlet",
+   "x": 0.561,
+   "y": 0.6859,
+   "rang": 1
+  },
+  {
+   "nom": "Capri",
+   "x": 0.2883,
+   "y": 0.5272,
+   "rang": 1
+  },
+  {
+   "nom": "Millport",
+   "x": 0.6587,
+   "y": 0.2305,
+   "rang": 1
+  },
+  {
+   "nom": "Grassrivers",
+   "x": 0.4504,
+   "y": 0.6627,
+   "rang": 1
+  },
+  {
+   "nom": "Vice Beach",
+   "x": 0.8509,
+   "y": 0.4888,
+   "rang": 1
+  },
+  {
+   "nom": "Key Lento",
+   "x": 0.5683,
+   "y": 0.8318,
+   "rang": 1
+  },
+  {
+   "nom": "Bonanza",
+   "x": 0.4805,
+   "y": 0.1424,
+   "rang": 1
+  },
+  {
+   "nom": "Grayson",
+   "x": 0.3792,
+   "y": 0.2184,
+   "rang": 1
+  },
+  {
+   "nom": "Belville",
+   "x": 0.6571,
+   "y": 0.3957,
+   "rang": 1
+  },
+  {
+   "nom": "Waning Sands",
+   "x": 0.7392,
+   "y": 0.3228,
+   "rang": 1
+  },
+  {
+   "nom": "Watson Bay",
+   "x": 0.4244,
+   "y": 0.7038,
+   "rang": 1
+  },
+  {
+   "nom": "Southwind",
+   "x": 0.3273,
+   "y": 0.8538,
+   "rang": 1
+  },
+  {
+   "nom": "Gellhorn",
+   "x": 0.3522,
+   "y": 0.447,
+   "rang": 2
+  },
+  {
+   "nom": "Moreau",
+   "x": 0.5153,
+   "y": 0.166,
+   "rang": 2
+  },
+  {
+   "nom": "Tequesta",
+   "x": 0.6732,
+   "y": 0.5948,
+   "rang": 2
+  },
+  {
+   "nom": "Big Pine",
+   "x": 0.3932,
+   "y": 0.6221,
+   "rang": 2
+  },
+  {
+   "nom": "Frogswater",
+   "x": 0.4442,
+   "y": 0.3437,
+   "rang": 2
+  },
+  {
+   "nom": "Emerald Springs",
+   "x": 0.4597,
+   "y": 0.4197,
+   "rang": 2
+  },
+  {
+   "nom": "Pelican Valley",
+   "x": 0.5221,
+   "y": 0.7315,
+   "rang": 2
+  },
+  {
+   "nom": "Bluegrass",
+   "x": 0.561,
+   "y": 0.6324,
+   "rang": 2
+  },
+  {
+   "nom": "Southside",
+   "x": 0.6234,
+   "y": 0.6487,
+   "rang": 2
+  },
+  {
+   "nom": "Port Vice City",
+   "x": 0.8052,
+   "y": 0.556,
+   "rang": 2
+  },
+  {
+   "nom": "Washington Beach",
+   "x": 0.8649,
+   "y": 0.4444,
+   "rang": 2
+  },
+  {
+   "nom": "Ocean Beach",
+   "x": 0.8613,
+   "y": 0.5222,
+   "rang": 2
+  },
+  {
+   "nom": "Vinewood Beach",
+   "x": 0.7896,
+   "y": 0.335,
+   "rang": 2
+  },
+  {
+   "nom": "VCIA",
+   "x": 0.5652,
+   "y": 0.5708,
+   "rang": 2
+  },
+  {
+   "nom": "Mile Zero Air Station",
+   "x": 0.2769,
+   "y": 0.8697,
+   "rang": 2
+  },
+  {
+   "nom": "Draper Island",
+   "x": 0.2468,
+   "y": 0.3,
+   "rang": 2
+  },
+  {
+   "nom": "Little Cuba",
+   "x": 0.6597,
+   "y": 0.5325,
+   "rang": 3
+  },
+  {
+   "nom": "Downtown",
+   "x": 0.7013,
+   "y": 0.5344,
+   "rang": 3
+  },
+  {
+   "nom": "Salton",
+   "x": 0.6213,
+   "y": 0.5408,
+   "rang": 3
+  },
+  {
+   "nom": "Rockridge",
+   "x": 0.653,
+   "y": 0.4975,
+   "rang": 3
+  },
+  {
+   "nom": "Crosstown",
+   "x": 0.6977,
+   "y": 0.4964,
+   "rang": 3
+  },
+  {
+   "nom": "Balsero",
+   "x": 0.5855,
+   "y": 0.4994,
+   "rang": 3
+  },
+  {
+   "nom": "La Perle",
+   "x": 0.6795,
+   "y": 0.4641,
+   "rang": 3
+  },
+  {
+   "nom": "Stockyard",
+   "x": 0.7231,
+   "y": 0.4493,
+   "rang": 3
+  },
+  {
+   "nom": "Decor District",
+   "x": 0.7257,
+   "y": 0.433,
+   "rang": 3
+  },
+  {
+   "nom": "Bayside",
+   "x": 0.7184,
+   "y": 0.4721,
+   "rang": 3
+  },
+  {
+   "nom": "Peacock Bay",
+   "x": 0.6644,
+   "y": 0.6392,
+   "rang": 3
+  },
+  {
+   "nom": "Tequesta Retreat",
+   "x": 0.7283,
+   "y": 0.5925,
+   "rang": 3
+  }
+ ]
+}

@@ -80,6 +80,16 @@ test('geojson : exemple fourni valide (≈30 lieux)', () => {
   assert.ok(new Set(r.lieux.map(l => l.cat)).size >= 6);
 });
 
+test('geojson : un même tip à deux lieux est affiché aux deux (doublon seulement dans le même lieu)', () => {
+  const f = (lieu, x, ids) => ({ type: 'Feature', geometry: { type: 'Point', coordinates: [x, 0.5] },
+    properties: { lieu, tips: ids.map(id => ({ id, enonce: 'e ' + id })) } });
+  const r = validerTips({ type: 'FeatureCollection', features: [f('Port Gellhorn', 0.3, ['t1', 't2']), f('Kelly County', 0.4, ['t1', 't1'])] });
+  assert.equal(r.stats.lieux, 2);
+  assert.equal(r.stats.tips, 2);                       // tips distincts
+  assert.equal(r.stats.tips_invalides, 1);             // t1 répété dans Kelly County
+  assert.deepEqual(r.lieux[1].tips.map(t => t.id), ['t1']);
+});
+
 test('geojson : fichiers invalides / vides', () => {
   assert.equal(validerTips(null).ok, false);
   assert.equal(validerTips([]).ok, false);

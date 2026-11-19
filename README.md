@@ -11,8 +11,7 @@ maps.json             liste des cartes            ← tu édites
 styles.json           icônes/couleurs des catégories ← tu édites
 data/tips_gta6.geojson  tips (écrit par le pipeline) ← schéma : SCHEMA_GEOJSON.md
 maps/                 images et tuiles des cartes
-  test/tuiles/        carte de test (grille), en tuiles
-  legacy/             les 4 cartes de l'ancienne version (sat, noms, routes, icônes)
+  officielle-v1/      carte officielle (tuiles, comtés : regions.json + comtes.png)
 js/  css/  lib/       code (Leaflet 1.9.4 + markercluster 1.5.3 inclus en local)
 tools/                scripts Python (découpe en tuiles, génération de données de test)
 tests/                tests (Node pour la logique, Playwright pour le navigateur)

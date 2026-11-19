@@ -29,7 +29,7 @@ const E = {
   map: null, fond: null, couche: null, cluster: null, anneaux: null, perso: null,
   urlBlob: null, swVersion: null,
   G: GRILLE_DEFAUT, X: null,          // grille de repères et repère X/Y du jeu de la carte ouverte
-  regions: null, zones: null, zFit: 0, comte: null,   // comtés : définition, calque, zoom « carte entière », comté affiché
+  regions: null, zones: null, zFit: 0, comte: null, villes: null,   // comtés : définition, calque, zoom « carte entière », comté affiché
 };
 
 /* =================================================================== utilitaires */
@@ -162,6 +162,8 @@ function creerCarte() {
   });
   map.createPane('zones').style.zIndex = 380;      // comtés : au-dessus du fond, sous l'encre et les marqueurs
   map.getPane('zones').style.pointerEvents = 'none';
+  map.createPane('villes').style.zIndex = 440;     // noms des villes : au-dessus des comtés, sous l'encre
+  map.getPane('villes').style.pointerEvents = 'none';
   map.createPane('encre').style.zIndex = 450;
   map.createPane('perso').style.zIndex = 650;
   E.couche = new CoucheCanvas(dessinerCouche).addTo(map);
@@ -184,8 +186,8 @@ function creerCarte() {
   });
   map.on('move', majCoords);
   // comtés : le fondu suit le zoom (zoomanim = zoom cible, lancé au début de l'animation ; zoom = pincement continu)
-  map.on('zoomanim', e => majZones(e.zoom));
-  map.on('zoom', () => majZones(map.getZoom()));
+  map.on('zoomanim', e => { majZones(e.zoom); majVilles(e.zoom); });
+  map.on('zoom', () => { majZones(map.getZoom()); majVilles(map.getZoom()); });
   addEventListener('resize', () => map.invalidateSize());
 }
 
@@ -200,6 +202,7 @@ async function ouvrirCarte(id) {
   E.carte = cfg; E.P = projecteur(cfg); E.fondManquant = false;
   E.G = grilleDe(cfg); E.X = repereXY(cfg);
   if (E.zones) { map.removeLayer(E.zones); E.zones = null; }
+  if (E.villes) { map.removeLayer(E.villes); E.villes = null; }
   E.regions = null; E.comte = null; majComte();
   const bornes = L.latLngBounds(E.P.limites());
   // zoom : on autorise toujours à voir la carte entière
@@ -233,6 +236,7 @@ async function ouvrirCarte(id) {
   if (E.fond) E.fond.addTo(map);
   E.zFit = zFit;
   chargerRegions(cfg, bornes);   // sans attendre : la carte s'affiche, les comtés arrivent en fondu
+  chargerVilles(cfg);
   // annotations
   E.rec = S.base ? await S.lireAnnotations(cfg.id, cfg.version) : enregistrementVide(cfg.id, cfg.version);
   if (E.rec.map_version == null) E.rec.map_version = cfg.version;
@@ -619,7 +623,6 @@ function rafraichirFiche(tipId = null) {
         <span class="src" title="nombre de sources">👥 ${t.nb_sources} source${t.nb_sources > 1 ? 's' : ''}</span>
         ${t.verifie ? '<span class="badge ok">✅ vérifié en jeu</span>' : '<span class="badge">non vérifié</span>'}</div>
       <p class="en">${esc(t.enonce)}</p>${t.precision ? `<p class="pr">${esc(t.precision)}</p>` : ''}
-      ${t.urls.length ? `<div class="liens">${t.urls.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">▶ Vidéo ${i + 1}</a>`).join('')}</div>` : ''}
       <div class="actions">
         <button class="${e.fait ? 'on' : ''}" data-e="fait">✓ Fait</button><button class="${e.utile ? 'on' : ''}" data-e="utile">👍 Utile</button>
         <button class="${e.faux ? 'on' : ''}" data-e="faux">✗ Faux</button><button class="${e.masque ? 'on' : ''}" data-e="masque">🙈 Masquer</button>
@@ -735,7 +738,7 @@ function rendreFiltres() {
   } else etatDonnees = `<p>${T.erreur ? '⚠️ ' + esc(T.erreur) : 'Chargement…'}</p>`;
   if (T.erreur && T.charge) etatDonnees += `<p class="alerte-txt">Dernière actualisation échouée : ${esc(T.erreur)}</p>`;
   corps.innerHTML = `
-    <section><h4>Calques</h4>${calque('tips', '💡 Tips')}${E.regions ? calque('comtes', '🗺️ Comtés') : ''}${calque('marqueurs', '📍 Mes marqueurs')}${calque('dessins', '✏️ Mes dessins')}${calque('grille', '#️⃣ Grille / repères' + (E.X ? ' (X / Y)' : ''))}</section>
+    <section><h4>Calques</h4>${calque('tips', '💡 Tips')}${E.regions ? calque('comtes', '🗺️ Comtés') : ''}${E.villes ? calque('villes', '🏙️ Villes (au fil du zoom)') : ''}${calque('marqueurs', '📍 Mes marqueurs')}${calque('dessins', '✏️ Mes dessins')}${calque('grille', '#️⃣ Grille / repères' + (E.X ? ' (X / Y)' : ''))}</section>
     ${E.regions ? `<section><h4>Comtés</h4><p class="petit gris">Visibles sur la carte entière, ils s'effacent quand tu zoomes ; le comté où tu es s'affiche alors en bas.</p><div class="puces">${E.regions.regions.map(r => `<button class="puce comte" data-comte="${esc(r.id)}" style="--c:${esc(r.couleur)}"><span class="pastille"></span>${esc(r.nom)}</button>`).join('')}</div></section>` : ''}
     <section><h4>Tips</h4>
       <label class="inter"><span>✅ Vérifiés en jeu uniquement</span><input type="checkbox" class="bascule" id="f-verif" ${f.verifies_seul ? 'checked' : ''}></label>
@@ -746,7 +749,7 @@ function rendreFiltres() {
     <section><h4>Données des tips</h4>${etatDonnees}<button class="btn" id="f-actu">🔄 Actualiser les tips</button></section>`;
   corps.onchange = ev => {
     const i = ev.target;
-    if (i.dataset.calque) { f.calques[i.dataset.calque] = i.checked; sauverReglages(); if (i.dataset.calque === 'marqueurs') rendrePerso(); if (i.dataset.calque === 'dessins' || i.dataset.calque === 'grille') { E.couche._reset(); majCoords(); } if (i.dataset.calque === 'comtes') majZones(E.map.getZoom()); appliquerFiltres(); }
+    if (i.dataset.calque) { f.calques[i.dataset.calque] = i.checked; sauverReglages(); if (i.dataset.calque === 'marqueurs') rendrePerso(); if (i.dataset.calque === 'dessins' || i.dataset.calque === 'grille') { E.couche._reset(); majCoords(); } if (i.dataset.calque === 'comtes') majZones(E.map.getZoom()); if (i.dataset.calque === 'villes') majVilles(E.map.getZoom()); appliquerFiltres(); }
     else if (i.id === 'f-verif') { f.verifies_seul = i.checked; sauverReglages(); appliquerFiltres(); }
   };
   $('#f-min', corps).oninput = ev => { f.min_sources = +ev.target.value; $('#f-min-v').textContent = f.min_sources; sauverReglages(); appliquerFiltresDiff(); };
@@ -1153,6 +1156,32 @@ function majComte(z) {
   el.classList.add('vu');
   if (change) { el.classList.remove('bascule'); void el.offsetWidth; el.classList.add('bascule'); }
 }
+/* =================================================================== villes (apparaissent au fil du zoom) */
+async function chargerVilles(cfg) {
+  if (!cfg.villes) return;
+  try {
+    const { json } = await lireJSON(cfg.villes);
+    if (E.carte !== cfg || !Array.isArray(json.villes)) return;
+    E.villes = L.layerGroup(json.villes.filter(v => Number.isFinite(v.x) && Number.isFinite(v.y)).map(v => L.marker(E.P.versLatLng(v.x, v.y), {
+      pane: 'villes', interactive: false, keyboard: false,
+      icon: L.divIcon({ className: `ville r${Math.min(3, Math.max(1, v.rang | 0))}`, html: `<span>${esc(v.nom)}</span>`, iconSize: [0, 0] }),
+    })));
+    E.villes.addTo(E.map);
+    majVilles(E.map.getZoom()); rendreFiltresSiOuvert();
+  } catch (e) { console.warn('villes', e); }
+}
+/**
+ * Paliers : rang 1 dès qu'on zoome un peu, puis rang 2, puis rang 3 (quartiers). Chaque rang s'efface quand
+ * les noms imprimés sur la carte deviennent lisibles d'eux-mêmes (zoom proche du zoom natif).
+ */
+const PALIERS_VILLES = { 1: [0.25, -1.5], 2: [0.95, -1.0], 3: [1.6, -0.5] };   // [apparition (vs carte entière), disparition (vs zoom natif)]
+function majVilles(z) {
+  const pane = E.map && E.map.getPane('villes'); if (!pane) return;
+  const on = E.villes && E.r && E.r.filtres.calques.villes !== false;
+  for (const [r, [deb, fin]] of Object.entries(PALIERS_VILLES))
+    pane.classList.toggle('v' + r, !!on && z >= E.zFit + deb && z < E.P.zn + fin);
+}
+
 function allerComte(id) {
   const r = E.regions && E.regions.regions.find(x => x.id === id); if (!r) return;
   E.map.flyTo(E.P.versLatLng(...r.etiquette), E.zFit + 1.6, { duration: 0.9 });

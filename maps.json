@@ -59,80 +59,8 @@
         "noms_lignes": "ABCDEFGHIJKLM",
         "ligne_d_abord": true
       },
-      "regions": "maps/officielle-v1/regions.json"
-    },
-    {
-      "id": "test",
-      "nom": "Carte de test (grille)",
-      "version": "test-v1",
-      "type": "tuiles",
-      "chemin": "maps/test/tuiles/",
-      "tuiles": "{z}/{x}/{y}.webp",
-      "largeur_px": 4096,
-      "hauteur_px": 4096,
-      "zoom_natif": 4,
-      "zoom_min": 0,
-      "zoom_max": 6,
-      "tips": true
-    },
-    {
-      "id": "grille",
-      "nom": "Grille vierge (sans image)",
-      "version": "test-v1",
-      "type": "grille",
-      "largeur_px": 4096,
-      "hauteur_px": 4096,
-      "zoom_min": 0,
-      "zoom_max": 6,
-      "tips": true
-    },
-    {
-      "id": "sat",
-      "nom": "Satellite (fan)",
-      "version": "v0-fan",
-      "type": "image",
-      "chemin": "maps/legacy/sat.jpg",
-      "largeur_px": 2567,
-      "hauteur_px": 3600,
-      "zoom_min": 0,
-      "zoom_max": 6,
-      "tips": false
-    },
-    {
-      "id": "noms",
-      "nom": "Lieux & noms (GTADB)",
-      "version": "v0-fan",
-      "type": "image",
-      "chemin": "maps/legacy/noms.jpg",
-      "largeur_px": 1782,
-      "hauteur_px": 2576,
-      "zoom_min": 0,
-      "zoom_max": 6,
-      "tips": false
-    },
-    {
-      "id": "routes",
-      "nom": "Routes (pavlo445)",
-      "version": "v0-fan",
-      "type": "image",
-      "chemin": "maps/legacy/routes.jpg",
-      "largeur_px": 1280,
-      "hauteur_px": 1763,
-      "zoom_min": 0,
-      "zoom_max": 5,
-      "tips": false
-    },
-    {
-      "id": "icones",
-      "nom": "Icônes style Vice City (avatarsd)",
-      "version": "v0-fan",
-      "type": "image",
-      "chemin": "maps/legacy/icones.jpg",
-      "largeur_px": 1716,
-      "hauteur_px": 2576,
-      "zoom_min": 0,
-      "zoom_max": 6,
-      "tips": false
+      "regions": "maps/officielle-v1/regions.json",
+      "villes": "maps/officielle-v1/villes.json"
     }
   ]
 }

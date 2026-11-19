@@ -51,12 +51,16 @@ export function validerTips(json) {
       else { stats.avertissements++; note(`${lieuNom} : rayon ${p.rayon} ignoré (attendu 0 < r ≤ 1)`); }
     }
     const tipsSrc = Array.isArray(p.tips) ? p.tips : [];
-    const tips = [];
+    const tips = [], idsIci = new Set();
     tipsSrc.forEach((t, j) => {
       if (!t || typeof t !== 'object' || !estTexte(t.enonce)) { stats.tips_invalides++; note(`${lieuNom} / tip #${j + 1} : « enonce » manquant`); return; }
       let id = estTexte(t.id) ? t.id.trim() : null;
       if (!id) { id = 'auto-' + hash(lieuNom + '|' + t.enonce.trim()); stats.avertissements++; note(`${lieuNom} / tip #${j + 1} : « id » manquant (id généré ${id})`); }
-      if (idsTips.has(id)) { stats.tips_invalides++; note(`tip « ${id} » en double : ignoré`); return; }
+      // un même tip peut citer plusieurs lieux (ex. Port Gellhorn ET Kelly County) : affiché à chacun, même état perso.
+      // Doublon seulement s'il revient dans le MÊME lieu.
+      if (idsIci.has(id)) { stats.tips_invalides++; note(`${lieuNom} : tip « ${id} » en double : ignoré`); return; }
+      idsIci.add(id);
+      const nouveau = !idsTips.has(id);
       idsTips.add(id);
       const nb = Number.isFinite(t.nb_sources) && t.nb_sources >= 0 ? Math.floor(t.nb_sources) : 0;
       const urls = Array.isArray(t.urls) ? t.urls.filter(urlSure).map(u => u.trim()) : [];
@@ -70,6 +74,7 @@ export function validerTips(json) {
         verifie: t.verifie_en_jeu === true,
         urls,
       });
+      if (nouveau) stats.tips++;          // tips distincts
     });
     if (!tips.length) { stats.lieux_invalides++; note(`${lieuNom} : aucun tip valide`); return; }
     let id = 'L' + hash(lieuNom + '|' + x.toFixed(4) + '|' + y.toFixed(4));
@@ -82,7 +87,7 @@ export function validerTips(json) {
     };
     lieu.cat = categorieDominante(tips);
     res.lieux.push(lieu);
-    stats.lieux++; stats.tips += tips.length;
+    stats.lieux++;
   });
   return res;
 }
