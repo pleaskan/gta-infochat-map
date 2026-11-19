@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-19T21:43:31+00:00",
+  "genere_le": "2026-11-19T21:45:07+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -28,7 +28,10 @@
       "enonce": "Un lance-roquettes Honor's HAT et quatre roquettes se trouvent dans un camping-car (RV) couvert d'antennes, situé dans un dépôt de véhicules saisis (impound lot) juste au sud-ouest du Griffin Firing Range, au nord de la zone de départ dans les Keys, à l'ouest de Vice City.",
       "precision": "Localisation : Nord de la zone de départ dans les Keys, juste à l'ouest de Vice City, près du Griffin Firing Range. · Emplacement précis : Dépôt de véhicules saisis (impound lot) au sud-ouest du champ de tir. · Accès : Passer par la porte non verrouillée. · Véhicule : RV couvert d'antennes et de paraboles. · Entrée : Par le nord du véhicule. · Action : Ouvrir le trappe du bunker (bunker hatch). · Butin : Lance-roquettes Honor's HAT appuyé contre un coffre-fort, avec 4 roquettes prêtes à l'emploi.",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@ign/video/7709669532448607502"
+      ]
      },
      {
       "id": "tip-e4a462dac147",
@@ -36,7 +39,10 @@
       "enonce": "Le club de strip-tease 9Y9 se trouve dans la partie ouest de Vice City, à la sortie d'un des grands ponts.",
       "precision": "Ouvert toute la journée · Possibilité de parler à plusieurs danseuses · Considéré comme l'un des plus gros clubs de la ville",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709690473752923424"
+      ]
      },
      {
       "id": "tip-6d496c06dac1",
@@ -44,7 +50,10 @@
       "enonce": "Le club Jack of Earth est situé plus au nord dans la partie ouest de Vice City, mais il est verrouillé tant que le joueur n'a pas suffisamment avancé dans l'histoire.",
       "precision": "Peu animé le jour · Très fréquenté la nuit · Nécessite d'avoir avancé dans le jeu pour être débloqué",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709690473752923424"
+      ]
      }
     ]
    }
@@ -71,7 +80,11 @@
       "enonce": "Mission « La Vérité est ailleurs » : Pour débloquer le trophée, rendez-vous au nord du comté de Kelly en direction de Port Gellhorn, sortez de l'autoroute après les stations essence, puis montez la route sur la gauche jusqu'à un croisement précis où vous devez vous trouver entre 2h et 5h du matin. Attendez l'apparition d'une voiture arrêtée aux phares clignotants et aux bruits étranges (en vous éloignant et revenant si l'événement est incorrect), suivez les bruits dans la forêt pour effrayer les extraterrestres et leur soucoupe, aidez la personne enlevée à récupérer sa voiture, puis laissez-vous enlever par les aliens pour déclencher la disparition de Jason pendant 3 jours et l'appel de Lucia.",
       "precision": "1. Se rendre en direction de Port Gellhorn, en plein milieu du comté de Kelly. · 2. Sortir de l'autoroute à l'endroit indiqué et monter la route jusqu'à un croisement précis. · 3. Se trouver à cet endroit entre 2h et 5h du matin. · 4. Attendre l'apparition d'une voiture arrêtée avec les phares qui clignotent et des bruits bizarres (si l'événement n'est pas le bon, partir très loin et revenir). · 5. S'enfoncer dans la forêt en suivant les bruits bizarres pour trouver les extraterrestres et la soucoupe volante en train d'enlever quelqu'un. · 6. Effrayer les extraterrestres pour qu'ils repartent et laissent tomber la personne. · 7. Aller rechercher la voiture de la personne qui demande de l'aide. · 8. Être enlevé par les extraterrestres (Jason est absent 3 jours). · 9. Recevoir l'appel de Lucia qui annonce la disparition de Jason pendant 3 jours, ce qui débloque le trophée « La Vérité est ailleurs ». · 1. Se rendre au nord du comté de Kelly en direction de Port Gellhorn. · 2. S'arrêter un peu plus tôt, après être sorti de l'autoroute et avoir passé les stations essence. · 3. Continuer le chemin sur la gauche et monter jusqu'à un croisement précis. · 4. Être présent dans cette zone uniquement entre 2h et 5h du matin. · 5. Si rien ne se passe, faire demi-tour, s'éloigner suffisamment (jusqu'aux stations essence) et revenir au croisement pour réessayer (événement aléatoire). · 6. Attendre de voir une voiture arrêtée avec des feux qui clignotent de manière erratique et des bruits étranges. · 7. Suivre la direction des phares de la voiture pour s'enfoncer dans la forêt. · 8. Observer la soucoupe volante apparaître et effrayer les extraterrestres en arrivant, ce qui les fait relâcher leur cible. · 9. Parler à la femme perdue qui demande d'aller chercher sa voiture. · 10. Faire demi-tour pour aller chercher la voiture. · 11. Au moment de prendre la voiture, une lumière blanche apparaît, le trophée « La Vérité est ailleurs » est débloqué et le joueur est enlevé. · 12. Après un écran noir, le personnage Jason réapparaît en bonne santé et reçoit un appel de Lucia indiquant qu'il a disparu depuis environ 3 jours.",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709847846891130144",
+       "https://www.tiktok.com/@sniryt/video/7709982844168293664"
+      ]
      },
      {
       "id": "tip-666876aeb465",
@@ -79,7 +92,10 @@
       "enonce": "Le club Daylight se trouve sur le bord de l'autoroute dans la zone de Port Gellhorn, dans le comté de Kelly, accessible en prenant l'autoroute depuis Vice City.",
       "precision": "Situé sur le bord de l'autoroute · Accessible sans problème · Visible dans les images officielles de Rockstar",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709690473752923424"
+      ]
      },
      {
       "id": "tip-35248359b2b1",
@@ -87,7 +103,10 @@
       "enonce": "Un chapeau de cowboy authentique, identique à celui d'Arthur Morgan dans Red Dead Redemption 2, est en vente pour 35 $ lors d'une vente de garage située à Port Gellhorn.",
       "precision": "Prix : 35 $. · Lieu : Port Gellhorn. · Contexte : Vente de garage (yard sale). · Description de l'objet : Chapeau de cowboy avec le même nœud que celui d'Arthur Morgan (Red Dead Redemption 2).",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@ign/video/7709699496476740877"
+      ]
      }
     ]
    }
@@ -114,7 +133,10 @@
       "enonce": "Le fusil de précision SM69 du chasseur cruel se trouve au sol, sur le côté d'une cabane isolée située au centre d'une île dans Grass River, à l'est de la zone de Pélican-Valet.",
       "precision": "Arme : fusil de précision SM69 du chasseur cruel · Emplacement : au sol, sur le côté de la maison · Lieu : centre de l'île dans Grass River, à l'est de la zone de Pélican-Valet · Accès : se rendre en bateau ou en aéroglisseur · Contexte : la cabane est isolée et les occupants sont déjà éliminés",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709957989389569313"
+      ]
      },
      {
       "id": "tip-b516fa5ac95b",
@@ -122,7 +144,10 @@
       "enonce": "Le revolver Aculus Lure se trouve à l'intérieur de la même cabane isolée dans Grass River, à côté du téléphone.",
       "precision": "Arme : revolver Aculus Lure · Emplacement : à l'intérieur du bâtiment, à côté du téléphone · Lieu : centre de l'île dans Grass River, à l'est de la zone de Pélican-Valet · Accès : se rendre en bateau ou en aéroglisseur",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709957989389569313"
+      ]
      },
      {
       "id": "tip-7c19ffaeaa6c",
@@ -130,7 +155,10 @@
       "enonce": "Un avion de dépandage est accessible sans condition sur un petit aérodrome au début de Grass River, après le grand pont.",
       "precision": "Se rendre en direction de Vice City. · S'arrêter après le grand pont. · Se trouver sur le petit aérodrome au début de Grass River. · L'avion est un petit avion de dépandage. · Il est possible de le prendre directement sans déblocage.",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709779678034185504"
+      ]
      }
     ]
    }
@@ -157,7 +185,11 @@
       "enonce": "Mission « La Vérité est ailleurs » : Pour débloquer le trophée, rendez-vous au nord du comté de Kelly en direction de Port Gellhorn, sortez de l'autoroute après les stations essence, puis montez la route sur la gauche jusqu'à un croisement précis où vous devez vous trouver entre 2h et 5h du matin. Attendez l'apparition d'une voiture arrêtée aux phares clignotants et aux bruits étranges (en vous éloignant et revenant si l'événement est incorrect), suivez les bruits dans la forêt pour effrayer les extraterrestres et leur soucoupe, aidez la personne enlevée à récupérer sa voiture, puis laissez-vous enlever par les aliens pour déclencher la disparition de Jason pendant 3 jours et l'appel de Lucia.",
       "precision": "1. Se rendre en direction de Port Gellhorn, en plein milieu du comté de Kelly. · 2. Sortir de l'autoroute à l'endroit indiqué et monter la route jusqu'à un croisement précis. · 3. Se trouver à cet endroit entre 2h et 5h du matin. · 4. Attendre l'apparition d'une voiture arrêtée avec les phares qui clignotent et des bruits bizarres (si l'événement n'est pas le bon, partir très loin et revenir). · 5. S'enfoncer dans la forêt en suivant les bruits bizarres pour trouver les extraterrestres et la soucoupe volante en train d'enlever quelqu'un. · 6. Effrayer les extraterrestres pour qu'ils repartent et laissent tomber la personne. · 7. Aller rechercher la voiture de la personne qui demande de l'aide. · 8. Être enlevé par les extraterrestres (Jason est absent 3 jours). · 9. Recevoir l'appel de Lucia qui annonce la disparition de Jason pendant 3 jours, ce qui débloque le trophée « La Vérité est ailleurs ». · 1. Se rendre au nord du comté de Kelly en direction de Port Gellhorn. · 2. S'arrêter un peu plus tôt, après être sorti de l'autoroute et avoir passé les stations essence. · 3. Continuer le chemin sur la gauche et monter jusqu'à un croisement précis. · 4. Être présent dans cette zone uniquement entre 2h et 5h du matin. · 5. Si rien ne se passe, faire demi-tour, s'éloigner suffisamment (jusqu'aux stations essence) et revenir au croisement pour réessayer (événement aléatoire). · 6. Attendre de voir une voiture arrêtée avec des feux qui clignotent de manière erratique et des bruits étranges. · 7. Suivre la direction des phares de la voiture pour s'enfoncer dans la forêt. · 8. Observer la soucoupe volante apparaître et effrayer les extraterrestres en arrivant, ce qui les fait relâcher leur cible. · 9. Parler à la femme perdue qui demande d'aller chercher sa voiture. · 10. Faire demi-tour pour aller chercher la voiture. · 11. Au moment de prendre la voiture, une lumière blanche apparaît, le trophée « La Vérité est ailleurs » est débloqué et le joueur est enlevé. · 12. Après un écran noir, le personnage Jason réapparaît en bonne santé et reçoit un appel de Lucia indiquant qu'il a disparu depuis environ 3 jours.",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709847846891130144",
+       "https://www.tiktok.com/@sniryt/video/7709982844168293664"
+      ]
      },
      {
       "id": "tip-666876aeb465",
@@ -165,7 +197,10 @@
       "enonce": "Le club Daylight se trouve sur le bord de l'autoroute dans la zone de Port Gellhorn, dans le comté de Kelly, accessible en prenant l'autoroute depuis Vice City.",
       "precision": "Situé sur le bord de l'autoroute · Accessible sans problème · Visible dans les images officielles de Rockstar",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709690473752923424"
+      ]
      }
     ]
    }
@@ -192,7 +227,10 @@
       "enonce": "Pour trouver le chien sur jet-ski viral, il faut d'abord localiser une île spécifique dans la baie de Leonida, accessible uniquement en bateau, puis plonger autour de l'île pour déclencher son apparition.",
       "precision": "Lieu : île dans la baie de Leonida (Leonida Bay). · Accès : se rendre en bateau car l'île est éloignée. · Étape 1 : trouver l'île où se trouve un message SOS et un téléphone jouant un enregistrement. · Étape 2 : commencer à plonger (scuba diving) autour de l'île. · Étape 3 : remonter à la surface pour que le chien sur jet-ski arrive. · Interaction : monter comme passager (« princess ») sur le jet-ski du chien. · Résultat : le chien conduit le joueur pendant un moment puis l'amène vers un autre jet-ski utilisable.",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@ign/video/7709706986484469022"
+      ]
      }
     ]
    }
@@ -219,7 +257,10 @@
       "enonce": "L'opération illégale « Strange Noises » se trouve à Key Lento, juste à côté de la maison de Jason, et permet de gagner de l'argent rapidement en début de partie.",
       "precision": "Nom de l'opération : Strange Noises · Localisation : Key Lento · Repère : juste à côté de la maison de Jason (Jason's safe house) · Objectif : gagner de l'argent rapidement (quick stop to score some cash) · Moment : début de partie (early hours of your playthrough)",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@ign/video/7709690332857879822"
+      ]
      }
     ]
    }
@@ -246,7 +287,10 @@
       "enonce": "Le fusil de précision SM69 du chasseur cruel se trouve au sol, sur le côté d'une cabane isolée située au centre d'une île dans Grass River, à l'est de la zone de Pélican-Valet.",
       "precision": "Arme : fusil de précision SM69 du chasseur cruel · Emplacement : au sol, sur le côté de la maison · Lieu : centre de l'île dans Grass River, à l'est de la zone de Pélican-Valet · Accès : se rendre en bateau ou en aéroglisseur · Contexte : la cabane est isolée et les occupants sont déjà éliminés",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709957989389569313"
+      ]
      }
     ]
    }
@@ -273,7 +317,10 @@
       "enonce": "Des cabanes de pêche contenant du butin et permettant de débloquer une variante unique de fusil de chasse se trouvent au nord de Key Lento, le long du lac Cottonmouth.",
       "precision": "Localisation : au nord de Key Lento, le long du lac Cottonmouth (Cottonmouth Lake) · Type de lieu : cabanes de pêche (fishing shacks) · Récompense : gros gains d'argent en début de partie et déverrouillage d'une variante unique de fusil de chasse (unique hunting rifle weapon variant) · Inconvénient : trajet un peu long (a bit of a drive)",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@ign/video/7709690332857879822"
+      ]
      }
     ]
    }
@@ -300,7 +347,10 @@
       "enonce": "Une usine de fabrication d'ours en peluche rouge, située sur la droite de la ville de Hamlet près des bassins avant Weiss del Cunti, contient des cargaisons illégales, un coffre-fort et une carte rare à collectionner.",
       "precision": "Lieu : droite de la ville de Hamlet, près des bassins, juste avant Weiss del Cunti. · Bâtiment : usine rouge isolée au bord des bassins. · Contenu : première camionnette à l'extérieur, deuxième camion à l'intérieur, bureaux contenant plus de cargaisons, coffre-fort à forcer. · Gains : chaque paquet vaut plus de 400 $, total de plusieurs dizaines de milliers de dollars. · Objet bonus : une carte rare à collectionner dans le coffre-fort. · Sécurité : tous les ennemis à l'intérieur sont déjà éliminés.",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709988636351155489"
+      ]
      }
     ]
    }
@@ -327,7 +377,10 @@
       "enonce": "Mission « Débloquer le lance-roquette » : Un lance-roquette (lanceur HAT) est accessible dès le début du jeu dans un bunker situé dans la ville de Balzéro, accessible via un mobilhome avec drapeau américain.",
       "precision": "Avancer au nord de Vice City pour atteindre la région au-dessus. · Se rendre dans la petite ville de Balzéro. · Repère : le stand de tir Griffin. · Libérer la zone pour placer un point de repère. · Aller dans le terrain vague protégé par un grillage situé en face du stand de tir. · Entrer dans la zone et aller à gauche vers un immense mobilhome avec un drapeau américain. · Entrer par la porte et avancer au bout pour trouver l'entrée d'un bunker. · Ouvrir la trappe (non verrouillée) et descendre. · Le lance-roquette (lanceur HAT) se trouve à côté du coffre-fort. · Optionnel : ranger l'arme dans le coffre de la voiture pour la garder, nécessitant l'achat de munitions régulièrement.",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709820801515556129"
+      ]
      }
     ]
    }
@@ -354,7 +407,10 @@
       "enonce": "Mission « Trophée : Au début... » : Pour débloquer le trophée, il faut acheter un cocktail au bar de l'hôtel Ocean View, situé au bord de la plage d'Ocean Beach, et le boire sur le balcon du rooftop en regardant la vue.",
       "precision": "1. Se rendre à Ocean Beach, tout à droite de Vice City, au bord de la plage. · 2. Repérer l'hôtel Ocean View, identifiable par ses devantures roses et son nom. · 3. Trouver l'ascenseur situé derrière la piscine, dans une petite entrée cachée. · 4. Prendre l'ascenseur pour monter au niveau supérieur (rooftop). · 5. Après le chargement, ressortir sur le balcon et trouver le bar dans le coin. · 6. Acheter n'importe quelle boisson. · 7. Se diriger à côté du bar en direction de la vue. · 8. Boire le verre · le trophée apparaît quelques secondes après.",
       "nb_sources": 1,
-      "verifie_en_jeu": false
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709709649959783713"
+      ]
      }
     ]
    }
