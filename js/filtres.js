@@ -8,7 +8,7 @@ export function filtresParDefaut() {
     min_sources: 0,
     etats: { a_faire: true, fait: true, masque: false },
     texte: '',
-    calques: { tips: true, marqueurs: true, dessins: true, grille: false },
+    calques: { tips: true, comtes: true, marqueurs: true, dessins: true, grille: false },
   };
 }
 

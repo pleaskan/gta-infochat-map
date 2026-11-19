@@ -2,7 +2,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { projecteur, zoomNatif, caseGrille } from '../js/coords.js';
+import { projecteur, zoomNatif, caseGrille, grilleDe, repereXY, regionDe, GRILLE_DEFAUT } from '../js/coords.js';
 import { validerTips, categorieDominante } from '../js/geojson.js';
 import { filtresParDefaut, filtrerLieux, compteurs, trierLignes, etatTip, normaliserFiltres } from '../js/filtres.js';
 import { convertirEtatV1, migrerEnregistrement, analyserSauvegarde, SCHEMA_VERSION, FORMAT_SAUVEGARDE } from '../js/migration.js';
@@ -33,6 +33,39 @@ test('coords : aller-retour normalisé <-> Leaflet', () => {
   assert.equal(caseGrille(0.05, 0.05), 'A1');
   assert.equal(caseGrille(1, 1), 'J10');
   assert.equal(caseGrille(0.55, 0.31), 'F4');
+});
+
+test('carte officielle : grille du poster, repère X/Y, comtés', () => {
+  const off = lire('maps.json').cartes.find(c => c.id === 'officielle');
+  assert.ok(off, 'carte officielle absente de maps.json');
+  // grille imprimée : colonnes 1..9, lignes A..M, case = ligne + colonne
+  const G = grilleDe(off);
+  assert.notEqual(G, GRILLE_DEFAUT);
+  assert.equal(G.nomsCol.length, 9); assert.equal(G.nomsLig.length, 13);
+  assert.equal(caseGrille(0.05, 0.05, G), 'A1');
+  assert.equal(caseGrille(0.99, 0.5, G), '—');                    // marge blanche hors cadre
+  assert.equal(caseGrille(1290 / 1925, 1370 / 2633, G), 'G7');   // Vice City sur le poster
+  // grille invalide -> grille par défaut
+  assert.equal(grilleDe({ grille: { colonnes: [0, 0.5, 0.4], lignes: [0, 1], noms_colonnes: 'AB', noms_lignes: '1' } }), GRILLE_DEFAUT);
+  assert.equal(grilleDe({}), GRILLE_DEFAUT);
+  // repère : linéaire, aller-retour, Y vers le haut
+  const X = repereXY(off);
+  assert.deepEqual(X.versXY(0, 0), [-11328, 11328]);
+  assert.deepEqual(X.versXY(1, 1), [4096, -9728]);
+  const [a, b] = X.depuisXY(...X.versXY(0.3, 0.7));
+  assert.ok(Math.abs(a - 0.3) < 1e-12 && Math.abs(b - 0.7) < 1e-12);
+  assert.equal(repereXY({ repere: { x: [1, 1], y: [0, 1] } }), null);
+  // comtés : graine la plus proche, rien en pleine mer
+  const R = lire(off.regions);
+  const ratio = off.hauteur_px / off.largeur_px;
+  const nom = (px, py) => (regionDe(R, px / 1925, py / 2633, ratio) || {}).nom;
+  assert.equal(nom(1290, 1370), 'Vice-Dale County');     // Vice City
+  assert.equal(nom(585, 940), 'Kelly County');           // Port Gellhorn
+  assert.equal(nom(1268, 607), 'Leonard County');        // Millport
+  assert.equal(nom(925, 375), 'Lummox County');          // Bonanza
+  assert.equal(nom(533, 2290), 'Mariana County');        // Mile Zero Air Station
+  assert.equal(nom(1800, 300), undefined);               // océan
+  assert.equal(R.regions.length, 5);
 });
 
 test('geojson : exemple fourni valide (≈30 lieux)', () => {

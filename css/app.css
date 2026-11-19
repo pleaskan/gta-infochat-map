@@ -197,3 +197,21 @@ body.gaucher.pan-ouvert #feuille { right: calc(var(--rail) + 10px); left: calc(v
   body.pan-ouvert #feuille, body.gaucher.pan-ouvert #feuille { left: 10px; right: 10px; z-index: 950; }
   #haut { width: calc(100% - 20px); }
 }
+
+/* ---------------- comtés : aplats sans contours, fondu pendant le zoom ---------------- */
+.zones-comtes { opacity: 0; transition: opacity .55s cubic-bezier(.4, 0, .2, 1), filter .55s ease; filter: saturate(1.25); mix-blend-mode: multiply; will-change: opacity; }
+.zones-comtes.loin { visibility: hidden; transition: opacity .55s ease, visibility 0s linear .55s; }
+body.clair .zones-comtes { mix-blend-mode: multiply; }
+.leaflet-zoom-anim .zones-comtes { filter: saturate(1.6) brightness(1.05); }
+#comte { position: absolute; left: 50%; bottom: calc(14px + env(safe-area-inset-bottom)); z-index: 780; transform: translate(-50%, 18px) scale(.92);
+  opacity: 0; pointer-events: none; display: flex; align-items: center; gap: 8px; padding: 8px 16px 8px 12px; border-radius: 22px;
+  background: rgba(17, 20, 24, .86); color: #fff; font: 700 14px/1 system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase;
+  border: 1px solid color-mix(in srgb, var(--c, #fff) 55%, transparent); box-shadow: 0 6px 18px #0008, 0 0 0 3px color-mix(in srgb, var(--c, #fff) 18%, transparent);
+  backdrop-filter: blur(4px); transition: opacity .35s ease, transform .45s cubic-bezier(.2, .9, .3, 1.2); }
+#comte.vu { opacity: 1; transform: translate(-50%, 0) scale(1); }
+#comte.bascule { animation: comte-bascule .5s cubic-bezier(.2, .9, .3, 1.2); }
+@keyframes comte-bascule { 0% { transform: translate(-50%, 0) scale(1); } 35% { transform: translate(-50%, 6px) scale(.9); opacity: .4; } 100% { transform: translate(-50%, 0) scale(1); opacity: 1; } }
+.pastille { width: 12px; height: 12px; border-radius: 50%; background: var(--c, #fff); box-shadow: 0 0 8px var(--c, #fff); flex: 0 0 12px; }
+.puce.comte { display: inline-flex; align-items: center; gap: 6px; }
+#coords:not([hidden]) ~ #comte { bottom: calc(52px + env(safe-area-inset-bottom)); }
+@media (prefers-reduced-motion: reduce) { .zones-comtes, #comte { transition: none; } #comte.bascule { animation: none; } }

@@ -4,7 +4,7 @@
  * Les données (maps.json, styles.json, data/*.geojson) sont toujours lues sur le réseau d'abord.
  * Les cartes (maps/…) sont gardées en cache : change le NOM DU DOSSIER quand tu remplaces une carte.
  */
-const VERSION = '2026-11-19.1';
+const VERSION = '2026-11-19.2';
 const CACHE_APP = 'carte-app-' + VERSION;
 const CACHE_DONNEES = 'carte-donnees-v1';
 const CACHE_TUILES = 'carte-tuiles-v1';

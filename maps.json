@@ -1,7 +1,66 @@
 {
   "_aide": "Liste des cartes. Ajouter/remplacer une carte = éditer ce fichier + déposer les images. Chemins RELATIFS uniquement. Voir README.md.",
-  "defaut": "noms",
+  "defaut": "officielle",
   "cartes": [
+    {
+      "id": "officielle",
+      "nom": "Leonida — carte officielle",
+      "version": "v1-officielle",
+      "type": "tuiles",
+      "chemin": "maps/officielle-v1/tuiles/",
+      "tuiles": "{z}/{x}/{y}.webp",
+      "largeur_px": 5775,
+      "hauteur_px": 7900,
+      "zoom_natif": 5,
+      "zoom_min": 0,
+      "zoom_max": 7,
+      "tips": true,
+      "repere": {
+        "x": [
+          -11328,
+          4096
+        ],
+        "y": [
+          11328,
+          -9728
+        ],
+        "source": "map.stateofleonida.net (recalage sur la carte du jeu, ±30 unités)"
+      },
+      "grille": {
+        "colonnes": [
+          0.03377,
+          0.13766,
+          0.24156,
+          0.34545,
+          0.44935,
+          0.55325,
+          0.65714,
+          0.76104,
+          0.86494,
+          0.96883
+        ],
+        "lignes": [
+          0.02469,
+          0.08204,
+          0.15799,
+          0.23395,
+          0.30991,
+          0.38587,
+          0.46183,
+          0.53779,
+          0.61375,
+          0.68971,
+          0.76567,
+          0.84163,
+          0.91758,
+          0.97455
+        ],
+        "noms_colonnes": "123456789",
+        "noms_lignes": "ABCDEFGHIJKLM",
+        "ligne_d_abord": true
+      },
+      "regions": "maps/officielle-v1/regions.json"
+    },
     {
       "id": "test",
       "nom": "Carte de test (grille)",
@@ -41,7 +100,7 @@
     },
     {
       "id": "noms",
-      "nom": "Lieux & noms (GTADB) — carte actuelle des tips",
+      "nom": "Lieux & noms (GTADB)",
       "version": "v0-fan",
       "type": "image",
       "chemin": "maps/legacy/noms.jpg",
@@ -49,7 +108,7 @@
       "hauteur_px": 2576,
       "zoom_min": 0,
       "zoom_max": 6,
-      "tips": true
+      "tips": false
     },
     {
       "id": "routes",

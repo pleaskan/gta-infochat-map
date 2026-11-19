@@ -1,6 +1,6 @@
 // Carte GTA 6 — appli principale.  Aucun build : modules ES natifs + Leaflet en global (lib/).
 /* global L */
-import { projecteur, caseGrille, arrondi } from './coords.js';
+import { projecteur, caseGrille, arrondi, grilleDe, repereXY, regionDe, GRILLE_DEFAUT } from './coords.js';
 import { validerTips, TYPES_LIEU } from './geojson.js';
 import { filtresParDefaut, normaliserFiltres, filtrerLieux, compteurs, trierLignes, TRIS, etatTip, normTexte } from './filtres.js';
 import { nouvelId, enregistrementVide } from './migration.js';
@@ -28,6 +28,8 @@ const E = {
   live: null, annuler: [], refaire: [],
   map: null, fond: null, couche: null, cluster: null, anneaux: null, perso: null,
   urlBlob: null, swVersion: null,
+  G: GRILLE_DEFAUT, X: null,          // grille de repères et repère X/Y du jeu de la carte ouverte
+  regions: null, zones: null, zFit: 0, comte: null,   // comtés : définition, calque, zoom « carte entière », comté affiché
 };
 
 /* =================================================================== utilitaires */
@@ -106,6 +108,11 @@ async function demarrer() {
   creerCarte();
   installerSaisie();
   installerPanneau();
+  // nouvelle carte par défaut publiée (ex. la carte officielle) : on l'ouvre une fois, même si une autre était mémorisée
+  if (E.defaut && E.r.defautVu !== E.defaut && E.cartes.some(c => c.id === E.defaut)) {
+    if (E.r.defautVu !== undefined || E.r.carte) E.r.carte = E.defaut;
+    E.r.defautVu = E.defaut;
+  }
   const id = E.cartes.some(c => c.id === E.r.carte) ? E.r.carte : (E.cartes.some(c => c.id === E.defaut) ? E.defaut : E.cartes[0].id);
   await ouvrirCarte(id);
   if (E.r.panneau.ouvert) basculerPanneau(true);
@@ -153,6 +160,8 @@ function creerCarte() {
     zoomSnap: 0.25, zoomDelta: 0.5, wheelPxPerZoomLevel: 90, boxZoom: false,
     bounceAtZoomLimits: false, maxBoundsViscosity: 0.7, inertia: true, tapHold: false,
   });
+  map.createPane('zones').style.zIndex = 380;      // comtés : au-dessus du fond, sous l'encre et les marqueurs
+  map.getPane('zones').style.pointerEvents = 'none';
   map.createPane('encre').style.zIndex = 450;
   map.createPane('perso').style.zIndex = 650;
   E.couche = new CoucheCanvas(dessinerCouche).addTo(map);
@@ -171,8 +180,12 @@ function creerCarte() {
     sauverReglages();
     if (panneauOuvert() && E.r.panneau.onglet === 'liste') rendreListe();
     majCoords();
+    majComte();
   });
   map.on('move', majCoords);
+  // comtés : le fondu suit le zoom (zoomanim = zoom cible, lancé au début de l'animation ; zoom = pincement continu)
+  map.on('zoomanim', e => majZones(e.zoom));
+  map.on('zoom', () => majZones(map.getZoom()));
   addEventListener('resize', () => map.invalidateSize());
 }
 
@@ -185,6 +198,9 @@ async function ouvrirCarte(id) {
   if (E.urlBlob) { URL.revokeObjectURL(E.urlBlob); E.urlBlob = null; }
   fermerBandeau('fond'); fermerBandeau('version'); fermerBandeau('tipsversion');
   E.carte = cfg; E.P = projecteur(cfg); E.fondManquant = false;
+  E.G = grilleDe(cfg); E.X = repereXY(cfg);
+  if (E.zones) { map.removeLayer(E.zones); E.zones = null; }
+  E.regions = null; E.comte = null; majComte();
   const bornes = L.latLngBounds(E.P.limites());
   // zoom : on autorise toujours à voir la carte entière
   map.setMaxBounds(null);
@@ -215,6 +231,8 @@ async function ouvrirCarte(id) {
     } else fondIntrouvable('image de la carte importée introuvable');
   }
   if (E.fond) E.fond.addTo(map);
+  E.zFit = zFit;
+  chargerRegions(cfg, bornes);   // sans attendre : la carte s'affiche, les comtés arrivent en fondu
   // annotations
   E.rec = S.base ? await S.lireAnnotations(cfg.id, cfg.version) : enregistrementVide(cfg.id, cfg.version);
   if (E.rec.map_version == null) E.rec.map_version = cfg.version;
@@ -249,7 +267,7 @@ function dessinerCouche(g, map, dpr) {
   if (!E.P || !E.carte) return;
   const o = map.latLngToContainerPoint([0, 0]), K = echelle(), sz = map.getSize();
   const fond = E.carte.type === 'grille' || E.fondManquant;
-  if (fond || E.r.filtres.calques.grille) dessinerGrille(g, o, E.P.W * K, E.P.H * K, dpr, sz.x, sz.y, fond);
+  if (fond || E.r.filtres.calques.grille) dessinerGrille(g, o, E.P.W * K, E.P.H * K, dpr, sz.x, sz.y, fond, E.G);
   if (!E.rec || !E.r.filtres.calques.dessins || (E.verrou && !E.verrouVoir)) return;
   const W = E.P.W, H = E.P.H;
   g.setTransform(dpr * K, 0, 0, dpr * K, dpr * o.x, dpr * o.y);
@@ -407,7 +425,7 @@ function ouvrirEditeur(m, nouveau = false) {
     <div class="f-lab">Couleur</div>
     <div class="puces" id="ed-coul"><button class="puce${!m.color ? ' on' : ''}" data-c="">Auto</button>${COULEURS.map(k => `<button class="pastille${m.color === k ? ' on' : ''}" data-c="${k}" style="background:${k}" aria-label="${k}"></button>`).join('')}</div>
     <label class="interr"><input type="checkbox" id="ed-fait" ${m.done ? 'checked' : ''} ${lectureSeule ? 'disabled' : ''}> Fait ✓</label>
-    <div class="f-info">Position : x ${m.x.toFixed(4)} · y ${m.y.toFixed(4)} · case ${caseGrille(m.x, m.y)} <button class="btn petit" data-a="copier">Copier</button></div>
+    <div class="f-info">Position : ${esc(posTexte(m.x, m.y))} <button class="btn petit" data-a="copier">Copier</button></div>
     <div class="rangee"><button class="btn rouge" data-a="suppr" ${lectureSeule ? 'disabled' : ''}>Supprimer</button><button class="btn" data-a="centrer">Centrer</button><button class="btn bleu" data-a="ok">OK</button></div>`,
   () => { // à la fermeture
     if (!E.rec.markers.includes(m)) return;
@@ -424,7 +442,7 @@ function ouvrirEditeur(m, nouveau = false) {
     if (act === 'fermer' || act === 'ok') fermerFeuille();
     else if (act === 'suppr') { instantane(); E.rec.markers = E.rec.markers.filter(x => x !== m); sauverAnnot(); fermerFeuille(); rendrePerso(); if (panneauOuvert()) rendrePanneau(); toast('Marqueur supprimé (↩️ pour annuler)'); }
     else if (act === 'centrer') E.map.panTo(E.P.versLatLng(m.x, m.y));
-    else if (act === 'copier') copier(`${m.x.toFixed(4)}, ${m.y.toFixed(4)}`);
+    else if (act === 'copier') copier(posCopie(m.x, m.y));
   };
   if (nouveau) setTimeout(() => $('#ed-titre', f).focus(), 60);
 }
@@ -561,7 +579,7 @@ function ouvrirFiche(lieu, tipId = null) {
     const b = ev.target.closest('button'); if (!b) return;
     if (b.dataset.a === 'fermer') { fermerFeuille(); return; }
     if (b.dataset.a === 'centrer') { E.map.setView(E.P.versLatLng(lieu.x, lieu.y), Math.max(E.map.getZoom(), E.P.zn - 1)); return; }
-    if (b.dataset.a === 'copier') { copier(`${lieu.x.toFixed(4)}, ${lieu.y.toFixed(4)}`); return; }
+    if (b.dataset.a === 'copier') { copier(posCopie(lieu.x, lieu.y)); return; }
     const art = b.closest('[data-tip]'); if (!art) return;
     const id = art.dataset.tip, cle = b.dataset.e;
     if (cle === 'note') { const t = $('textarea', art); t.hidden = !t.hidden; if (!t.hidden) t.focus(); return; }
@@ -620,9 +638,9 @@ function rafraichirFiche(tipId = null) {
   box.dataset.sig = sig;
   box.innerHTML = `
     <div class="f-tete"><span class="tp mini" style="--c:${esc(s.couleur)}"><span>${esc(s.icone)}</span></span>
-      <div class="f-titre"><h3>${esc(lieu.lieu)}</h3><small>${esc(ty.icone)} ${esc(ty.nom)} · case ${caseGrille(lieu.x, lieu.y)} · ${lieu.tips.length} tip${lieu.tips.length > 1 ? 's' : ''}${lieu.rayon ? ' · rayon ' + lieu.rayon : ''}</small></div>
+      <div class="f-titre"><h3>${esc(lieu.lieu)}</h3><small>${esc(ty.icone)} ${esc(ty.nom)} · ${esc(posTexte(lieu.x, lieu.y).replace(/^.*? · case /, 'case '))} · ${lieu.tips.length} tip${lieu.tips.length > 1 ? 's' : ''}${lieu.rayon ? ' · rayon ' + lieu.rayon : ''}</small></div>
       <button class="ico" data-a="fermer" aria-label="Fermer">✕</button></div>
-    <div class="f-outils"><button class="btn petit" data-a="centrer">🎯 Centrer</button><button class="btn petit" data-a="copier">📋 x ${lieu.x.toFixed(4)} · y ${lieu.y.toFixed(4)}</button></div>
+    <div class="f-outils"><button class="btn petit" data-a="centrer">🎯 Centrer</button><button class="btn petit" data-a="copier">📋 ${esc(posCopie(lieu.x, lieu.y).replace(', ', ' · '))}</button></div>
     ${visibles.map(carteTip).join('')}
     ${autres.length ? `<details class="autres"><summary>${autres.length} autre(s) tip(s) masqué(s) par les filtres</summary>${autres.map(carteTip).join('')}</details>` : ''}`;
   if (autresOuvert) { const d = box.querySelector('details.autres'); if (d) d.open = true; }
@@ -717,7 +735,8 @@ function rendreFiltres() {
   } else etatDonnees = `<p>${T.erreur ? '⚠️ ' + esc(T.erreur) : 'Chargement…'}</p>`;
   if (T.erreur && T.charge) etatDonnees += `<p class="alerte-txt">Dernière actualisation échouée : ${esc(T.erreur)}</p>`;
   corps.innerHTML = `
-    <section><h4>Calques</h4>${calque('tips', '💡 Tips')}${calque('marqueurs', '📍 Mes marqueurs')}${calque('dessins', '✏️ Mes dessins')}${calque('grille', '#️⃣ Grille / repères')}</section>
+    <section><h4>Calques</h4>${calque('tips', '💡 Tips')}${E.regions ? calque('comtes', '🗺️ Comtés') : ''}${calque('marqueurs', '📍 Mes marqueurs')}${calque('dessins', '✏️ Mes dessins')}${calque('grille', '#️⃣ Grille / repères' + (E.X ? ' (X / Y)' : ''))}</section>
+    ${E.regions ? `<section><h4>Comtés</h4><p class="petit gris">Visibles sur la carte entière, ils s'effacent quand tu zoomes ; le comté où tu es s'affiche alors en bas.</p><div class="puces">${E.regions.regions.map(r => `<button class="puce comte" data-comte="${esc(r.id)}" style="--c:${esc(r.couleur)}"><span class="pastille"></span>${esc(r.nom)}</button>`).join('')}</div></section>` : ''}
     <section><h4>Tips</h4>
       <label class="inter"><span>✅ Vérifiés en jeu uniquement</span><input type="checkbox" class="bascule" id="f-verif" ${f.verifies_seul ? 'checked' : ''}></label>
       <label class="curseur"><span>Sources minimum : <b id="f-min-v">${f.min_sources}</b></span><input type="range" id="f-min" min="0" max="${maxS}" step="1" value="${Math.min(f.min_sources, maxS)}"></label>
@@ -727,7 +746,7 @@ function rendreFiltres() {
     <section><h4>Données des tips</h4>${etatDonnees}<button class="btn" id="f-actu">🔄 Actualiser les tips</button></section>`;
   corps.onchange = ev => {
     const i = ev.target;
-    if (i.dataset.calque) { f.calques[i.dataset.calque] = i.checked; sauverReglages(); if (i.dataset.calque === 'marqueurs') rendrePerso(); if (i.dataset.calque === 'dessins' || i.dataset.calque === 'grille') { E.couche._reset(); majCoords(); } appliquerFiltres(); }
+    if (i.dataset.calque) { f.calques[i.dataset.calque] = i.checked; sauverReglages(); if (i.dataset.calque === 'marqueurs') rendrePerso(); if (i.dataset.calque === 'dessins' || i.dataset.calque === 'grille') { E.couche._reset(); majCoords(); } if (i.dataset.calque === 'comtes') majZones(E.map.getZoom()); appliquerFiltres(); }
     else if (i.id === 'f-verif') { f.verifies_seul = i.checked; sauverReglages(); appliquerFiltres(); }
   };
   $('#f-min', corps).oninput = ev => { f.min_sources = +ev.target.value; $('#f-min-v').textContent = f.min_sources; sauverReglages(); appliquerFiltresDiff(); };
@@ -735,6 +754,7 @@ function rendreFiltres() {
     const b = ev.target.closest('button'); if (!b) return;
     if (b.dataset.etat) { f.etats[b.dataset.etat] = !f.etats[b.dataset.etat]; sauverReglages(); appliquerFiltres(); }
     else if (b.id === 'f-actu') chargerTips(true);
+    else if (b.dataset.comte) allerComte(b.dataset.comte);
   };
 }
 
@@ -998,7 +1018,7 @@ async function exporterPNG() {
     }
     await Promise.all(jobs);
   }
-  if (cfg.type === 'grille' || E.fondManquant || E.r.filtres.calques.grille) dessinerGrille(g, { x: 0, y: 0 }, Wc, Hc, 1, Wc, Hc, cfg.type === 'grille' || E.fondManquant);
+  if (cfg.type === 'grille' || E.fondManquant || E.r.filtres.calques.grille) dessinerGrille(g, { x: 0, y: 0 }, Wc, Hc, 1, Wc, Hc, cfg.type === 'grille' || E.fondManquant, E.G);
   const voir = !E.verrou || E.verrouVoir;
   if (voir && E.r.filtres.calques.dessins) { g.setTransform(sc, 0, 0, sc, 0, 0); for (const s of E.rec.strokes) tracer(g, s, P.W, P.H); g.setTransform(1, 0, 0, 1, 0, 0); }
   if (voir && E.r.filtres.calques.marqueurs) {
@@ -1060,12 +1080,82 @@ async function verifierStockage() {
 }
 
 /* =================================================================== coordonnées (calque grille) */
+/** Position lisible : repère X/Y du jeu si la carte en a un (sinon x/y normalisés), case de grille, comté. */
+function posTexte(x, y, { comte = true } = {}) {
+  const r = comte && E.regions ? regionDe(E.regions, x, y, E.P.H / E.P.W) : null;
+  const xy = E.X ? (([X, Y]) => `X ${Math.round(X)} · Y ${Math.round(Y)}`)(E.X.versXY(x, y)) : `x ${x.toFixed(4)} · y ${y.toFixed(4)}`;
+  return `${xy} · case ${caseGrille(x, y, E.G)}${r ? ' · ' + r.nom : ''}`;
+}
+/** Texte copié : X, Y si repère jeu, sinon x, y normalisés. */
+function posCopie(x, y) {
+  if (!E.X) return `${x.toFixed(4)}, ${y.toFixed(4)}`;
+  const [X, Y] = E.X.versXY(x, y); return `${Math.round(X)}, ${Math.round(Y)}`;
+}
 function majCoords() {
   const on = E.r && E.r.filtres.calques.grille;
   $('#reticule').hidden = !on; $('#coords').hidden = !on;
   if (!on || !E.P) return;
   const [x, y] = E.P.depuisLatLng(E.map.getCenter());
-  $('#coords').textContent = `centre : x ${x.toFixed(4)} · y ${y.toFixed(4)} · ${caseGrille(x, y)}`;
+  $('#coords').textContent = 'centre : ' + posTexte(x, y);
+}
+
+/* =================================================================== comtés (zones sans contours) */
+async function chargerRegions(cfg, bornes) {
+  if (!cfg.regions) { rendreFiltresSiOuvert(); return; }
+  try {
+    const { json } = await lireJSON(cfg.regions);
+    if (E.carte !== cfg || !Array.isArray(json.regions)) return;        // carte changée entre-temps
+    E.regions = json;
+    const dossier = cfg.regions.replace(/[^/]*$/, '');
+    if (json.calque) {
+      E.zones = L.imageOverlay(dossier + json.calque, bornes, { pane: 'zones', interactive: false, className: 'zones-comtes' });
+      E.zones.on('load', () => majZones(E.map.getZoom()));
+      E.zones.addTo(E.map);
+      const el = E.zones.getElement(); if (el) el.style.opacity = 0;   // apparaît en fondu
+    }
+    majZones(E.map.getZoom()); majComte(); majCoords(); rendreFiltresSiOuvert();
+  } catch (e) { console.warn('régions', e); }
+}
+function rendreFiltresSiOuvert() { if (panneauOuvert() && E.r.panneau.onglet === 'filtres') rendrePanneau(); }
+
+/** Opacité des comtés selon le zoom : pleine sur la carte entière, fondu jusqu'à disparaître quand on s'approche. */
+const OPA_ZONES = 0.42;
+function opaciteZones(z) {
+  const t = z - E.zFit;                       // 0 = carte entière
+  return Math.max(0, Math.min(1, (2.1 - t) / 1.5)) * OPA_ZONES;
+}
+function majZones(z) {
+  if (!E.zones) return;
+  const el = E.zones.getElement(); if (!el) return;
+  const on = E.r && E.r.filtres.calques.comtes !== false;
+  const o = on ? opaciteZones(z) : 0;
+  el.style.opacity = o.toFixed(3);
+  el.classList.toggle('loin', o < 0.02);    // plus rien à peindre : on évite le coût du calque
+  majComte(z);
+}
+
+/** Puce « comté courant » : prend le relais quand les aplats ont disparu (zoom rapproché). */
+function majComte(z) {
+  const el = $('#comte'); if (!el) return;
+  const on = E.regions && E.map && E.r && E.r.filtres.calques.comtes !== false;
+  const zoom = Number.isFinite(z) ? z : (E.map ? E.map.getZoom() : 0);
+  let r = null;
+  if (on && opaciteZones(zoom) < OPA_ZONES * 0.35) {
+    const [x, y] = E.P.depuisLatLng(E.map.getCenter());
+    r = regionDe(E.regions, x, y, E.P.H / E.P.W);
+  }
+  if (!r) { el.classList.remove('vu'); E.comte = null; return; }
+  if (E.comte === r.id && el.classList.contains('vu')) return;
+  const change = E.comte && E.comte !== r.id;
+  E.comte = r.id;
+  el.style.setProperty('--c', r.couleur || '#fff');
+  el.innerHTML = `<span class="pastille"></span>${esc(r.nom)}`;
+  el.classList.add('vu');
+  if (change) { el.classList.remove('bascule'); void el.offsetWidth; el.classList.add('bascule'); }
+}
+function allerComte(id) {
+  const r = E.regions && E.regions.regions.find(x => x.id === id); if (!r) return;
+  E.map.flyTo(E.P.versLatLng(...r.etiquette), E.zFit + 1.6, { duration: 0.9 });
 }
 
 /* =================================================================== service worker */

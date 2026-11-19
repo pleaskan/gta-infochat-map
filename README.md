@@ -61,6 +61,14 @@ Puis mets `"defaut": "finale"` en haut de `maps.json`. Tu peux supprimer les ent
 
 **Versions** : `version` identifie le cadrage. Les tips ne s'affichent que si leur `carte_version` est égal à la `version` de la carte, et tes annotations sont rattachées à `id + version`. Si tu changes le cadrage, change la version **et le nom du dossier** (ex. `finale-v2`) : l'appli te signale que tes annotations ont été faites sur l'ancienne version au lieu de les décaler en silence. Si l'image change mais que le cadrage est identique (meilleure qualité), garde la même version mais change quand même le nom du dossier, car les tuiles sont mises en cache.
 
+## Carte officielle (carte par défaut, `v1-officielle`)
+
+Poster officiel « Leonida Map Poster Printable » (5775×7900, CMJN) → `tools/convertir_cmjn.py` (profil ICC → sRGB) → `tools/decouper_tuiles.py` → `maps/officielle-v1/tuiles/` (970 tuiles WebP, 7 Mo). Options propres à cette carte dans `maps.json` :
+
+- **`repere`** — X/Y du jeu, même échelle que **map.stateofleonida.net** (carte du jeu : X −12000…5000, Y −10000…12000, Y vers le haut). Le poster a été recalé automatiquement sur leur image (masques terre/eau, échelle + translation par corrélation) : **X = −11328 + 15424·x**, **Y = 11328 − 21056·y** (x, y normalisés). Précision ≈ ±30 unités. Affiché dans *Grille / repères (X / Y)*, la fiche d'un lieu, d'un marqueur et le bouton Copier.
+- **`grille`** — la grille imprimée sur le poster (colonnes 1–9, lignes A–M, case « G7 ») au lieu de la grille 10×10.
+- **`regions`** — `maps/officielle-v1/regions.json` + `comtes.png` (générés par `tools/generer_comtes.py`) : les **5 comtés** (Lummox, Leonard, Kelly, Vice-Dale, Mariana) en aplats colorés **sans contours** (chaque zone de terre prend le comté de l'étiquette imprimée la plus proche). Sur la carte entière ils sont visibles ; en zoomant ils s'effacent en fondu, synchronisé avec l'animation de zoom, et une puce animée en bas indique le comté où tu es. Calque *🗺️ Comtés* et raccourcis vers chaque comté dans *Panneau ▸ Filtres*. Limites **approximatives** : le poster n'en dessine pas.
+
 ## Mettre à jour les tips
 
 Le pipeline écrit `data/tips_gta6.geojson` (format : **SCHEMA_GEOJSON.md**) puis `git commit` + `git push`.

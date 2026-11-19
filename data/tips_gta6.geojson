@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-19T20:46:21+00:00",
+  "genere_le": "2026-11-19T21:22:53+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -12,15 +12,15 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     0.7268,
-     0.4954
+     0.6701,
+     0.5203
     ]
    },
    "properties": {
     "lieu": "Vice City",
     "type": "ville",
-    "rayon": 0.07,
-    "carte_version": "v0-fan",
+    "rayon": 0.05,
+    "carte_version": "v1-officielle",
     "tips": [
      {
       "id": "tip-0ae10122b4f5",
@@ -64,15 +64,15 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     0.3164,
-     0.3879
+     0.3039,
+     0.357
     ]
    },
    "properties": {
     "lieu": "Port Gellhorn",
     "type": "autre",
-    "rayon": 0.06,
-    "carte_version": "v0-fan",
+    "rayon": 0.035,
+    "carte_version": "v1-officielle",
     "tips": [
      {
       "id": "tip-382ff6ffbe9a",
@@ -117,15 +117,15 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     0.5294,
-     0.6714
+     0.4504,
+     0.6627
     ]
    },
    "properties": {
     "lieu": "Grassrivers",
     "type": "autre",
-    "rayon": 0.07,
-    "carte_version": "v0-fan",
+    "rayon": 0.03,
+    "carte_version": "v1-officielle",
     "tips": [
      {
       "id": "tip-05fe97b4c447",
@@ -165,19 +165,49 @@
   },
   {
    "type": "Feature",
+   "id": 21,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.3766,
+     0.76
+    ]
+   },
+   "properties": {
+    "lieu": "Leonida Bay",
+    "type": "autre",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-1e0cc7aa2676",
+      "categorie": "exploration",
+      "enonce": "Pour trouver le chien sur jet-ski viral, il faut d'abord localiser une île spécifique dans la baie de Leonida, accessible uniquement en bateau, puis plonger autour de l'île pour déclencher son apparition.",
+      "precision": "Lieu : île dans la baie de Leonida (Leonida Bay). · Accès : se rendre en bateau car l'île est éloignée. · Étape 1 : trouver l'île où se trouve un message SOS et un téléphone jouant un enregistrement. · Étape 2 : commencer à plonger (scuba diving) autour de l'île. · Étape 3 : remonter à la surface pour que le chien sur jet-ski arrive. · Interaction : monter comme passager (« princess ») sur le jet-ski du chien. · Résultat : le chien conduit le joueur pendant un moment puis l'amène vers un autre jet-ski utilisable.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@ign/video/7709706986484469022"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": 22,
    "geometry": {
     "type": "Point",
     "coordinates": [
-     0.6003,
-     0.8236
+     0.5683,
+     0.8318
     ]
    },
    "properties": {
     "lieu": "Key Lento",
     "type": "autre",
     "rayon": null,
-    "carte_version": "v0-fan",
+    "carte_version": "v1-officielle",
     "tips": [
      {
       "id": "tip-b1a93b11744d",
@@ -188,6 +218,66 @@
       "verifie_en_jeu": false,
       "urls": [
        "https://www.tiktok.com/@ign/video/7709690332857879822"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 29,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5091,
+     0.7649
+    ]
+   },
+   "properties": {
+    "lieu": "Cottomouth Lake",
+    "type": "autre",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-1f80c30b9e0d",
+      "categorie": "armes",
+      "enonce": "Des cabanes de pêche contenant du butin et permettant de débloquer une variante unique de fusil de chasse se trouvent au nord de Key Lento, le long du lac Cottonmouth.",
+      "precision": "Localisation : au nord de Key Lento, le long du lac Cottonmouth (Cottonmouth Lake) · Type de lieu : cabanes de pêche (fishing shacks) · Récompense : gros gains d'argent en début de partie et déverrouillage d'une variante unique de fusil de chasse (unique hunting rifle weapon variant) · Inconvénient : trajet un peu long (a bit of a drive)",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@ign/video/7709690332857879822"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 72,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.8613,
+     0.5222
+    ]
+   },
+   "properties": {
+    "lieu": "Ocean Beach",
+    "type": "autre",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-37b8f952fb2d",
+      "categorie": "missions",
+      "enonce": "Mission « Trophée : Au début... » : Pour débloquer le trophée, il faut acheter un cocktail au bar de l'hôtel Ocean View, situé au bord de la plage d'Ocean Beach, et le boire sur le balcon du rooftop en regardant la vue.",
+      "precision": "1. Se rendre à Ocean Beach, tout à droite de Vice City, au bord de la plage. · 2. Repérer l'hôtel Ocean View, identifiable par ses devantures roses et son nom. · 3. Trouver l'ascenseur situé derrière la piscine, dans une petite entrée cachée. · 4. Prendre l'ascenseur pour monter au niveau supérieur (rooftop). · 5. Après le chargement, ressortir sur le balcon et trouver le bar dans le coin. · 6. Acheter n'importe quelle boisson. · 7. Se diriger à côté du bar en direction de la vue. · 8. Boire le verre · le trophée apparaît quelques secondes après.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709709649959783713"
       ]
      }
     ]

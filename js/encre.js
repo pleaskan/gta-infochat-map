@@ -1,5 +1,6 @@
 // Couche canvas (encre + grille) synchronisée avec Leaflet, et rendu des traits.
 /* global L */
+import { GRILLE_DEFAUT } from './coords.js';
 
 export const CoucheCanvas = L.Layer.extend({
   initialize(dessiner) { this._dessiner = dessiner; },
@@ -100,40 +101,42 @@ export function touche(s, px, py, r, W, H) {
  * Grille 10×10 (A–J / 1–10) + sous-grille quand on zoome. Contexte en pixels écran (×dpr).
  * o = point écran de (0,0), sx/sy = taille écran de la carte entière.
  */
-export function dessinerGrille(g, o, sx, sy, dpr, larg, haut, fond) {
+export function dessinerGrille(g, o, sx, sy, dpr, larg, haut, fond, gr = GRILLE_DEFAUT) {
   g.setTransform(dpr, 0, 0, dpr, 0, 0);
   if (fond) { g.fillStyle = '#16202b'; g.fillRect(o.x, o.y, sx, sy); }
-  const cell = sx / 10;
-  // sous-grille (0.01) si les cases sont grandes
+  const X = v => o.x + sx * v, Y = v => o.y + sy * v;
+  const nc = gr.col.length - 1, nl = gr.lig.length - 1;
+  const gx0 = X(gr.col[0]), gx1 = X(gr.col[nc]), gy0 = Y(gr.lig[0]), gy1 = Y(gr.lig[nl]);
+  const cell = sx * (gr.col[nc] - gr.col[0]) / nc;
+  // sous-grille (10 par case) si les cases sont grandes
   if (cell > 350) {
     g.strokeStyle = 'rgba(255,255,255,.10)'; g.lineWidth = 1; g.beginPath();
-    for (let i = 0; i <= 100; i++) {
-      const x = Math.round(o.x + sx * i / 100) + 0.5, y = Math.round(o.y + sy * i / 100) + 0.5;
-      if (x > -2 && x < larg + 2) { g.moveTo(x, Math.max(0, o.y)); g.lineTo(x, Math.min(haut, o.y + sy)); }
-      if (y > -2 && y < haut + 2) { g.moveTo(Math.max(0, o.x), y); g.lineTo(Math.min(larg, o.x + sx), y); }
+    for (let i = 0; i < nc; i++) for (let k = 1; k < 10; k++) {
+      const x = Math.round(X(gr.col[i] + (gr.col[i + 1] - gr.col[i]) * k / 10)) + 0.5;
+      if (x > -2 && x < larg + 2) { g.moveTo(x, Math.max(0, gy0)); g.lineTo(x, Math.min(haut, gy1)); }
+    }
+    for (let j = 0; j < nl; j++) for (let k = 1; k < 10; k++) {
+      const y = Math.round(Y(gr.lig[j] + (gr.lig[j + 1] - gr.lig[j]) * k / 10)) + 0.5;
+      if (y > -2 && y < haut + 2) { g.moveTo(Math.max(0, gx0), y); g.lineTo(Math.min(larg, gx1), y); }
     }
     g.stroke();
   }
   g.strokeStyle = 'rgba(255,255,255,.45)'; g.lineWidth = 1.5; g.beginPath();
-  for (let i = 0; i <= 10; i++) {
-    const x = Math.round(o.x + sx * i / 10) + 0.5, y = Math.round(o.y + sy * i / 10) + 0.5;
-    g.moveTo(x, o.y); g.lineTo(x, o.y + sy); g.moveTo(o.x, y); g.lineTo(o.x + sx, y);
-  }
+  for (const v of gr.col) { const x = Math.round(X(v)) + 0.5; g.moveTo(x, gy0); g.lineTo(x, gy1); }
+  for (const v of gr.lig) { const y = Math.round(Y(v)) + 0.5; g.moveTo(gx0, y); g.lineTo(gx1, y); }
   g.stroke();
   // libellés : colonnes en haut de l'écran, lignes à gauche (toujours visibles)
   g.font = '600 13px system-ui, sans-serif'; g.textBaseline = 'top'; g.lineWidth = 3; g.strokeStyle = 'rgba(0,0,0,.8)'; g.fillStyle = '#fff';
   const txt = (t, x, y, al) => { g.textAlign = al; g.strokeText(t, x, y); g.fillText(t, x, y); };
-  const yTop = Math.max(o.y + 4, 4), xLeft = Math.max(o.x + 4, 4);
-  for (let i = 0; i < 10; i++) {
-    const cx = o.x + cell * (i + 0.5), cy = o.y + (sy / 10) * (i + 0.5);
-    if (cx > 0 && cx < larg) txt('ABCDEFGHIJ'[i], cx, yTop, 'center');
-    if (cy > 0 && cy < haut) txt(String(i + 1), xLeft, cy - 7, 'left');
-  }
+  const yTop = Math.max(gy0 + 4, 4), xLeft = Math.max(gx0 + 4, 4);
+  for (let i = 0; i < nc; i++) { const cx = (X(gr.col[i]) + X(gr.col[i + 1])) / 2; if (cx > 0 && cx < larg) txt(gr.nomsCol[i], cx, yTop, 'center'); }
+  for (let j = 0; j < nl; j++) { const cy = (Y(gr.lig[j]) + Y(gr.lig[j + 1])) / 2; if (cy > 0 && cy < haut) txt(gr.nomsLig[j], xLeft, cy - 7, 'left'); }
   if (cell > 140) { // nom de chaque case visible
     g.font = '12px system-ui, sans-serif'; g.fillStyle = 'rgba(255,255,255,.75)';
-    for (let i = 0; i < 10; i++) for (let j = 0; j < 10; j++) {
-      const x = o.x + cell * i + 5, y = o.y + (sy / 10) * j + 22;
-      if (x > -cell && x < larg && y > -cell && y < haut) txt('ABCDEFGHIJ'[i] + (j + 1), x, y, 'left');
+    for (let i = 0; i < nc; i++) for (let j = 0; j < nl; j++) {
+      const x = X(gr.col[i]) + 5, y = Y(gr.lig[j]) + 22;
+      const nom = gr.ligneDabord ? gr.nomsLig[j] + gr.nomsCol[i] : gr.nomsCol[i] + gr.nomsLig[j];
+      if (x > -cell && x < larg && y > -cell && y < haut) txt(nom, x, y, 'left');
     }
   }
 }
