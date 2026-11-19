@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-19T01:56:24+00:00",
+  "genere_le": "2026-11-19T02:24:40+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -83,6 +83,17 @@
       "verifie_en_jeu": false,
       "urls": [
        "https://www.tiktok.com/@sniryt/video/7709690473752923424"
+      ]
+     },
+     {
+      "id": "tip-35248359b2b1",
+      "categorie": "exploration",
+      "enonce": "Un chapeau de cowboy authentique, identique à celui d'Arthur Morgan dans Red Dead Redemption 2, est en vente pour 35 $ lors d'une vente de garage située à Port Gellhorn.",
+      "precision": "Prix : 35 $. · Lieu : Port Gellhorn. · Contexte : Vente de garage (yard sale). · Description de l'objet : Chapeau de cowboy avec le même nœud que celui d'Arthur Morgan (Red Dead Redemption 2).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@ign/video/7709699496476740877"
       ]
      }
     ]
