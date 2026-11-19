@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-19T11:57:53+00:00",
+  "genere_le": "2026-11-19T19:15:15+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -126,6 +126,28 @@
     "rayon": 0.07,
     "carte_version": "v0-fan",
     "tips": [
+     {
+      "id": "tip-05fe97b4c447",
+      "categorie": "armes",
+      "enonce": "Le fusil de précision SM69 du chasseur cruel se trouve au sol, sur le côté d'une cabane isolée située au centre d'une île dans Grass River, à l'est de la zone de Pélican-Valet.",
+      "precision": "Arme : fusil de précision SM69 du chasseur cruel · Emplacement : au sol, sur le côté de la maison · Lieu : centre de l'île dans Grass River, à l'est de la zone de Pélican-Valet · Accès : se rendre en bateau ou en aéroglisseur · Contexte : la cabane est isolée et les occupants sont déjà éliminés",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709957989389569313"
+      ]
+     },
+     {
+      "id": "tip-b516fa5ac95b",
+      "categorie": "armes",
+      "enonce": "Le revolver Aculus Lure se trouve à l'intérieur de la même cabane isolée dans Grass River, à côté du téléphone.",
+      "precision": "Arme : revolver Aculus Lure · Emplacement : à l'intérieur du bâtiment, à côté du téléphone · Lieu : centre de l'île dans Grass River, à l'est de la zone de Pélican-Valet · Accès : se rendre en bateau ou en aéroglisseur",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709957989389569313"
+      ]
+     },
      {
       "id": "tip-7c19ffaeaa6c",
       "categorie": "vehicules",
