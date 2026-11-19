@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-19T00:41:06+00:00",
+  "genere_le": "2026-11-19T01:56:24+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -31,6 +31,88 @@
       "verifie_en_jeu": false,
       "urls": [
        "https://www.tiktok.com/@ign/video/7709669532448607502"
+      ]
+     },
+     {
+      "id": "tip-e4a462dac147",
+      "categorie": "exploration",
+      "enonce": "Le club de strip-tease 9Y9 se trouve dans la partie ouest de Vice City, à la sortie d'un des grands ponts.",
+      "precision": "Ouvert toute la journée · Possibilité de parler à plusieurs danseuses · Considéré comme l'un des plus gros clubs de la ville",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709690473752923424"
+      ]
+     },
+     {
+      "id": "tip-6d496c06dac1",
+      "categorie": "exploration",
+      "enonce": "Le club Jack of Earth est situé plus au nord dans la partie ouest de Vice City, mais il est verrouillé tant que le joueur n'a pas suffisamment avancé dans l'histoire.",
+      "precision": "Peu animé le jour · Très fréquenté la nuit · Nécessite d'avoir avancé dans le jeu pour être débloqué",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709690473752923424"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 8,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.3164,
+     0.3879
+    ]
+   },
+   "properties": {
+    "lieu": "Port Gellhorn",
+    "type": "autre",
+    "rayon": 0.06,
+    "carte_version": "v0-fan",
+    "tips": [
+     {
+      "id": "tip-666876aeb465",
+      "categorie": "exploration",
+      "enonce": "Le club Daylight se trouve sur le bord de l'autoroute dans la zone de Port Gellhorn, dans le comté de Kelly, accessible en prenant l'autoroute depuis Vice City.",
+      "precision": "Situé sur le bord de l'autoroute · Accessible sans problème · Visible dans les images officielles de Rockstar",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709690473752923424"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 22,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.6003,
+     0.8236
+    ]
+   },
+   "properties": {
+    "lieu": "Key Lento",
+    "type": "autre",
+    "rayon": null,
+    "carte_version": "v0-fan",
+    "tips": [
+     {
+      "id": "tip-b1a93b11744d",
+      "categorie": "argent",
+      "enonce": "L'opération illégale « Strange Noises » se trouve à Key Lento, juste à côté de la maison de Jason, et permet de gagner de l'argent rapidement en début de partie.",
+      "precision": "Nom de l'opération : Strange Noises · Localisation : Key Lento · Repère : juste à côté de la maison de Jason (Jason's safe house) · Objectif : gagner de l'argent rapidement (quick stop to score some cash) · Moment : début de partie (early hours of your playthrough)",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@ign/video/7709690332857879822"
       ]
      }
     ]
