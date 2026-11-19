@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-19T07:41:03+00:00",
+  "genere_le": "2026-11-19T11:57:53+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -74,6 +74,17 @@
     "rayon": 0.06,
     "carte_version": "v0-fan",
     "tips": [
+     {
+      "id": "tip-382ff6ffbe9a",
+      "categorie": "missions",
+      "enonce": "Mission « La Vérité est ailleurs » : Pour débloquer le trophée secret, il faut déclencher l'événement aléatoire des extraterrestres en se rendant à un point précis près de Port Gellhorn entre 2h et 5h du matin, puis suivre la séquence d'interaction avec les aliens et la voiture.",
+      "precision": "1. Se rendre en direction de Port Gellhorn, en plein milieu du comté de Kelly. · 2. Sortir de l'autoroute à l'endroit indiqué et monter la route jusqu'à un croisement précis. · 3. Se trouver à cet endroit entre 2h et 5h du matin. · 4. Attendre l'apparition d'une voiture arrêtée avec les phares qui clignotent et des bruits bizarres (si l'événement n'est pas le bon, partir très loin et revenir). · 5. S'enfoncer dans la forêt en suivant les bruits bizarres pour trouver les extraterrestres et la soucoupe volante en train d'enlever quelqu'un. · 6. Effrayer les extraterrestres pour qu'ils repartent et laissent tomber la personne. · 7. Aller rechercher la voiture de la personne qui demande de l'aide. · 8. Être enlevé par les extraterrestres (Jason est absent 3 jours). · 9. Recevoir l'appel de Lucia qui annonce la disparition de Jason pendant 3 jours, ce qui débloque le trophée « La Vérité est ailleurs ».",
+      "nb_sources": 1,
+      "verifie_en_jeu": false,
+      "urls": [
+       "https://www.tiktok.com/@sniryt/video/7709847846891130144"
+      ]
+     },
      {
       "id": "tip-666876aeb465",
       "categorie": "exploration",
