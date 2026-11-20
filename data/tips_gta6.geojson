@@ -1,11 +1,46 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-20T06:12:15+00:00",
+  "genere_le": "2026-11-20T12:28:19+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
  "features": [
+  {
+   "type": "Feature",
+   "id": 1,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4987,
+     0.4747
+    ]
+   },
+   "properties": {
+    "lieu": "Leonida",
+    "type": "region",
+    "rayon": 0.35,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-0ae10122b4f5",
+      "categorie": "armes",
+      "enonce": "Un lance-roquettes HAT accompagné de quatre roquettes se trouve dans un bunker accessible par une trappe au sol d'un camping-car couvert d'antennes et de paraboles, situé dans un dépôt de véhicules saisis au sud-ouest du Griffin Firing Range, au nord de la zone de départ dans les Keys et à l'ouest de Vice City. Pour y accéder, il faut passer par la porte non verrouillée, entrer dans le véhicule par le nord, ouvrir la trappe et récupérer l'arme appuyée contre un coffre-fort.",
+      "precision": "Localisation : Nord de la zone de départ dans les Keys, juste à l'ouest de Vice City, près du Griffin Firing Range. · Emplacement précis : Dépôt de véhicules saisis (impound lot) au sud-ouest du champ de tir. · Accès : Passer par la porte non verrouillée. · Véhicule : RV couvert d'antennes et de paraboles. · Entrée : Par le nord du véhicule. · Action : Ouvrir le trappe du bunker (bunker hatch). · Butin : Lance-roquettes Honor's HAT appuyé contre un coffre-fort, avec 4 roquettes prêtes à l'emploi. · Ouvrir la carte et zoomer au maximum. · Se rendre au nord, dans la comté de Vicedale. · Viser le coin supérieur de cette zone, près du Griffin Shooting Range. · Aller vers le sud-ouest jusqu'à un grand parking avec un vieux camping-car (RV). · Chercher le camping-car complètement sale et couvert de paraboles dans cette aire de camping. · Ouvrir les grilles/portes pour accéder au véhicule. · Entrer dans le camping-car normalement. · Ouvrir le trappe (hatch) à l'intérieur pour descendre. · Récupérer la lance-roquettes au fond. · Repère sur la carte : zone « Leonida », sous la lettre D et la lettre A. · Lieu : Griffin Shooting Range. · Accès : traverser la route, sauter la clôture pour atteindre un parc de caravanes en ruine. · Emplacement exact : entrer dans la caravane située à gauche. · Mécanique : trouver une trappe secrète au sol, descendre l'échelle. · Position de l'arme : à côté d'un corps assis sur une chaise.",
+      "nb_sources": 3,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-0638496c7786",
+      "categorie": "armes",
+      "enonce": "Un emplacement de butin secret souterrain contenant une RPG et une SMG légendaire entièrement équipée se trouve dans une remorque bleue située en face d'un stand de tir, sous la zone de Leonida.",
+      "precision": "Ouvrir la carte et repérer le stand de tir (firing range) situé sous la zone de Leonida. · Traverser la route depuis le stand de tir pour atteindre des grilles (gates). · Pénétrer dans la zone via les grilles. · Entrer dans la remorque bleue (blue trailer). · Trouver et ouvrir un trappe (hatch) à l'intérieur de la remorque. · Descendre pour accéder au butin : une RPG et une SMG légendaire entièrement équipée (fully kitted out).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
   {
    "type": "Feature",
    "id": 2,
@@ -23,18 +58,26 @@
     "carte_version": "v1-officielle",
     "tips": [
      {
+      "id": "tip-0ae10122b4f5",
+      "categorie": "armes",
+      "enonce": "Un lance-roquettes HAT accompagné de quatre roquettes se trouve dans un bunker accessible par une trappe au sol d'un camping-car couvert d'antennes et de paraboles, situé dans un dépôt de véhicules saisis au sud-ouest du Griffin Firing Range, au nord de la zone de départ dans les Keys et à l'ouest de Vice City. Pour y accéder, il faut passer par la porte non verrouillée, entrer dans le véhicule par le nord, ouvrir la trappe et récupérer l'arme appuyée contre un coffre-fort.",
+      "precision": "Localisation : Nord de la zone de départ dans les Keys, juste à l'ouest de Vice City, près du Griffin Firing Range. · Emplacement précis : Dépôt de véhicules saisis (impound lot) au sud-ouest du champ de tir. · Accès : Passer par la porte non verrouillée. · Véhicule : RV couvert d'antennes et de paraboles. · Entrée : Par le nord du véhicule. · Action : Ouvrir le trappe du bunker (bunker hatch). · Butin : Lance-roquettes Honor's HAT appuyé contre un coffre-fort, avec 4 roquettes prêtes à l'emploi. · Ouvrir la carte et zoomer au maximum. · Se rendre au nord, dans la comté de Vicedale. · Viser le coin supérieur de cette zone, près du Griffin Shooting Range. · Aller vers le sud-ouest jusqu'à un grand parking avec un vieux camping-car (RV). · Chercher le camping-car complètement sale et couvert de paraboles dans cette aire de camping. · Ouvrir les grilles/portes pour accéder au véhicule. · Entrer dans le camping-car normalement. · Ouvrir le trappe (hatch) à l'intérieur pour descendre. · Récupérer la lance-roquettes au fond. · Repère sur la carte : zone « Leonida », sous la lettre D et la lettre A. · Lieu : Griffin Shooting Range. · Accès : traverser la route, sauter la clôture pour atteindre un parc de caravanes en ruine. · Emplacement exact : entrer dans la caravane située à gauche. · Mécanique : trouver une trappe secrète au sol, descendre l'échelle. · Position de l'arme : à côté d'un corps assis sur une chaise.",
+      "nb_sources": 3,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-e3c33cc80e23",
+      "categorie": "vehicules",
+      "enonce": "Sur l'île de Vespucci, à environ 5 miles de la maison de Jason, une maison spécifique identifiable par deux voitures garées devant son portail contient une Mitsubishi Eclipse 1995 dans son garage. Accessible dès le début du jeu sans avoir complété de mission, le véhicule peut être volé en forçant le garage avec un tournevis ; il ne possède pas de traceur, mais il faut attendre l'arrêt de l'alarme avant de pouvoir le conduire.",
+      "precision": "Lieu : Vespucci Island, au centre de Vice City, sur les îles avec les grandes maisons. · Position exacte : À un croisement précis, entrer dans la maison située sur le côté via le portail. · Action : Se rendre au garage et le forcer avec un tournevis. · Détail : La voiture n'a pas de traceur. · Condition : Attendre que l'alarme s'arrête après le vol pour pouvoir rouler. · Accessible dès le début du jeu, avant d'avoir complété des missions. · Départ : maison de Jason. · Distance : environ 5 miles. · Lieu : île de Vespucci, près de Vice City. · Repère : une maison spécifique marquée sur la carte, avec deux voitures garées devant. · Action : forcer le garage pour trouver la voiture.",
+      "nb_sources": 2,
+      "verifie_en_jeu": false
+     },
+     {
       "id": "tip-3ab547a92dc9",
       "categorie": "missions",
       "enonce": "Mission « Prologue » : S'échapper en jet ski débloque un dialogue alternatif dans la cinématique suivante, incluant une référence à un véhicule « Sea Shark ».",
       "precision": "1. Le joueur doit s'échapper en jet ski. · 2. Un dialogue alternatif est débloqué dans la cinématique. · 3. Le dialogue mentionne posséder un « Sea Shark ».",
-      "nb_sources": 1,
-      "verifie_en_jeu": false
-     },
-     {
-      "id": "tip-0ae10122b4f5",
-      "categorie": "armes",
-      "enonce": "Un lance-roquettes Honor's HAT et quatre roquettes se trouvent dans un camping-car (RV) couvert d'antennes, situé dans un dépôt de véhicules saisis (impound lot) juste au sud-ouest du Griffin Firing Range, au nord de la zone de départ dans les Keys, à l'ouest de Vice City.",
-      "precision": "Localisation : Nord de la zone de départ dans les Keys, juste à l'ouest de Vice City, près du Griffin Firing Range. · Emplacement précis : Dépôt de véhicules saisis (impound lot) au sud-ouest du champ de tir. · Accès : Passer par la porte non verrouillée. · Véhicule : RV couvert d'antennes et de paraboles. · Entrée : Par le nord du véhicule. · Action : Ouvrir le trappe du bunker (bunker hatch). · Butin : Lance-roquettes Honor's HAT appuyé contre un coffre-fort, avec 4 roquettes prêtes à l'emploi.",
       "nb_sources": 1,
       "verifie_en_jeu": false
      },
@@ -51,6 +94,65 @@
       "categorie": "exploration",
       "enonce": "Le club Jack of Earth est situé plus au nord dans la partie ouest de Vice City, mais il est verrouillé tant que le joueur n'a pas suffisamment avancé dans l'histoire.",
       "precision": "Peu animé le jour · Très fréquenté la nuit · Nécessite d'avoir avancé dans le jeu pour être débloqué",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 6,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5553,
+     0.357
+    ]
+   },
+   "properties": {
+    "lieu": "Ambrosia",
+    "type": "quartier",
+    "rayon": 0.025,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-9222c49a85ca",
+      "categorie": "armes",
+      "enonce": "Une arme légendaire, le fusil à pompe tronqué « Sonoff », est posée sur une table dans le bâtiment d'Ambrosia.",
+      "precision": "Emplacement : sur la table dans le bâtiment. · Nom de l'arme : Sonoff shotgun (légendaire).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-f5f7aaeb6d9c",
+      "categorie": "argent",
+      "enonce": "Une somme de 1 100 $ en cristaux se trouve sur une table dans le bâtiment d'Ambrosia.",
+      "precision": "Emplacement : sur la table dans le bâtiment (après avoir éliminé le gang). · Montant : 1 100 $ en cristaux.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-d7a82c5f7865",
+      "categorie": "argent",
+      "enonce": "Plus de 1 000 $ en liquide sont disponibles sur une autre table à côté du fusil à pompe dans le bâtiment d'Ambrosia.",
+      "precision": "Emplacement : sur une table à côté du fusil à pompe. · Montant : plus de 1 000 $ en liquide.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-b94c13c4b37c",
+      "categorie": "argent",
+      "enonce": "250 $ en liquide et un coffre-fort contenant 1 300 $ se trouvent dans le bureau du bâtiment d'Ambrosia.",
+      "precision": "Emplacement : dans le bureau (office) du bâtiment. · Action : entrer dans le bureau avant de prendre le véhicule. · Montants : 250 $ sur la table et 1 300 $ dans le coffre-fort (safe).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-fbbe716dbcf9",
+      "categorie": "vehicules",
+      "enonce": "Un véhicule muscle type Dodge Challenger avec nitros est localisé sur le toit d'un bâtiment à Ambrosia, au nord de Leonida.",
+      "precision": "Bâtiment situé à Ambrosia, au nord de Leonida. · Position : ligne droite au nord depuis la maison de Jason. · Accès : grimper sur le toit du bâtiment pour atterrir à côté du véhicule. · Risque : le lieu est contrôlé par un gang, il faut les éliminer avant de prendre le véhicule.",
       "nb_sources": 1,
       "verifie_en_jeu": false
      }
@@ -117,18 +219,18 @@
     "carte_version": "v1-officielle",
     "tips": [
      {
+      "id": "tip-05fe97b4c447",
+      "categorie": "armes",
+      "enonce": "Le fusil de précision SM69 du chasseur cruel se trouve au sol, sur le côté d'une cabane isolée située au centre d'une île dans Grass River, à l'est de la zone de Pélican-Valet. L'accès à cet endroit s'effectue par bateau ou aéroglisseur, et la cabane présente des signes de scène de crime avec des occupants déjà éliminés.",
+      "precision": "Arme : fusil de précision SM69 du chasseur cruel · Emplacement : au sol, sur le côté de la maison · Lieu : centre de l'île dans Grass River, à l'est de la zone de Pélican-Valet · Accès : se rendre en bateau ou en aéroglisseur · Contexte : la cabane est isolée et les occupants sont déjà éliminés · Arme : Krill Huntsman's SM69 scoped sniper rifle · Type : Fusil de précision avec lunette (T-pose sniper scope) · Localisation : Au sol, dans la cabane de la scène de crime · Repères visuels : Un homme pendu à la fenêtre, des crocodiles éviscérés, un couteau de boucher et un couteau sur la table",
+      "nb_sources": 2,
+      "verifie_en_jeu": false
+     },
+     {
       "id": "tip-3ce70bad888c",
       "categorie": "missions",
       "enonce": "Pour déclencher la quête secondaire du Skunk Ape, il faut suivre les bruits étranges entendus en naviguant dans les rivières d'herbe, puis chercher des affiches dispersées dans Key Lento et appeler le numéro indiqué.",
       "precision": "1. Naviguer dans les rivières d'herbe (grass rivers). 2. Écouter les bruits fous (crazy noises) et ne pas les ignorer. 3. Suivre les bruits jusqu'à une cutscene mystérieuse. 4. Chercher des affiches (posters) dispersées dans Key Lento. 5. Appeler le numéro indiqué sur les affiches pour continuer la quête.",
-      "nb_sources": 1,
-      "verifie_en_jeu": false
-     },
-     {
-      "id": "tip-05fe97b4c447",
-      "categorie": "armes",
-      "enonce": "Le fusil de précision SM69 du chasseur cruel se trouve au sol, sur le côté d'une cabane isolée située au centre d'une île dans Grass River, à l'est de la zone de Pélican-Valet.",
-      "precision": "Arme : fusil de précision SM69 du chasseur cruel · Emplacement : au sol, sur le côté de la maison · Lieu : centre de l'île dans Grass River, à l'est de la zone de Pélican-Valet · Accès : se rendre en bateau ou en aéroglisseur · Contexte : la cabane est isolée et les occupants sont déjà éliminés",
       "nb_sources": 1,
       "verifie_en_jeu": false
      },
@@ -146,6 +248,57 @@
       "enonce": "Un avion de dépandage est accessible sans condition sur un petit aérodrome au début de Grass River, après le grand pont.",
       "precision": "Se rendre en direction de Vice City. · S'arrêter après le grand pont. · Se trouver sur le petit aérodrome au début de Grass River. · L'avion est un petit avion de dépandage. · Il est possible de le prendre directement sans déblocage.",
       "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 11,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.7221,
+     0.5735
+    ]
+   },
+   "properties": {
+    "lieu": "Vice-Dale County",
+    "type": "region",
+    "rayon": 0.1,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-0721f51bcd2d",
+      "categorie": "argent",
+      "enonce": "Situé au sud du comté de Vicedale, près de Hamlet et des trois petits lacs, cet entrepôt contient des ennemis déjà éliminés, un sac de butin de 6 000 $, des armes (SMG Type 9, fusil d'assaut Duke 556, pistolet Kalinga Desert Eagle), de la cocaïne et un coffre-fort abritant une carte à collectionner rare (Leroy Rook) d'une valeur de 6 000 $. Le butin doit être déposé chez Brian et la carte vendue au prêteur sur gage d'Amlet pour un gain total estimé à 20 000 $, avec la possibilité de réinitialiser certains objets en rechargant la sauvegarde.",
+      "precision": "Localisation : sud du comté de Vicedale, près de Hamlet, à environ 3 miles de la maison de Jason. · Repère : un entrepôt visible sur la carte. · Avant d'entrer : vérifier la boîte à outils jaune pour obtenir des lunettes de soleil. · À l'intérieur : les criminels sont déjà morts. · Sol à droite : SMG Type 9. · Table au centre : sac de butin massif. · Sol : fusil d'assaut Duke 556. · Camion à l'arrière (rempli d'ours en peluche) : cocaïne. · Premier bureau (même étage) : cocaïne sur la table et pistolet Kalinga Desert Eagle. · Deuxième bureau : tiroir-caisse avec 100 $, coffre-fort à ouvrir contenant plus d'argent, de la cocaïne et la carte à collectionner rare Leroy Rook (vendre à un magasin de dépôt-vente). · Avant de partir : ouvrir le rideau métallique pour accéder à un autre camion d'ours en peluche dehors, contenant encore plus de cocaïne. · Lieu : entrepôt au milieu des trois petits lacs, en remontant depuis la maison de Jason. · Action : enfoncer n'importe quelle porte pour entrer. · Butin initial : sac de butin sur une table contenant 6 000 $. · Autres objets : fouiller les corps inertes pour le cash, récupérer des mitrailleuses, fusils d'assaut et pistolets. · Drogue : de la cocaïne présente dans les bureaux et les camions. · Coffre-fort : situé dans les bureaux, contient de la cocaïne, du cash et une carte de collection à revendre dans un pawn shop. · Gains totaux : plus de 15 000 $ (armes incluses) avant la vente de la carte. · Dépot : déposer les sacs à l'entrepôt de Brandon. · Localisation : Sud du comté de Vicedale (South Vicedale County), accessible en allant au nord depuis Key Lento. · Repère : Grand entrepôt rouge situé entre plusieurs maisons de dépôt (pawn shops). · Contenu : Ennemis déjà éliminés (si première visite), cocaïne, objets de valeur, cartes, argent liquide. · Zones de butin : Arrière d'une fourgonnette dans le bâtiment, petit bureau/annexe à droite, deuxième bâtiment principal avec comptoir d'argent et coffre secret. · Réinitialisation : Le coffre et les butins se réinitialisent à chaque chargement de la sauvegarde. · Localisation : bâtiment situé juste en dessous de Vicedale County. · Contenu : beaucoup de cocaïne (coke) et un coffre-fort (safe) contenant de l'argent. · Méthode : 1. Entrer dans le bâtiment et prendre tout le butin (cocaïne et argent du coffre). 2. Vendre tous les objets. 3. Sauvegarder la partie. 4. Recharger la sauvegarde. 5. Reprendre les objets qui sont encore présents (certains réapparaissent). 6. Répéter le processus (sauvegarder/recharger) pour générer de l'argent indéfiniment. · Coffre-fort : situé dans les bureaux, contient de la cocaïne, du cash et une carte de collection. · Capacité de stockage : peut remplir deux sacs entiers et plus, nécessitant parfois le stockage dans un véhicule. · Dépôt : rendre les sacs à l'entrepôt de Brian. · Gain total estimé : plus de 15 000 $ (armes incluses, avant revente de la carte). · Localisation : Nord-est d'Amlet, en dessous de la lettre L de Vice del County. · Contenu : Produits illicites, cash, coffre-fort avec carte à collectionner (valeur 6 000 $). · Dépôt du butin : Chez Brian dans sa planque. · Échange de la carte : Prêteur sur gage d'Amlet. · Gain total : 20 000 $. · Condition : Aucune balle tirée nécessaire.",
+      "nb_sources": 6,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-443ad729ad7d",
+      "categorie": "armes",
+      "enonce": "Dans le sous-sol secret accessible via une trappe au sol de la caravane située à gauche du parc de caravanes près de la zone de tir Griffin, on trouve une SMG Conspiracist Type 9 de variante légendaire posée dans une mallette à armes sur un bureau, accompagnée de grenades à fragmentation, d'adrénaline, de zombics, d'un kit de premiers secours, d'un kit de traumatisme et d'une grande quantité de munitions diverses (y compris pour lance-roquettes).",
+      "precision": "Arme : SMG Conspiracist Type 9 (variante de collection unique). · Consommables : Grenades à fragmentation (frag grenades), Adrénaline, Zombics. · Localisation : À l'intérieur du RV, avec le lance-roquettes. · Se trouve dans le bunker sous le mobilhome avec drapeau américain à Balzéro. · À récupérer avant de repartir. · Décrite comme « incroyable ». · Se trouve au fond du camping-car (après avoir ouvert la trappe). · Inclut : munitions diverses, grenades à fragmentation (frag grenades), munitions pour lance-roquettes, kit de premiers secours (first aid kit), kit de traumatisme (trauma kit), SMG Conspiracist Type 9 (légendaire). · Conseil : maximiser la quantité de tout ce qui est disponible. · Emplacement exact : sur le bureau, dans la même pièce que le corps. · État : posée dans une mallette à armes (gun case). · Variante : « Conspiracist » (légendaire). · Accès identique à celui du lance-roquettes : trappe au sol dans la caravane de gauche du parc de caravanes.",
+      "nb_sources": 4,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-0ae10122b4f5",
+      "categorie": "armes",
+      "enonce": "Un lance-roquettes HAT accompagné de quatre roquettes se trouve dans un bunker accessible par une trappe au sol d'un camping-car couvert d'antennes et de paraboles, situé dans un dépôt de véhicules saisis au sud-ouest du Griffin Firing Range, au nord de la zone de départ dans les Keys et à l'ouest de Vice City. Pour y accéder, il faut passer par la porte non verrouillée, entrer dans le véhicule par le nord, ouvrir la trappe et récupérer l'arme appuyée contre un coffre-fort.",
+      "precision": "Localisation : Nord de la zone de départ dans les Keys, juste à l'ouest de Vice City, près du Griffin Firing Range. · Emplacement précis : Dépôt de véhicules saisis (impound lot) au sud-ouest du champ de tir. · Accès : Passer par la porte non verrouillée. · Véhicule : RV couvert d'antennes et de paraboles. · Entrée : Par le nord du véhicule. · Action : Ouvrir le trappe du bunker (bunker hatch). · Butin : Lance-roquettes Honor's HAT appuyé contre un coffre-fort, avec 4 roquettes prêtes à l'emploi. · Ouvrir la carte et zoomer au maximum. · Se rendre au nord, dans la comté de Vicedale. · Viser le coin supérieur de cette zone, près du Griffin Shooting Range. · Aller vers le sud-ouest jusqu'à un grand parking avec un vieux camping-car (RV). · Chercher le camping-car complètement sale et couvert de paraboles dans cette aire de camping. · Ouvrir les grilles/portes pour accéder au véhicule. · Entrer dans le camping-car normalement. · Ouvrir le trappe (hatch) à l'intérieur pour descendre. · Récupérer la lance-roquettes au fond. · Repère sur la carte : zone « Leonida », sous la lettre D et la lettre A. · Lieu : Griffin Shooting Range. · Accès : traverser la route, sauter la clôture pour atteindre un parc de caravanes en ruine. · Emplacement exact : entrer dans la caravane située à gauche. · Mécanique : trouver une trappe secrète au sol, descendre l'échelle. · Position de l'arme : à côté d'un corps assis sur une chaise.",
+      "nb_sources": 3,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-354e719e4ae8",
+      "categorie": "vehicules",
+      "enonce": "Mission « Obtention de la Mitsubishi Eclipse de Paul Walker » : depuis la zone de départ, se rendre au nord-est vers le comté de Vicedale County pour localiser l'île des Rialto Islands, puis forcer l'entrée de la grande maison située au centre de l'île (par la porte ou le garage), ouvrir le garage, briser la vitre du véhicule pour déclencher l'alarme, pirater la Mitsubishi Eclipse et s'échapper en gérant la présence de la police.",
+      "precision": "1. Ouvrir la carte et se rendre au nord de la zone de départ (starter area) jusqu'au comté de Vicedale County. · 2. Zoomer au maximum pour repérer une petite île nommée Rialto Islands. · 3. Identifier un très grand bâtiment situé au centre de l'île. · 4. Arriver sur place et entrer de force dans la maison/garage (briser l'entrée). · 5. Ouvrir le garage normalement avant d'accéder à la voiture. · 6. Briser la vitre de la Mitsubishi Eclipse (ce qui déclenche une alarme). · 7. Pirater le véhicule (hotwire). · 8. S'échapper en gérant la présence de la police. · Point de départ : aller vers le haut et la droite depuis le spawn principal. · Lieu : île des Rialto Islands. · Bâtiment : grande maison au centre de l'île. · Accès : forcer l'entrée par la porte ou par le garage. · Risque : la voiture est chère, ce qui attire la police · il faut s'échapper.",
+      "nb_sources": 2,
       "verifie_en_jeu": false
      }
     ]
@@ -180,6 +333,41 @@
       "categorie": "exploration",
       "enonce": "Le club Daylight se trouve sur le bord de l'autoroute dans la zone de Port Gellhorn, dans le comté de Kelly, accessible en prenant l'autoroute depuis Vice City.",
       "precision": "Situé sur le bord de l'autoroute · Accessible sans problème · Visible dans les images officielles de Rockstar",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 18,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.3642,
+     0.8431
+    ]
+   },
+   "properties": {
+    "lieu": "Permit Keys",
+    "type": "autre",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-2589b9eaeda1",
+      "categorie": "armes",
+      "enonce": "Un pistolet légendaire silencieux se trouve dans une cache secrète à l'intérieur d'un bateau sur une île située au sud de la carte, accessible en hélicoptère.",
+      "precision": "Arme : pistolet légendaire silencieux · Emplacement : dans une cache secrète à l'intérieur d'un bateau · Lieu : île située tout en bas à droite de l'archipel, sur la pointe au sud · Accès : reprendre l'hélicoptère et atterrir sur la pointe au sud de l'île, puis monter dans le bateau · Reprendre l'hélicoptère. · Se diriger vers l'île située tout en bas à droite de l'archipel. · Atterrir sur la pointe au sud de cette île. · Trouver le bateau dans lequel on peut monter. · Chercher une cache secrète à l'intérieur du bateau. · Le pistolet légendaire silencieux s'y trouve. · Arme obtenue : Assassin (pistolet légendaire supprimé). · Localisation : Petite île dans la zone des Permit Keys. · Repère : Chercher un bateau endommagé ou abandonné. · Action : Monter dans le bateau et interagir avec l'icône de recherche ouverte. · Bonus : Documentation sur l'arme trouvée avec celle-ci. · Conseil : Utiliser son bateau personnel pour s'y rendre est recommandé.",
+      "nb_sources": 2,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-9d4113869943",
+      "categorie": "armes",
+      "enonce": "Mission « Obtention de l'arme légendaire Smuggler's Gore's 425 » : Un fusil à pompe légendaire, nommé Smuggler's Gore's 425, se trouve dans un autre bateau endommagé sur une petite île des Permit Keys.",
+      "precision": "Arme obtenue : Smuggler's Gore's 425 (fusil à pompe légendaire). · Localisation : Petite île dans la zone des Permit Keys. · Repère visuel : Une petite particule de sable au milieu de l'île. · Repère : Chercher un bateau avec des dégâts sur le côté droit. · Action : Interagir avec le bateau pour obtenir l'arme.",
       "nb_sources": 1,
       "verifie_en_jeu": false
      }
@@ -267,8 +455,56 @@
      {
       "id": "tip-05fe97b4c447",
       "categorie": "armes",
-      "enonce": "Le fusil de précision SM69 du chasseur cruel se trouve au sol, sur le côté d'une cabane isolée située au centre d'une île dans Grass River, à l'est de la zone de Pélican-Valet.",
-      "precision": "Arme : fusil de précision SM69 du chasseur cruel · Emplacement : au sol, sur le côté de la maison · Lieu : centre de l'île dans Grass River, à l'est de la zone de Pélican-Valet · Accès : se rendre en bateau ou en aéroglisseur · Contexte : la cabane est isolée et les occupants sont déjà éliminés",
+      "enonce": "Le fusil de précision SM69 du chasseur cruel se trouve au sol, sur le côté d'une cabane isolée située au centre d'une île dans Grass River, à l'est de la zone de Pélican-Valet. L'accès à cet endroit s'effectue par bateau ou aéroglisseur, et la cabane présente des signes de scène de crime avec des occupants déjà éliminés.",
+      "precision": "Arme : fusil de précision SM69 du chasseur cruel · Emplacement : au sol, sur le côté de la maison · Lieu : centre de l'île dans Grass River, à l'est de la zone de Pélican-Valet · Accès : se rendre en bateau ou en aéroglisseur · Contexte : la cabane est isolée et les occupants sont déjà éliminés · Arme : Krill Huntsman's SM69 scoped sniper rifle · Type : Fusil de précision avec lunette (T-pose sniper scope) · Localisation : Au sol, dans la cabane de la scène de crime · Repères visuels : Un homme pendu à la fenêtre, des crocodiles éviscérés, un couteau de boucher et un couteau sur la table",
+      "nb_sources": 2,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-1ed0bb781349",
+      "categorie": "armes",
+      "enonce": "Mission « Trouver les armes légendaires secrètes » : Se rendre à l'intérieur de la cabane située dans les marais de Pelican Valley pour y trouver le revolver légendaire « Swamp Bait » (Aculis), qui possède un camouflage ou une décalcomanie spécifique.",
+      "precision": "Se rendre à l'intérieur de la cabane (weird looking shack) dans Pelican Valley. · Trouver le revolver Swamp Bait (swamp bait revolver). · L'arme possède un décalcomanie ou camouflage spécifique (own little decal or camo). · Arme : Swamp bait Aculis revolver · Type : Revolver · Localisation : À l'intérieur de la cabane (check inside)",
+      "nb_sources": 2,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-e6c28c067ded",
+      "categorie": "missions",
+      "enonce": "Mission « Laboratoire de crabs secret » : Utiliser le code 0212 sur le clavier du bâtiment latéral extérieur pour accéder au sac de butin contenant 10 000 $ et la SMG Crabshack VF5.",
+      "precision": "1. Sortir du bâtiment principal et revenir au point d'entrée initial. · 2. Se diriger vers le bâtiment latéral (side building). · 3. Utiliser le code 0212 sur le clavier (keypad). · 4. Récupérer le sac de butin (stash bag). · 5. Fouiller le sac pour obtenir l'argent (10 000 $). · 6. Récupérer la SMG (Crabshack VF5) qui se trouve au sol, équipée d'une lunette (site).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-4fb48ae0c74b",
+      "categorie": "exploration",
+      "enonce": "Mission « Trouver les armes légendaires secrètes » : Découvrir l'histoire des personnages en examinant le téléphone dans la cabane des marais.",
+      "precision": "Se rendre à l'intérieur de la cabane (weird looking shack) dans Pelican Valley. · Examiner ou ramasser le téléphone (examine or pick up the phone). · Voir ce qui est arrivé aux personnages (what actually happened to these guys).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-d538b4eb5e57",
+      "categorie": "exploration",
+      "enonce": "Un téléphone portable contenant des images secrètes du Skunk Ape (Bigfoot de Floride) se trouve au sol à l'intérieur de la cabane de scène de crime dans les marais de Pelican Valley.",
+      "precision": "Objet : Mobile phone · Contenu : Footage secret du Skunk Ape (Florida Bigfoot) · Localisation : Au sol, à l'intérieur de la cabane (check inside again)",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-9e4fdc28bb97",
+      "categorie": "argent",
+      "enonce": "Un coffre contenant 1 000 $ et un code pour un autre bâtiment se trouve dans un bâtiment à gauche de Pelican Valley, accessible après avoir activé un générateur et résolu un puzzle informatique.",
+      "precision": "Lieu : à gauche de Pelican Valley sur la carte, dans l'un des petits bâtiments. · Prérequis : Activer le générateur situé à l'arrière du bâtiment pour allumer l'électricité. · Étape 1 : Entrer dans le bâtiment et trouver un ordinateur. · Étape 2 : Trouver le mot de passe de l'ordinateur dans une autre pièce du même bâtiment. · Étape 3 : Interagir avec l'objet contenant le mot de passe, puis revenir à l'ordinateur. · Étape 4 : Cliquer sur l'option « cleaves » (probablement une transcription erronée de « clues » ou similaire) pour obtenir un indice. · Risque : Un crabe géant attaque le joueur · il faut le repousser. · Étape 5 : Saisir le code 0072 sur le coffre. · Récompense : 1 000 $ en liquide et un code pour un autre bâtiment.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-f074ba76d48a",
+      "categorie": "argent",
+      "enonce": "De l'argent peut être trouvé dans les poches de la victime avant de quitter la cabane de scène de crime dans les marais de Pelican Valley.",
+      "precision": "Action : Vérifier les poches du personnage (check this guys pockets) · Localisation : Dans la cabane de la scène de crime · Condition : Avant de quitter les lieux",
       "nb_sources": 1,
       "verifie_en_jeu": false
      }
@@ -346,18 +582,26 @@
     "carte_version": "v1-officielle",
     "tips": [
      {
+      "id": "tip-0721f51bcd2d",
+      "categorie": "argent",
+      "enonce": "Situé au sud du comté de Vicedale, près de Hamlet et des trois petits lacs, cet entrepôt contient des ennemis déjà éliminés, un sac de butin de 6 000 $, des armes (SMG Type 9, fusil d'assaut Duke 556, pistolet Kalinga Desert Eagle), de la cocaïne et un coffre-fort abritant une carte à collectionner rare (Leroy Rook) d'une valeur de 6 000 $. Le butin doit être déposé chez Brian et la carte vendue au prêteur sur gage d'Amlet pour un gain total estimé à 20 000 $, avec la possibilité de réinitialiser certains objets en rechargant la sauvegarde.",
+      "precision": "Localisation : sud du comté de Vicedale, près de Hamlet, à environ 3 miles de la maison de Jason. · Repère : un entrepôt visible sur la carte. · Avant d'entrer : vérifier la boîte à outils jaune pour obtenir des lunettes de soleil. · À l'intérieur : les criminels sont déjà morts. · Sol à droite : SMG Type 9. · Table au centre : sac de butin massif. · Sol : fusil d'assaut Duke 556. · Camion à l'arrière (rempli d'ours en peluche) : cocaïne. · Premier bureau (même étage) : cocaïne sur la table et pistolet Kalinga Desert Eagle. · Deuxième bureau : tiroir-caisse avec 100 $, coffre-fort à ouvrir contenant plus d'argent, de la cocaïne et la carte à collectionner rare Leroy Rook (vendre à un magasin de dépôt-vente). · Avant de partir : ouvrir le rideau métallique pour accéder à un autre camion d'ours en peluche dehors, contenant encore plus de cocaïne. · Lieu : entrepôt au milieu des trois petits lacs, en remontant depuis la maison de Jason. · Action : enfoncer n'importe quelle porte pour entrer. · Butin initial : sac de butin sur une table contenant 6 000 $. · Autres objets : fouiller les corps inertes pour le cash, récupérer des mitrailleuses, fusils d'assaut et pistolets. · Drogue : de la cocaïne présente dans les bureaux et les camions. · Coffre-fort : situé dans les bureaux, contient de la cocaïne, du cash et une carte de collection à revendre dans un pawn shop. · Gains totaux : plus de 15 000 $ (armes incluses) avant la vente de la carte. · Dépot : déposer les sacs à l'entrepôt de Brandon. · Localisation : Sud du comté de Vicedale (South Vicedale County), accessible en allant au nord depuis Key Lento. · Repère : Grand entrepôt rouge situé entre plusieurs maisons de dépôt (pawn shops). · Contenu : Ennemis déjà éliminés (si première visite), cocaïne, objets de valeur, cartes, argent liquide. · Zones de butin : Arrière d'une fourgonnette dans le bâtiment, petit bureau/annexe à droite, deuxième bâtiment principal avec comptoir d'argent et coffre secret. · Réinitialisation : Le coffre et les butins se réinitialisent à chaque chargement de la sauvegarde. · Localisation : bâtiment situé juste en dessous de Vicedale County. · Contenu : beaucoup de cocaïne (coke) et un coffre-fort (safe) contenant de l'argent. · Méthode : 1. Entrer dans le bâtiment et prendre tout le butin (cocaïne et argent du coffre). 2. Vendre tous les objets. 3. Sauvegarder la partie. 4. Recharger la sauvegarde. 5. Reprendre les objets qui sont encore présents (certains réapparaissent). 6. Répéter le processus (sauvegarder/recharger) pour générer de l'argent indéfiniment. · Coffre-fort : situé dans les bureaux, contient de la cocaïne, du cash et une carte de collection. · Capacité de stockage : peut remplir deux sacs entiers et plus, nécessitant parfois le stockage dans un véhicule. · Dépôt : rendre les sacs à l'entrepôt de Brian. · Gain total estimé : plus de 15 000 $ (armes incluses, avant revente de la carte). · Localisation : Nord-est d'Amlet, en dessous de la lettre L de Vice del County. · Contenu : Produits illicites, cash, coffre-fort avec carte à collectionner (valeur 6 000 $). · Dépôt du butin : Chez Brian dans sa planque. · Échange de la carte : Prêteur sur gage d'Amlet. · Gain total : 20 000 $. · Condition : Aucune balle tirée nécessaire.",
+      "nb_sources": 6,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-6bb3a84ddcc1",
+      "categorie": "exploration",
+      "enonce": "Une planque de braconnier située près des Keys, du côté de Hamlet, contient un tigre, de l'argent sur une table, un coffre contenant 3 809 $ et un fusil de précision légendaire dans la pièce adjacente.",
+      "precision": "Lieu : près des Keys, côté Hamlet. · Prérequis : arriver armé. · Danger : présence d'un tigre à l'intérieur (à abattre) et arrivée de 4 à 5 policiers. · Butin 1 : argent sur une table à gauche. · Butin 2 : coffre au fond de la pièce (à forcer), contenant 3 809 $. · Butin 3 : fusil de précision légendaire et drogue dans la pièce juste à côté. · Note : l'endroit n'est pas marqué sur la carte. · Prérequis : détruire Hamlet. · Aller dans le bâtiment spécifique. · Attendre que l'homme au sol élimine le tigre pour accéder à la zone. · Butiner tous les corps pour obtenir de l'argent, de la cocaïne et des coffres-forts. · Aller dans la pièce suivante pour trouver plus d'argent, de la cocaïne et deux armes. · Armes trouvées : un fusil (rifle) et un fusil de précision légendaire (legendary sniper).",
+      "nb_sources": 2,
+      "verifie_en_jeu": false
+     },
+     {
       "id": "tip-8b2a5d105243",
       "categorie": "missions",
       "enonce": "Pour accéder au combat de catch contre The Gentrifier, traversez le pont vers Hamlet et localisez la maison située sur le côté ouest.",
       "precision": "Direction : côté ouest (west side) de Hamlet. · Accès : traverser le pont pour y arriver.",
-      "nb_sources": 1,
-      "verifie_en_jeu": false
-     },
-     {
-      "id": "tip-3484e135c12d",
-      "categorie": "exploration",
-      "enonce": "Une planque de braconnier située près des Keys, du côté de Hamlet, contient un tigre, de l'argent sur une table, un coffre contenant 3 809 $ et un fusil de précision légendaire dans la pièce adjacente.",
-      "precision": "Lieu : près des Keys, côté Hamlet. · Prérequis : arriver armé. · Danger : présence d'un tigre à l'intérieur (à abattre) et arrivée de 4 à 5 policiers. · Butin 1 : argent sur une table à gauche. · Butin 2 : coffre au fond de la pièce (à forcer), contenant 3 809 $. · Butin 3 : fusil de précision légendaire et drogue dans la pièce juste à côté. · Note : l'endroit n'est pas marqué sur la carte.",
       "nb_sources": 1,
       "verifie_en_jeu": false
      },
@@ -367,6 +611,33 @@
       "enonce": "Une usine de fabrication d'ours en peluche rouge, située sur la droite de la ville de Hamlet près des bassins avant Weiss del Cunti, contient des cargaisons illégales, un coffre-fort et une carte rare à collectionner.",
       "precision": "Lieu : droite de la ville de Hamlet, près des bassins, juste avant Weiss del Cunti. · Bâtiment : usine rouge isolée au bord des bassins. · Contenu : première camionnette à l'extérieur, deuxième camion à l'intérieur, bureaux contenant plus de cargaisons, coffre-fort à forcer. · Gains : chaque paquet vaut plus de 400 $, total de plusieurs dizaines de milliers de dollars. · Objet bonus : une carte rare à collectionner dans le coffre-fort. · Sécurité : tous les ennemis à l'intérieur sont déjà éliminés.",
       "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 45,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.6177,
+     0.6772
+    ]
+   },
+   "properties": {
+    "lieu": "South Vice-Dale County",
+    "type": "autre",
+    "rayon": 0.03,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-0721f51bcd2d",
+      "categorie": "argent",
+      "enonce": "Situé au sud du comté de Vicedale, près de Hamlet et des trois petits lacs, cet entrepôt contient des ennemis déjà éliminés, un sac de butin de 6 000 $, des armes (SMG Type 9, fusil d'assaut Duke 556, pistolet Kalinga Desert Eagle), de la cocaïne et un coffre-fort abritant une carte à collectionner rare (Leroy Rook) d'une valeur de 6 000 $. Le butin doit être déposé chez Brian et la carte vendue au prêteur sur gage d'Amlet pour un gain total estimé à 20 000 $, avec la possibilité de réinitialiser certains objets en rechargant la sauvegarde.",
+      "precision": "Localisation : sud du comté de Vicedale, près de Hamlet, à environ 3 miles de la maison de Jason. · Repère : un entrepôt visible sur la carte. · Avant d'entrer : vérifier la boîte à outils jaune pour obtenir des lunettes de soleil. · À l'intérieur : les criminels sont déjà morts. · Sol à droite : SMG Type 9. · Table au centre : sac de butin massif. · Sol : fusil d'assaut Duke 556. · Camion à l'arrière (rempli d'ours en peluche) : cocaïne. · Premier bureau (même étage) : cocaïne sur la table et pistolet Kalinga Desert Eagle. · Deuxième bureau : tiroir-caisse avec 100 $, coffre-fort à ouvrir contenant plus d'argent, de la cocaïne et la carte à collectionner rare Leroy Rook (vendre à un magasin de dépôt-vente). · Avant de partir : ouvrir le rideau métallique pour accéder à un autre camion d'ours en peluche dehors, contenant encore plus de cocaïne. · Lieu : entrepôt au milieu des trois petits lacs, en remontant depuis la maison de Jason. · Action : enfoncer n'importe quelle porte pour entrer. · Butin initial : sac de butin sur une table contenant 6 000 $. · Autres objets : fouiller les corps inertes pour le cash, récupérer des mitrailleuses, fusils d'assaut et pistolets. · Drogue : de la cocaïne présente dans les bureaux et les camions. · Coffre-fort : situé dans les bureaux, contient de la cocaïne, du cash et une carte de collection à revendre dans un pawn shop. · Gains totaux : plus de 15 000 $ (armes incluses) avant la vente de la carte. · Dépot : déposer les sacs à l'entrepôt de Brandon. · Localisation : Sud du comté de Vicedale (South Vicedale County), accessible en allant au nord depuis Key Lento. · Repère : Grand entrepôt rouge situé entre plusieurs maisons de dépôt (pawn shops). · Contenu : Ennemis déjà éliminés (si première visite), cocaïne, objets de valeur, cartes, argent liquide. · Zones de butin : Arrière d'une fourgonnette dans le bâtiment, petit bureau/annexe à droite, deuxième bâtiment principal avec comptoir d'argent et coffre secret. · Réinitialisation : Le coffre et les butins se réinitialisent à chaque chargement de la sauvegarde. · Localisation : bâtiment situé juste en dessous de Vicedale County. · Contenu : beaucoup de cocaïne (coke) et un coffre-fort (safe) contenant de l'argent. · Méthode : 1. Entrer dans le bâtiment et prendre tout le butin (cocaïne et argent du coffre). 2. Vendre tous les objets. 3. Sauvegarder la partie. 4. Recharger la sauvegarde. 5. Reprendre les objets qui sont encore présents (certains réapparaissent). 6. Répéter le processus (sauvegarder/recharger) pour générer de l'argent indéfiniment. · Coffre-fort : situé dans les bureaux, contient de la cocaïne, du cash et une carte de collection. · Capacité de stockage : peut remplir deux sacs entiers et plus, nécessitant parfois le stockage dans un véhicule. · Dépôt : rendre les sacs à l'entrepôt de Brian. · Gain total estimé : plus de 15 000 $ (armes incluses, avant revente de la carte). · Localisation : Nord-est d'Amlet, en dessous de la lettre L de Vice del County. · Contenu : Produits illicites, cash, coffre-fort avec carte à collectionner (valeur 6 000 $). · Dépôt du butin : Chez Brian dans sa planque. · Échange de la carte : Prêteur sur gage d'Amlet. · Gain total : 20 000 $. · Condition : Aucune balle tirée nécessaire.",
+      "nb_sources": 6,
       "verifie_en_jeu": false
      }
     ]
@@ -394,6 +665,41 @@
       "enonce": "Mission « Débloquer le lance-roquette » : Un lance-roquette (lanceur HAT) est accessible dès le début du jeu dans un bunker situé dans la ville de Balzéro, accessible via un mobilhome avec drapeau américain.",
       "precision": "Avancer au nord de Vice City pour atteindre la région au-dessus. · Se rendre dans la petite ville de Balzéro. · Repère : le stand de tir Griffin. · Libérer la zone pour placer un point de repère. · Aller dans le terrain vague protégé par un grillage situé en face du stand de tir. · Entrer dans la zone et aller à gauche vers un immense mobilhome avec un drapeau américain. · Entrer par la porte et avancer au bout pour trouver l'entrée d'un bunker. · Ouvrir la trappe (non verrouillée) et descendre. · Le lance-roquette (lanceur HAT) se trouve à côté du coffre-fort. · Optionnel : ranger l'arme dans le coffre de la voiture pour la garder, nécessitant l'achat de munitions régulièrement.",
       "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 62,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.7662,
+     0.4671
+    ]
+   },
+   "properties": {
+    "lieu": "Rialto Islands",
+    "type": "autre",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-354e719e4ae8",
+      "categorie": "vehicules",
+      "enonce": "Mission « Obtention de la Mitsubishi Eclipse de Paul Walker » : depuis la zone de départ, se rendre au nord-est vers le comté de Vicedale County pour localiser l'île des Rialto Islands, puis forcer l'entrée de la grande maison située au centre de l'île (par la porte ou le garage), ouvrir le garage, briser la vitre du véhicule pour déclencher l'alarme, pirater la Mitsubishi Eclipse et s'échapper en gérant la présence de la police.",
+      "precision": "1. Ouvrir la carte et se rendre au nord de la zone de départ (starter area) jusqu'au comté de Vicedale County. · 2. Zoomer au maximum pour repérer une petite île nommée Rialto Islands. · 3. Identifier un très grand bâtiment situé au centre de l'île. · 4. Arriver sur place et entrer de force dans la maison/garage (briser l'entrée). · 5. Ouvrir le garage normalement avant d'accéder à la voiture. · 6. Briser la vitre de la Mitsubishi Eclipse (ce qui déclenche une alarme). · 7. Pirater le véhicule (hotwire). · 8. S'échapper en gérant la présence de la police. · Point de départ : aller vers le haut et la droite depuis le spawn principal. · Lieu : île des Rialto Islands. · Bâtiment : grande maison au centre de l'île. · Accès : forcer l'entrée par la porte ou par le garage. · Risque : la voiture est chère, ce qui attire la police · il faut s'échapper.",
+      "nb_sources": 2,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-fb63c28951b5",
+      "categorie": "vehicules",
+      "enonce": "La Mitsubishi Eclipse de Paul Walker arbore une plaque d'immatriculation affichant le texte « Had You », en référence à la réplique « I always had you » prononcée par l'acteur dans la franchise Fast & Furious.",
+      "precision": "La plaque d'immatriculation affiche le texte « had you ». · C'est une référence à la réplique « I always had you ». · Élément : plaques d'immatriculation (license plates). · Texte affiché : « Had You ». · Référence : réplique de Paul Walker dans le film Fast and Furious.",
+      "nb_sources": 2,
       "verifie_en_jeu": false
      }
     ]
