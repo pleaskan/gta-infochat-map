@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-20T12:49:08+00:00",
+  "genere_le": "2026-11-20T13:35:11+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -638,6 +638,41 @@
       "enonce": "Situé au sud du comté de Vicedale, près de Hamlet et des trois petits lacs, cet entrepôt contient des ennemis déjà éliminés, un sac de butin de 6 000 $, des armes (SMG Type 9, fusil d'assaut Duke 556, pistolet Kalinga Desert Eagle), de la cocaïne et un coffre-fort abritant une carte à collectionner rare (Leroy Rook) d'une valeur de 6 000 $. Le butin doit être déposé chez Brian et la carte vendue au prêteur sur gage d'Amlet pour un gain total estimé à 20 000 $, avec la possibilité de réinitialiser certains objets en rechargant la sauvegarde.",
       "precision": "Localisation : sud du comté de Vicedale, près de Hamlet, à environ 3 miles de la maison de Jason. · Repère : un entrepôt visible sur la carte. · Avant d'entrer : vérifier la boîte à outils jaune pour obtenir des lunettes de soleil. · À l'intérieur : les criminels sont déjà morts. · Sol à droite : SMG Type 9. · Table au centre : sac de butin massif. · Sol : fusil d'assaut Duke 556. · Camion à l'arrière (rempli d'ours en peluche) : cocaïne. · Premier bureau (même étage) : cocaïne sur la table et pistolet Kalinga Desert Eagle. · Deuxième bureau : tiroir-caisse avec 100 $, coffre-fort à ouvrir contenant plus d'argent, de la cocaïne et la carte à collectionner rare Leroy Rook (vendre à un magasin de dépôt-vente). · Avant de partir : ouvrir le rideau métallique pour accéder à un autre camion d'ours en peluche dehors, contenant encore plus de cocaïne. · Lieu : entrepôt au milieu des trois petits lacs, en remontant depuis la maison de Jason. · Action : enfoncer n'importe quelle porte pour entrer. · Butin initial : sac de butin sur une table contenant 6 000 $. · Autres objets : fouiller les corps inertes pour le cash, récupérer des mitrailleuses, fusils d'assaut et pistolets. · Drogue : de la cocaïne présente dans les bureaux et les camions. · Coffre-fort : situé dans les bureaux, contient de la cocaïne, du cash et une carte de collection à revendre dans un pawn shop. · Gains totaux : plus de 15 000 $ (armes incluses) avant la vente de la carte. · Dépot : déposer les sacs à l'entrepôt de Brandon. · Localisation : Sud du comté de Vicedale (South Vicedale County), accessible en allant au nord depuis Key Lento. · Repère : Grand entrepôt rouge situé entre plusieurs maisons de dépôt (pawn shops). · Contenu : Ennemis déjà éliminés (si première visite), cocaïne, objets de valeur, cartes, argent liquide. · Zones de butin : Arrière d'une fourgonnette dans le bâtiment, petit bureau/annexe à droite, deuxième bâtiment principal avec comptoir d'argent et coffre secret. · Réinitialisation : Le coffre et les butins se réinitialisent à chaque chargement de la sauvegarde. · Localisation : bâtiment situé juste en dessous de Vicedale County. · Contenu : beaucoup de cocaïne (coke) et un coffre-fort (safe) contenant de l'argent. · Méthode : 1. Entrer dans le bâtiment et prendre tout le butin (cocaïne et argent du coffre). 2. Vendre tous les objets. 3. Sauvegarder la partie. 4. Recharger la sauvegarde. 5. Reprendre les objets qui sont encore présents (certains réapparaissent). 6. Répéter le processus (sauvegarder/recharger) pour générer de l'argent indéfiniment. · Coffre-fort : situé dans les bureaux, contient de la cocaïne, du cash et une carte de collection. · Capacité de stockage : peut remplir deux sacs entiers et plus, nécessitant parfois le stockage dans un véhicule. · Dépôt : rendre les sacs à l'entrepôt de Brian. · Gain total estimé : plus de 15 000 $ (armes incluses, avant revente de la carte). · Localisation : Nord-est d'Amlet, en dessous de la lettre L de Vice del County. · Contenu : Produits illicites, cash, coffre-fort avec carte à collectionner (valeur 6 000 $). · Dépôt du butin : Chez Brian dans sa planque. · Échange de la carte : Prêteur sur gage d'Amlet. · Gain total : 20 000 $. · Condition : Aucune balle tirée nécessaire.",
       "nb_sources": 6,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 46,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5652,
+     0.5708
+    ]
+   },
+   "properties": {
+    "lieu": "VCIA",
+    "type": "autre",
+    "rayon": 0.04,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-0807b7267483",
+      "categorie": "missions",
+      "enonce": "Un trophée est débloqué en effectuant un départ non programmé à l'aéroport VCIA.",
+      "precision": "Nom du trophée : « Make an unscheduled departure at VCIA ».",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-f9bb9ed0899a",
+      "categorie": "vehicules",
+      "enonce": "Il est possible de passer en vue à la première personne dans les avions.",
+      "precision": "La vue à la première personne est disponible dans les avions.",
+      "nb_sources": 1,
       "verifie_en_jeu": false
      }
     ]
