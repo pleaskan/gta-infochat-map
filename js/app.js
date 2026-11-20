@@ -9,6 +9,8 @@ import * as S from './stockage.js';
 
 /* =================================================================== constantes & état */
 const URL_TIPS = 'data/tips_gta6.geojson';
+// Lieux ajoutés à la main (même format, hors pipeline) : fusionnés aux tips, facultatifs.
+const URLS_TIPS_MANUELS = ['data/vehicules_aeriens.geojson'];
 const CACHE_TUILES = 'carte-tuiles-v1';      // partagé avec sw.js
 const COULEURS = ['#ff3b3b', '#ffd400', '#2ee66b', '#2fb3ff', '#ff8c00', '#c77dff', '#ffffff', '#111111'];
 const OUTILS = [['hand', '✋', 'Main (déplacer)'], ['pen', '✏️', 'Stylo'], ['hl', '🖍️', 'Surligneur'], ['line', '↗️', 'Flèche'], ['erase', '🧽', 'Gomme'], ['mark', '📍', 'Marqueur']];
@@ -486,6 +488,7 @@ async function chargerTips(manuel) {
     const txt = await rep.text();
     let json;
     try { json = JSON.parse(txt); } catch (e) { throw new Error('JSON invalide (' + e.message + ')'); }
+    if (json && Array.isArray(json.features)) json.features = json.features.concat(await tipsManuels());
     const v = validerTips(json);
     if (!v.ok) throw new Error(v.erreur);
     T.lieux = v.lieux; T.stats = v.stats; T.meta = v.meta; T.recu = new Date();
@@ -499,6 +502,18 @@ async function chargerTips(manuel) {
     bandeau('tips', `⚠️ Tips indisponibles : ${esc(e.message)}.` + (T.charge ? ' Les tips précédents restent affichés.' : ' L\'appli reste utilisable.'), [{ t: 'Réessayer', f: () => chargerTips(true) }], 'alerte');
   }
   appliquerFiltres();
+}
+
+async function tipsManuels() {
+  const lots = await Promise.all(URLS_TIPS_MANUELS.map(async u => {
+    try {
+      const r = await fetch(u, { cache: 'no-store' });
+      if (!r.ok) return [];
+      const j = await r.json();
+      return Array.isArray(j && j.features) ? j.features : [];
+    } catch (e) { console.warn(`Lieux manuels « ${u} » ignorés :`, e.message); return []; }
+  }));
+  return lots.flat();
 }
 
 /* =================================================================== tips : filtres + affichage */
@@ -1044,7 +1059,7 @@ async function exporterPNG() {
 async function horsLigne() {
   const cfg = E.carte, P = E.P;
   if (!('caches' in window)) return toast('Cache indisponible sur ce navigateur');
-  const urls = ['maps.json', 'styles.json', URL_TIPS];
+  const urls = ['maps.json', 'styles.json', URL_TIPS, ...URLS_TIPS_MANUELS];
   if (cfg.type === 'image' && cfg.chemin && !cfg.blob) urls.push(cfg.chemin);
   if (cfg.type === 'tuiles') {
     for (let z = 0; z <= P.zn; z++) {

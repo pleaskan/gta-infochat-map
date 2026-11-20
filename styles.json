@@ -20,6 +20,11 @@
       "couleur": "#4cc9f0",
       "icone": "🚗"
     },
+    "aeriens": {
+      "nom": "Avions & hélicos",
+      "couleur": "#00b4d8",
+      "icone": "✈️"
+    },
     "collectibles": {
       "nom": "Collectibles",
       "couleur": "#ffd166",

@@ -4,7 +4,7 @@
  * Les données (maps.json, styles.json, data/*.geojson) sont toujours lues sur le réseau d'abord.
  * Les cartes (maps/…) sont gardées en cache : change le NOM DU DOSSIER quand tu remplaces une carte.
  */
-const VERSION = '2026-11-19.3';
+const VERSION = '2026-11-20.1';
 const CACHE_APP = 'carte-app-' + VERSION;
 const CACHE_DONNEES = 'carte-donnees-v1';
 const CACHE_TUILES = 'carte-tuiles-v1';
@@ -15,7 +15,7 @@ const APP = [
   'lib/leaflet/leaflet.js', 'lib/leaflet/leaflet.css', 'lib/markercluster/leaflet.markercluster.js', 'lib/markercluster/MarkerCluster.css',
   'icons/icon-192.png', 'icons/icon-512.png',
 ];
-const DONNEES = ['maps.json', 'styles.json', 'data/tips_gta6.geojson'];
+const DONNEES = ['maps.json', 'styles.json', 'data/tips_gta6.geojson', 'data/vehicules_aeriens.geojson'];
 
 const portee = () => new URL(self.registration.scope);
 const abs = p => new URL(p, self.registration.scope).href;

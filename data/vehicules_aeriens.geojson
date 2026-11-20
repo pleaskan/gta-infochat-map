@@ -1,0 +1,318 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "genere_le": "2026-11-20T13:30:00+00:00",
+  "source": "manuel : 4 guides YouTube (LunarGaming A1gW7NilkHg, PowerPyx 1xVV8gtutkk + dtJ9ftV_dj4, TheJizzy PQXwWCtd650) analysés image par image, positions recalées sur le poster officiel",
+  "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.554, 0.747] },
+   "properties": {
+    "lieu": "Piste de Pelican Valley (sud de Hamlet)",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-pelican-duster",
+      "categorie": "aeriens",
+      "enonce": "Bottcher Duster (biplan) garé sur la vieille piste en terre au sud de Hamlet, près de la maison de Jason : avion disponible dès le chapitre 1.",
+      "precision": "Libre : pas d'étoiles de recherche. Compte pour la collection « Aircraft » (Progress ▸ Véhicules). Une épave d'hélico traîne aussi au bord de la piste. Sources : LunarGaming, PowerPyx, TheJizzy (YouTube).",
+      "nb_sources": 3,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "air-pelican-brouillard",
+      "categorie": "astuces",
+      "enonce": "Prendre ce biplan tôt pour survoler tout Leonida et lever le brouillard de la carte : nécessaire pour le trophée « The Goodtime State » (explorer tout Leonida).",
+      "precision": "Source : PowerPyx (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.325, 0.852] },
+   "properties": {
+    "lieu": "Héliport de Southwind",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-southwind-maverick",
+      "categorie": "aeriens",
+      "enonce": "Buckingham Maverick (hélico jaune et noir) sur le ponton « PVT » au sud de Southwind, juste à l'est de la base de Mile Zero.",
+      "precision": "Héliport marqué sur la carte, hors de la base militaire : pas d'étoiles. Source : LunarGaming (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.295, 0.848] },
+   "properties": {
+    "lieu": "Mile Zero Air Station — chasseurs",
+    "type": "point_interet",
+    "rayon": 0.02,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-milezero-lazer",
+      "categorie": "aeriens",
+      "enonce": "Hauners P-996 Lazer (chasseur militaire) garé sur le tarmac de la Mile Zero Air Station : entre par le portail côté Southwind (Sunbelt Hwy) et fonce jusqu'aux avions avant que les soldats ne t'arrêtent.",
+      "precision": "Le plus simple : passer les barrages à moto. Autre accès : le tremplin (saut acrobatique) sur la butte de terre au coin sud-est de la base. Voler le jet donne des étoiles de recherche ; l'armée te poursuit et sait où tu es (balise militaire dans l'avion), espace aérien restreint. Compte pour la collection « Véhicules militaires ». Source : PowerPyx (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.606, 0.706] },
+   "properties": {
+    "lieu": "Héliport de Hamlet (près de la T.H. Power Station)",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-hamlet-swift",
+      "categorie": "aeriens",
+      "enonce": "Buckingham Swift (hélico vert) sur l'héliport de la presqu'île à l'est de Hamlet, au-dessus de la marina.",
+      "precision": "Héliport marqué sur la carte : pas d'étoiles. Source : LunarGaming (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.353, 0.656] },
+   "properties": {
+    "lieu": "Aéroport Henry J Edwards",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-edwards-mallard",
+      "categorie": "aeriens",
+      "enonce": "Lapwing Mallard (avion de voltige « Black Dragon » noir et orange) sur la piste de l'aéroport Henry J Edwards, à l'ouest de Grassrivers.",
+      "precision": "Aérodrome marqué sur la carte : pas d'étoiles. Compte pour la collection « Aircraft ». Source : LunarGaming (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.302, 0.56] },
+   "properties": {
+    "lieu": "Hydrobase de Capri (Flying Whale)",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-capri-dodo",
+      "categorie": "aeriens",
+      "enonce": "Mammoth Dodo (hydravion rouge et blanc « Flying Whale ») devant le hangar de Flying Whale Seaplane Adventures, sur la rive sud de Capri.",
+      "precision": "D'autres hydravions sont amarrés au ponton. Pas d'étoiles. Source : LunarGaming (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.266, 0.379] },
+   "properties": {
+    "lieu": "Wild Hog Airfield",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-wildhog-buzzard",
+      "categorie": "aeriens",
+      "enonce": "Bottcher Buzzard (hélico militaire léger) sur l'hélipad de Wild Hog Airfield, sur la pointe au sud-ouest de Port Gellhorn.",
+      "precision": "Pas d'étoiles, contrairement à la base militaire. Compte pour la collection « Véhicules militaires ». Source : LunarGaming (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.466, 0.344] },
+   "properties": {
+    "lieu": "Piste de Frogswater (ferme McKintrick)",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-frogswater-epandage",
+      "categorie": "aeriens",
+      "enonce": "Avion d'épandage rouge (immatriculé N042MF3, livrée McKintrick) garé sur la piste en herbe à l'est de Frogswater, au sud du Thrillbilly Mud Club.",
+      "precision": "Nom du modèle non affiché dans la vidéo. Sur place, Kyle McKintrick demande si tu viens « pour le job d'épandage ». Source : LunarGaming (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.45, 0.272] },
+   "properties": {
+    "lieu": "Aérodrome de North Kelly County",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-northkelly-meteor",
+      "categorie": "aeriens",
+      "enonce": "Bottcher Meteor Duster (biplan rouge) devant les hangars, au bout ouest de la piste de North Kelly County, le long de l'Interstate 297.",
+      "precision": "Aérodrome marqué sur la carte : pas d'étoiles. Compte pour la collection « Rétro ». Source : LunarGaming (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.502, 0.161] },
+   "properties": {
+    "lieu": "Piste de Moreau (East Lummox)",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-moreau-helico",
+      "categorie": "aeriens",
+      "enonce": "Hélicoptère blanc près du hangar de la petite piste au sud-est de Bonanza, à l'ouest de Moreau.",
+      "precision": "Nom du modèle non affiché dans la vidéo. Pas d'étoiles. Source : LunarGaming (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.548, 0.156] },
+   "properties": {
+    "lieu": "Héliport de la Moreau River",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-moreauriver-ranger",
+      "categorie": "aeriens",
+      "enonce": "Buckingham Maverick aux couleurs « National Park Ranger » sur l'héliport au bord de la Moreau River, au nord-est de Moreau.",
+      "precision": "Héliport marqué sur la carte : pas d'étoiles. Source : LunarGaming (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.631, 0.385] },
+   "properties": {
+    "lieu": "Piste de Chateau Cellerica (Belville)",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-cellerica-mammatus",
+      "categorie": "aeriens",
+      "enonce": "Lapwing Mammatus (petit monomoteur) garé au bout sud de la piste privée de Chateau Cellerica, au nord de Belville.",
+      "precision": "Pas d'étoiles. Source : LunarGaming (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.679, 0.327] },
+   "properties": {
+    "lieu": "Aérodrome de Sabal Palms (Waning Sands)",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-sabalpalms-300h",
+      "categorie": "aeriens",
+      "enonce": "Lapwing 300-H (avion d'épandage vert, aussi bon en voltige) dans le hangar n° 3 de la piste le long de la route, entre le lac Leonida et Sabal Palms.",
+      "precision": "Pas d'étoiles. Compte pour la collection « Aircraft ». Source : LunarGaming (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.805, 0.386] },
+   "properties": {
+    "lieu": "Héliport de Flamingo Island",
+    "type": "point_interet",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-flamingo-seasparrow",
+      "categorie": "aeriens",
+      "enonce": "Nagasaki Sea Sparrow (hélico à flotteurs) et d'autres hélicoptères sur les hélipads « PVT » de Flamingo Island, au sud de Vinewood Beach.",
+      "precision": "Héliport marqué sur la carte : pas d'étoiles. Source : LunarGaming (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": { "type": "Point", "coordinates": [0.56, 0.567] },
+   "properties": {
+    "lieu": "VCIA — Vice City International Airport",
+    "type": "point_interet",
+    "rayon": 0.03,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "air-vcia-recherche",
+      "categorie": "aeriens",
+      "enonce": "Avions à l'aéroport international, mais y entrer donne des étoiles de recherche (comme la base militaire et les postes de sauveteurs). Préfère les aérodromes et héliports marqués sur la carte : gratuits, sans étoiles, avion présent presque à chaque fois.",
+      "precision": "Hydravions et hélicos aussi le long des côtes, autour du lac Leonida et de Grassrivers. À Vice City, il y a un héliport sur le toit de la plupart des grandes tours et des gros hôtels. Source : LunarGaming (YouTube).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  }
+ ]
+}

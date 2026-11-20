@@ -72,6 +72,7 @@ Poster officiel « Leonida Map Poster Printable » (5775×7900, CMJN) → `tools
 
 Le pipeline écrit `data/tips_gta6.geojson` (format : **SCHEMA_GEOJSON.md**) puis `git commit` + `git push`.
 L'appli lit ce fichier sur le réseau d'abord (copie hors ligne sinon) ; bouton **Actualiser** dans le menu ou le panneau Filtres. La date des données s'affiche dans *Panneau ▸ Filtres*. GitHub Pages peut mettre jusqu'à environ 10 minutes à servir la nouvelle version.
+**Lieux ajoutés à la main** : `data/vehicules_aeriens.geojson` (même format, jamais touché par le pipeline) est fusionné aux tips au chargement (liste `URLS_TIPS_MANUELS` dans `js/app.js`, à ajouter aussi à `DONNEES` dans `sw.js`). Fichier absent ou cassé → ignoré sans bloquer les tips. Ids de tips préfixés `air-` pour rester stables.
 Pour tester sans vraies données : `python3 tools/generer_tips_exemple.py` (30 lieux) ou `… 2000 data/tips_gta6.geojson` (test de charge).
 
 ## Publier sur GitHub Pages
