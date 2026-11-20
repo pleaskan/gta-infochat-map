@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-20T13:35:11+00:00",
+  "genere_le": "2026-11-20T14:34:29+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -35,6 +35,14 @@
       "categorie": "armes",
       "enonce": "Un emplacement de butin secret souterrain contenant une RPG et une SMG légendaire entièrement équipée se trouve dans une remorque bleue située en face d'un stand de tir, sous la zone de Leonida.",
       "precision": "Ouvrir la carte et repérer le stand de tir (firing range) situé sous la zone de Leonida. · Traverser la route depuis le stand de tir pour atteindre des grilles (gates). · Pénétrer dans la zone via les grilles. · Entrer dans la remorque bleue (blue trailer). · Trouver et ouvrir un trappe (hatch) à l'intérieur de la remorque. · Descendre pour accéder au butin : une RPG et une SMG légendaire entièrement équipée (fully kitted out).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-16d6cc9f384b",
+      "categorie": "armes",
+      "enonce": "Localisation du fusil Black Eagle Import M306 TMR Rifle : il se trouve dans un casier à armes dans l'entrepôt adjacent au magasin de munitions Black Eagle, sous la lettre D de Leonida.",
+      "precision": "Le magasin est situé juste sous la lettre D sur la carte de Leonida. · Il ne faut pas entrer dans le magasin de munitions, mais dans l'entrepôt directement à côté. · Des employés sont présents et ordonnent de partir · il faut les assommer. · Il faut attendre que la chaleur (alerte) retombe avant de réentrer, car l'endroit sera vide. · Il faut utiliser un chariot élévateur pour déplacer des boîtes de stockage et dégager l'accès à la zone grillagée. · Le fusil est dans un casier à armes dans cette zone grillagée. · L'arme est un fusil Black Eagle Import M306 TMR Rifle, avec silencieux et lunette à zoom ajustable.",
       "nb_sources": 1,
       "verifie_en_jeu": false
      }
