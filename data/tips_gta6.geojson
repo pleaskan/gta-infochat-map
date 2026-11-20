@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-20T12:28:19+00:00",
+  "genere_le": "2026-11-20T12:49:08+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -700,6 +700,33 @@
       "enonce": "La Mitsubishi Eclipse de Paul Walker arbore une plaque d'immatriculation affichant le texte « Had You », en référence à la réplique « I always had you » prononcée par l'acteur dans la franchise Fast & Furious.",
       "precision": "La plaque d'immatriculation affiche le texte « had you ». · C'est une référence à la réplique « I always had you ». · Élément : plaques d'immatriculation (license plates). · Texte affiché : « Had You ». · Référence : réplique de Paul Walker dans le film Fast and Furious.",
       "nb_sources": 2,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 63,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.7855,
+     0.5135
+    ]
+   },
+   "properties": {
+    "lieu": "Starfish Island",
+    "type": "autre",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-e0531a5650a8",
+      "categorie": "vehicules",
+      "enonce": "Plusieurs supercars, dont une Leopard Prince et des Lamborghini, se trouvent dans le garage d'une maison sur Starfish Island.",
+      "precision": "Lieu : maison marquée sur la carte sur Starfish Island, située juste en dessous des îles de Vespucci et Casanova. · Véhicule 1 : Leopard Prince avec la plaque d'immatriculation « pounce ». · Véhicule 2 : G-Wagon. · Véhicule 3 : plusieurs Lamborghini (a couple of Lambos). · Position : à l'extérieur et dans le garage à côté de la Leopard Prince.",
+      "nb_sources": 1,
       "verifie_en_jeu": false
      }
     ]
