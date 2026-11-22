@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-22T12:24:14+00:00",
+  "genere_le": "2026-11-22T14:02:44+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -308,6 +308,14 @@
       "categorie": "exploration",
       "enonce": "Un événement easter egg impliquant des aliens se déclenche dans le comté de Kelly, près de Port Gellhorn, après 2h du matin, et entraîne la perte de trois jours de jeu ainsi que le déblocage d'un trophée secret.",
       "precision": "Lieu : Kelly County, près de Port Gellhorn. · Heure : après 2h du matin. · Déclencheur : une voiture garée au bord de la route avec les phares qui clignotent, le coffre ouvert et des vêtements par terre. · Action : suivre la piste dans les bois jusqu'à une lueur bleue. · Événement : un OVNI aspire une femme, puis Jason. · Conséquence : Jason se réveille trois jours plus tard, Lucia appelle pour demander où il était. · Récompense : déblocage d'un trophée secret.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-37485831cfd3",
+      "categorie": "exploration",
+      "enonce": "Le comté de Kelly, situé au centre de la carte, comprend Emerald Springs (eau turquoise, marais), Port Gellhorn (motels, circuit de dragster, raffinerie) et Ambrosia (ville des bikers, usine à sucre, terrain de motocross).",
+      "precision": "Emerald Springs : au centre, eau turquoise au milieu des marais · Port Gellhorn : motels fatigués, circuit avec piste de dragster, énorme raffinerie · Ambrosia : ville des bikers, immense usine à sucre, terrain de motocross",
       "nb_sources": 1,
       "verifie_en_jeu": false
      },
@@ -632,6 +640,14 @@
       "categorie": "exploration",
       "enonce": "Un événement easter egg impliquant des aliens se déclenche dans le comté de Kelly, près de Port Gellhorn, après 2h du matin, et entraîne la perte de trois jours de jeu ainsi que le déblocage d'un trophée secret.",
       "precision": "Lieu : Kelly County, près de Port Gellhorn. · Heure : après 2h du matin. · Déclencheur : une voiture garée au bord de la route avec les phares qui clignotent, le coffre ouvert et des vêtements par terre. · Action : suivre la piste dans les bois jusqu'à une lueur bleue. · Événement : un OVNI aspire une femme, puis Jason. · Conséquence : Jason se réveille trois jours plus tard, Lucia appelle pour demander où il était. · Récompense : déblocage d'un trophée secret.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-37485831cfd3",
+      "categorie": "exploration",
+      "enonce": "Le comté de Kelly, situé au centre de la carte, comprend Emerald Springs (eau turquoise, marais), Port Gellhorn (motels, circuit de dragster, raffinerie) et Ambrosia (ville des bikers, usine à sucre, terrain de motocross).",
+      "precision": "Emerald Springs : au centre, eau turquoise au milieu des marais · Port Gellhorn : motels fatigués, circuit avec piste de dragster, énorme raffinerie · Ambrosia : ville des bikers, immense usine à sucre, terrain de motocross",
       "nb_sources": 1,
       "verifie_en_jeu": false
      },
@@ -1786,6 +1802,14 @@
       "precision": "Véhicule : Anise Elegy (Skyline) · Lieu : Guarded Mansion sur Starfish Island · Action : Sauter la clôture · Caractéristiques : Pas d'alarme, pas de traceur · Départ : Conduire directement à travers la clôture",
       "nb_sources": 1,
       "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-01d6ca2ac46b",
+      "categorie": "vehicules",
+      "enonce": "Un véhicule argenté très coûteux se trouve dans le garage d'une villa située sur l'île Starfish Island.",
+      "precision": "Il faut se rendre sur l'île Starfish Island. · Localiser la villa (mansion) indiquée sur la carte. · Ouvrir le garage de la villa pour trouver le véhicule. · Le véhicule est décrit comme l'un des plus chers du jeu et de couleur argentée (silver-plated).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
      }
     ]
    }
@@ -2036,6 +2060,33 @@
   },
   {
    "type": "Feature",
+   "id": 77,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4597,
+     0.4197
+    ]
+   },
+   "properties": {
+    "lieu": "Emerland Springs",
+    "type": "autre",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-37485831cfd3",
+      "categorie": "exploration",
+      "enonce": "Le comté de Kelly, situé au centre de la carte, comprend Emerald Springs (eau turquoise, marais), Port Gellhorn (motels, circuit de dragster, raffinerie) et Ambrosia (ville des bikers, usine à sucre, terrain de motocross).",
+      "precision": "Emerald Springs : au centre, eau turquoise au milieu des marais · Port Gellhorn : motels fatigués, circuit avec piste de dragster, énorme raffinerie · Ambrosia : ville des bikers, immense usine à sucre, terrain de motocross",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": 85,
    "geometry": {
     "type": "Point",
@@ -2082,6 +2133,60 @@
       "categorie": "exploration",
       "enonce": "Un spot de butin oublié se trouve dans une ferme de méthamphétamine située juste au-dessus de Belleville, au sud du comté de Leonard, contenant une moto custom, une arme légendaire et de l'argent.",
       "precision": "Lieu : ferme de méthamphétamine (meth farm lab) juste au-dessus de Belleville, au sud du comté de Leonard (South Leonard County).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 90,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.7392,
+     0.3228
+    ]
+   },
+   "properties": {
+    "lieu": "Waning Sands",
+    "type": "autre",
+    "rayon": 0.025,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-42f994a118d0",
+      "categorie": "exploration",
+      "enonce": "Le comté de Léonard est la plus petite région, contenant le lac Leonida (inspiré du lac Okichobi) et des petites villes comme Waning Sands, qui dispose de centres commerciaux adaptés au shopping ou aux braquages.",
+      "precision": "Lac Leonida : inspiré du lac Okichobi · Waning Sands : petite ville avec centres commerciaux parfaits pour le shopping ou les braquages",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 115,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.6587,
+     0.2305
+    ]
+   },
+   "properties": {
+    "lieu": "Millport",
+    "type": "autre",
+    "rayon": 0.025,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-1c7546513114",
+      "categorie": "exploration",
+      "enonce": "La région de Lumox, territoire du mont Calaga, offre la plus grande zone sauvage du jeu avec rivière, cascade et canoë, ainsi que la ville de Milleport à l'est qui pourrait contenir des parcs d'attractions.",
+      "precision": "Mont Calaga : territoire principal · Activités : rivière, cascade, canoë · Milleport : à l'est, possible présence de parcs d'attractions façon Orlando",
       "nb_sources": 1,
       "verifie_en_jeu": false
      }
