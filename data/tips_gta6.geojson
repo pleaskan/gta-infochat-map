@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-22T14:02:44+00:00",
+  "genere_le": "2026-11-22T15:24:50+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -699,6 +699,41 @@
   },
   {
    "type": "Feature",
+   "id": 14,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4987,
+     0.2013
+    ]
+   },
+   "properties": {
+    "lieu": "Lummox County",
+    "type": "region",
+    "rayon": 0.1,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-9a0b83bba38b",
+      "categorie": "armes",
+      "enonce": "Sur l'île de Squid Game, des munitions de fusils à pompe sont cachées dans de petites cachettes éclairées par des lumières.",
+      "precision": "Munitions de fusils à pompe. · Cachettes avec des lumières. · Conseil de tout récupérer.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-d15fddaa10f1",
+      "categorie": "armes",
+      "enonce": "Un sniper est obtenu en le ramassant sur le corps de l'ennemi tué lors de la séquence sur l'île de Squid Game.",
+      "precision": "Arme : Sniper. · Emplacement : sur le corps de l'ennemi tué.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": 15,
    "geometry": {
     "type": "Point",
@@ -1099,6 +1134,14 @@
       "categorie": "exploration",
       "enonce": "Un Bigfoot (Skunk Ape) peut être aperçu dans les marais près du lac Cottonmouth, au sud de Hamlet, dès l'ouverture du mode libre.",
       "precision": "Lieu : marais près du lac Cottonmouth, juste au sud de Hamlet. · Prérequis : mode libre ouvert. · Comportement : écouter un grondement profond, vérifier la route, il mange un cerf cru. · Interaction : les balles ne l'atteignent pas, il s'enfuit dans les bois, impossible à capturer.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-096070b3edf0",
+      "categorie": "personnages",
+      "enonce": "Au lac Cottonmouth, il faut écouter un grondement pour localiser le Skunk Ape, la version de Bigfoot dans GTA VI.",
+      "precision": "Lieu : Cottonmouth Lake. · Indice sonore : grondement (growl). · Personnage : Skunk Ape (comparé à Bigfoot).",
       "nb_sources": 1,
       "verifie_en_jeu": false
      }
@@ -1714,6 +1757,14 @@
       "categorie": "personnages",
       "enonce": "Le magasin de vêtements Street Stock 305 se trouve au nord de la ville dans le quartier de Stockyard, près du salon de tatouage Electric Fang qui propose 50 tatouages exclusifs.",
       "precision": "Magasin : Stock 305 (vêtements street). · Localisation : nord de la ville, quartier de Stockyard. · Proximité : quasiment au même endroit que le salon de tatouage Electric Fang. · Contenu : 50 tatouages exclusifs chez Electric Fang.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-7e25988239c8",
+      "categorie": "vehicules",
+      "enonce": "Une Cadillac Lowrider des années 1970 avec des jantes dorées et un habillage bleu, identique à celle des bandes-annonces, se trouve dans le quartier de Stockyard.",
+      "precision": "Quartier : Stockyard, à Vice City. · Description du véhicule : Cadillac Lowrider 1970s, jantes dorées, habillage bleu. · Référence : Identique au véhicule des bandes-annonces de GTA.",
       "nb_sources": 1,
       "verifie_en_jeu": false
      }
