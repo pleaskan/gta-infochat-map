@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-22T06:07:10+00:00",
+  "genere_le": "2026-11-22T06:49:42+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -76,7 +76,7 @@
      {
       "id": "tip-e3c33cc80e23",
       "categorie": "vehicules",
-      "enonce": "La voiture de Paul Walker (Fast and Furious) se trouve dans un garage sur Vespucci Island, accessible en passant par la maison et en sautant par-dessus le mur pour éviter les gardes armés.",
+      "enonce": "La Mitsubishi Eclipse de Paul Walker (Fast & Furious) se trouve dans le garage d'une grande maison située sur Vespucci Island, accessible dès le début du jeu sans prérequis de mission. Pour y accéder, il faut forcer l'entrée de la propriété (via le portail ou en brisant la vitre), ce qui déclenche une alarme et attire la police ; le véhicule ne possède pas de traceur mais ne peut pas être stocké.",
       "precision": "Lieu : Vespucci Island, devant une maison surveillée par des gardes armés. · Accès : Passer par la maison d'un côté, sauter par-dessus le mur, se diriger vers le garage. · Véhicule : Voiture de Paul Walker (Fast and Furious). · Lieu : Vespucci Island, au centre de Vice City, sur les îles avec les grandes maisons. · Position exacte : À un croisement précis, entrer dans la maison située sur le côté via le portail. · Action : Se rendre au garage et le forcer avec un tournevis. · Détail : La voiture n'a pas de traceur. · Condition : Attendre que l'alarme s'arrête après le vol pour pouvoir rouler. · 1. Ouvrir la carte et se rendre au nord de la zone de départ (starter area) jusqu'au comté de Vicedale County. · 2. Zoomer au maximum pour repérer une petite île nommée Rialto Islands. · 3. Identifier un très grand bâtiment situé au centre de l'île. · 4. Arriver sur place et entrer de force dans la maison/garage (briser l'entrée). · 5. Ouvrir le garage normalement avant d'accéder à la voiture. · 6. Briser la vitre de la Mitsubishi Eclipse (ce qui déclenche une alarme). · 7. Pirater le véhicule (hotwire). · 8. S'échapper en gérant la présence de la police. · Point de départ : aller vers le haut et la droite depuis le spawn principal. · Lieu : île des Rialto Islands. · Bâtiment : grande maison au centre de l'île. · Accès : forcer l'entrée par la porte ou par le garage. · Risque : la voiture est chère, ce qui attire la police · il faut s'échapper. · Accessible dès le début du jeu, avant d'avoir complété des missions. · Départ : maison de Jason. · Distance : environ 5 miles. · Lieu : île de Vespucci, près de Vice City. · Repère : une maison spécifique marquée sur la carte, avec deux voitures garées devant. · Action : forcer le garage pour trouver la voiture. · Lieu : Vespucci Island, devant une maison. · Risque : Plusieurs gardes armés surveillent la propriété. · Accès : Passer par la maison d'un côté, sauter par-dessus les buissons, se diriger vers le garage. · Accès : Se rendre à un croisement précis, entrer dans la maison sur le côté via le portail. · Action : Forcer le garage avec un tournevis. · État du véhicule : Pas de traceur, il faut attendre que l'alarme s'arrête pour la rouler. · Nom du véhicule : Paul Walker's Mr. PC Eclipse · Véhicule : Mitsubishi Eclipse (référence Fast and the Furious) · Avantage : pas de traceur · Inconvénient : impossible de la stocker (can't store it) · Localisation : dans un garage (non précisé nommément dans la transcription, mais distinct des supercars du 919) · La voiture est identifiée comme étant celle de Paul Walker.",
       "nb_sources": 8,
       "verifie_en_jeu": false
@@ -84,7 +84,7 @@
      {
       "id": "tip-3dac9712a9d4",
       "categorie": "vehicules",
-      "enonce": "Une autre Lamborghini entièrement dorée se trouve au sommet d'une rampe sur le côté droit du gratte-ciel Crimson Palms à Vice City.",
+      "enonce": "Une Lamborghini Aventador entièrement dorée est stationnée non gardée au sommet d'une rampe située sur le côté droit du gratte-ciel Crimson Palms à Vice City, sur Washington Island, juste au-dessus des îles de Vespucci et Casanova. Pour y accéder, il faut suivre le côté droit du bâtiment et monter la rampe jusqu'en haut.",
       "precision": "Lieu : Vice City, devant le gratte-ciel Crimson Palms. · Accès : Suivre le côté droit du bâtiment, monter la rampe jusqu'en haut. · Véhicule : Lamborghini entièrement dorée. · Lieu : Crimson Palace Condominiums, situé juste au-dessus des îles de Vespucci et Casanova. · Position : monter la rampe sur le côté droit. · Véhicule : Lamborghini Aventador en or massif (solid gold Lamborghini Aventador). · Sécurité : véhicule non surveillé (unattended). · Lieu : Washington Island, à côté de Casanova Island. · Accès : Conduire jusqu'au grand gratte-ciel, trouver la rampe à droite du panneau « crimson palm », suivre la rampe tout autour du bâtiment. · Véhicule : Lamborghini Aventador en or métallique (metallic gold). · Lieu : Vice City, bâtiment Crimson Palms. · Accès : Passer sur le côté droit du bâtiment, monter la rampe. · Conseil : Débloquer la possibilité de cloner les clés et d'immatriculer les véhicules avant de les voler pour les conserver définitivement. · Bâtiment : Crimson Palms · Position : Washington Island, juste à côté · Accès : Prendre la route normale comme un habitant · Emplacement exact : Premier étage du parking, directement à droite · Statut du véhicule : Considéré comme un véhicule remarquable (unique) dans le jeu · Lieu : Nord des îles, bâtiment Crimson Palms. · Emplacement précis : Côté droit du bâtiment. · Véhicule : Lamborghini Aventador dorée.",
       "nb_sources": 6,
       "verifie_en_jeu": false
@@ -116,7 +116,7 @@
      {
       "id": "tip-e40fb9b24cd3",
       "categorie": "vehicules",
-      "enonce": "La voiture secrète Maibatsu Penumbra FF, réplique de la voiture de Paul Walker, se trouve dans le garage d'une maison au bord de l'océan à l'est de Vice City. Pour l'obtenir, il faut entrer par la petite porte latérale et utiliser le boîtier mural pour ouvrir la porte du garage avant de sortir.",
+      "enonce": "La voiture secrète Maibatsu Penumbra FF, réplique de la voiture de Paul Walker dans Fast & Furious, se trouve dans le garage d'une maison située dans une petite rue au bord de l'océan, à l'est de Vice City. Pour l'obtenir, il faut entrer par la petite porte latérale, monter dans le véhicule (vert et bleu, avec autocollants de course et grand aileron), puis utiliser le boîtier mural adjacent pour ouvrir la porte du garage avant de sortir.",
       "precision": "Véhicule : Maibatsu Penumbra FF (réplique de la voiture de Paul Walker dans Fast & Furious). · Apparence : verte et bleue, avec autocollants de course et grand aileron. · Localisation : garage d'une maison dans une petite rue au bord de l'océan, à l'est de Vice City. · Accès : ne pas utiliser la grande porte du garage, passer par la petite porte sur le côté. · Sortie : la porte du garage reste fermée une fois la voiture prise · il faut aller jusqu'au boîtier fixé au mur juste à côté et appuyer sur « ouvrir » pour que la porte se lève. · Véhicule : Maibatsu Penumbra FF (réplique de la voiture de Paul Walker dans Fast & Furious 1). · Apparence : verte et bleue, autocollants de course, grand aileron. · il faut aller au boîtier fixé au mur juste à côté et appuyer sur « ouvrir » pour lever la porte.",
       "nb_sources": 2,
       "verifie_en_jeu": false
@@ -432,7 +432,7 @@
      {
       "id": "tip-d0e8dc73324a",
       "categorie": "argent",
-      "enonce": "Une caisse à outils jaune contenant quelques dollars se trouve à l'extérieur de l'entrepôt au nord du comté de Mariana.",
+      "enonce": "Une caisse à outils jaune contenant de l'argent liquide se trouve juste devant l'entrée de l'entrepôt situé au nord du comté de Mariana.",
       "precision": "Lieu : extérieur de l'entrepôt au nord du comté de Mariana. · Objet : caisse à outils jaune. · Emplacement : juste devant l'entrée de l'entrepôt. · Objet : boîte à outils jaune. · Contenu : cash.",
       "nb_sources": 2,
       "verifie_en_jeu": false
@@ -499,7 +499,7 @@
      {
       "id": "tip-e3c33cc80e23",
       "categorie": "vehicules",
-      "enonce": "La voiture de Paul Walker (Fast and Furious) se trouve dans un garage sur Vespucci Island, accessible en passant par la maison et en sautant par-dessus le mur pour éviter les gardes armés.",
+      "enonce": "La Mitsubishi Eclipse de Paul Walker (Fast & Furious) se trouve dans le garage d'une grande maison située sur Vespucci Island, accessible dès le début du jeu sans prérequis de mission. Pour y accéder, il faut forcer l'entrée de la propriété (via le portail ou en brisant la vitre), ce qui déclenche une alarme et attire la police ; le véhicule ne possède pas de traceur mais ne peut pas être stocké.",
       "precision": "Lieu : Vespucci Island, devant une maison surveillée par des gardes armés. · Accès : Passer par la maison d'un côté, sauter par-dessus le mur, se diriger vers le garage. · Véhicule : Voiture de Paul Walker (Fast and Furious). · Lieu : Vespucci Island, au centre de Vice City, sur les îles avec les grandes maisons. · Position exacte : À un croisement précis, entrer dans la maison située sur le côté via le portail. · Action : Se rendre au garage et le forcer avec un tournevis. · Détail : La voiture n'a pas de traceur. · Condition : Attendre que l'alarme s'arrête après le vol pour pouvoir rouler. · 1. Ouvrir la carte et se rendre au nord de la zone de départ (starter area) jusqu'au comté de Vicedale County. · 2. Zoomer au maximum pour repérer une petite île nommée Rialto Islands. · 3. Identifier un très grand bâtiment situé au centre de l'île. · 4. Arriver sur place et entrer de force dans la maison/garage (briser l'entrée). · 5. Ouvrir le garage normalement avant d'accéder à la voiture. · 6. Briser la vitre de la Mitsubishi Eclipse (ce qui déclenche une alarme). · 7. Pirater le véhicule (hotwire). · 8. S'échapper en gérant la présence de la police. · Point de départ : aller vers le haut et la droite depuis le spawn principal. · Lieu : île des Rialto Islands. · Bâtiment : grande maison au centre de l'île. · Accès : forcer l'entrée par la porte ou par le garage. · Risque : la voiture est chère, ce qui attire la police · il faut s'échapper. · Accessible dès le début du jeu, avant d'avoir complété des missions. · Départ : maison de Jason. · Distance : environ 5 miles. · Lieu : île de Vespucci, près de Vice City. · Repère : une maison spécifique marquée sur la carte, avec deux voitures garées devant. · Action : forcer le garage pour trouver la voiture. · Lieu : Vespucci Island, devant une maison. · Risque : Plusieurs gardes armés surveillent la propriété. · Accès : Passer par la maison d'un côté, sauter par-dessus les buissons, se diriger vers le garage. · Accès : Se rendre à un croisement précis, entrer dans la maison sur le côté via le portail. · Action : Forcer le garage avec un tournevis. · État du véhicule : Pas de traceur, il faut attendre que l'alarme s'arrête pour la rouler. · Nom du véhicule : Paul Walker's Mr. PC Eclipse · Véhicule : Mitsubishi Eclipse (référence Fast and the Furious) · Avantage : pas de traceur · Inconvénient : impossible de la stocker (can't store it) · Localisation : dans un garage (non précisé nommément dans la transcription, mais distinct des supercars du 919) · La voiture est identifiée comme étant celle de Paul Walker.",
       "nb_sources": 8,
       "verifie_en_jeu": false
@@ -1092,7 +1092,7 @@
      {
       "id": "tip-1660bd4d8d75",
       "categorie": "argent",
-      "enonce": "Un point de butin secret situé à quelques miles de la maison de Jason contient une AK-47 dorée légendaire, un lance-grenades, une montre de luxe et 6 000 $.",
+      "enonce": "Un point de butin secret situé à quelques miles de la maison de Jason, près de Watson's Bay, permet d'obtenir une AK-47 dorée, un lance-grenades, une montre de luxe et 6 000 $ en liquide dès le début du jeu. L'accès se fait en passant par un trou dans la clôture sur le côté pour éviter les gardes.",
       "precision": "Localisation : à quelques miles de la maison de Jason. · Accès : passer par un trou dans la clôture sur le côté pour éviter les gardes. · Butin principal : AK-47 dorée légendaire, lance-grenades, montre de luxe, 6 000 $ au total. · Méthode d'accès : infiltration discrète ou élimination des ennemis (facile). · Accessible en début de jeu (early game). · Point de départ : la maison de Jason. · Destination : un complexe (compound) situé à quelques miles de Watson's Bay. · Butin : AK-47 dorée (rare), lance-grenades, montre de luxe, 6 000 $ à 50 000 $.",
       "nb_sources": 2,
       "verifie_en_jeu": false
@@ -1194,7 +1194,7 @@
      {
       "id": "tip-c77afe9e2c74",
       "categorie": "argent",
-      "enonce": "Une cache contenant des milliers de dollars est obtenue en éliminant un personnage spécifique présent dans une zone juste à l'intérieur de Hamlet, souvent ignorée par les joueurs.",
+      "enonce": "Juste à l'intérieur de Hamlet, éliminez le personnage présent sur place pour obtenir une sacoche de cache contenant des milliers de dollars, puis pillez la zone pour récupérer de l'argent liquide, des objets vendables et un véhicule. En vendant l'ensemble de ce butin, le joueur peut obtenir plus de 30 000 $ au total.",
       "precision": "Lieu : juste à l'intérieur de Hamlet (just inside Hamlet). · Action : éliminer le personnage présent sur place (take her down). · Récompense : une sacoche de cache (stash bag) contenant des milliers de dollars. · Contexte : la zone contient également de l'argent liquide et des objets vendables. · Gains totaux estimés : plus de 30 000 $ (over $30,000). · Composantes des gains : argent liquide trouvé sur place, objets vendables, contenu de la sacoche de cache, valeur de revente du véhicule. · Condition : vendre tout le butin (sell everything).",
       "nb_sources": 1,
       "verifie_en_jeu": false
@@ -1637,7 +1637,7 @@
      {
       "id": "tip-e3c33cc80e23",
       "categorie": "vehicules",
-      "enonce": "La voiture de Paul Walker (Fast and Furious) se trouve dans un garage sur Vespucci Island, accessible en passant par la maison et en sautant par-dessus le mur pour éviter les gardes armés.",
+      "enonce": "La Mitsubishi Eclipse de Paul Walker (Fast & Furious) se trouve dans le garage d'une grande maison située sur Vespucci Island, accessible dès le début du jeu sans prérequis de mission. Pour y accéder, il faut forcer l'entrée de la propriété (via le portail ou en brisant la vitre), ce qui déclenche une alarme et attire la police ; le véhicule ne possède pas de traceur mais ne peut pas être stocké.",
       "precision": "Lieu : Vespucci Island, devant une maison surveillée par des gardes armés. · Accès : Passer par la maison d'un côté, sauter par-dessus le mur, se diriger vers le garage. · Véhicule : Voiture de Paul Walker (Fast and Furious). · Lieu : Vespucci Island, au centre de Vice City, sur les îles avec les grandes maisons. · Position exacte : À un croisement précis, entrer dans la maison située sur le côté via le portail. · Action : Se rendre au garage et le forcer avec un tournevis. · Détail : La voiture n'a pas de traceur. · Condition : Attendre que l'alarme s'arrête après le vol pour pouvoir rouler. · 1. Ouvrir la carte et se rendre au nord de la zone de départ (starter area) jusqu'au comté de Vicedale County. · 2. Zoomer au maximum pour repérer une petite île nommée Rialto Islands. · 3. Identifier un très grand bâtiment situé au centre de l'île. · 4. Arriver sur place et entrer de force dans la maison/garage (briser l'entrée). · 5. Ouvrir le garage normalement avant d'accéder à la voiture. · 6. Briser la vitre de la Mitsubishi Eclipse (ce qui déclenche une alarme). · 7. Pirater le véhicule (hotwire). · 8. S'échapper en gérant la présence de la police. · Point de départ : aller vers le haut et la droite depuis le spawn principal. · Lieu : île des Rialto Islands. · Bâtiment : grande maison au centre de l'île. · Accès : forcer l'entrée par la porte ou par le garage. · Risque : la voiture est chère, ce qui attire la police · il faut s'échapper. · Accessible dès le début du jeu, avant d'avoir complété des missions. · Départ : maison de Jason. · Distance : environ 5 miles. · Lieu : île de Vespucci, près de Vice City. · Repère : une maison spécifique marquée sur la carte, avec deux voitures garées devant. · Action : forcer le garage pour trouver la voiture. · Lieu : Vespucci Island, devant une maison. · Risque : Plusieurs gardes armés surveillent la propriété. · Accès : Passer par la maison d'un côté, sauter par-dessus les buissons, se diriger vers le garage. · Accès : Se rendre à un croisement précis, entrer dans la maison sur le côté via le portail. · Action : Forcer le garage avec un tournevis. · État du véhicule : Pas de traceur, il faut attendre que l'alarme s'arrête pour la rouler. · Nom du véhicule : Paul Walker's Mr. PC Eclipse · Véhicule : Mitsubishi Eclipse (référence Fast and the Furious) · Avantage : pas de traceur · Inconvénient : impossible de la stocker (can't store it) · Localisation : dans un garage (non précisé nommément dans la transcription, mais distinct des supercars du 919) · La voiture est identifiée comme étant celle de Paul Walker.",
       "nb_sources": 8,
       "verifie_en_jeu": false
@@ -1680,7 +1680,7 @@
      {
       "id": "tip-1d3f00ac33d5",
       "categorie": "vehicules",
-      "enonce": "Une Lamborghini et une moto violette se trouvent dans une grande propriété sur Starfish Island, mais elles ne sont présentes que la nuit.",
+      "enonce": "Sur Starfish Island, une Lamborghini et une moto violette se trouvent dans une grande propriété, mais elles ne sont accessibles que la nuit, car elles ne sont pas présentes le jour.",
       "precision": "Lieu : Starfish Island, devant une grande propriété. · Condition : Aller la nuit (les véhicules ne sont pas là le jour). · Véhicules : Lamborghini et moto violette. · Lieu : Starfish Island, devant une immense propriété. · Condition temporelle : Obligation d'y aller pendant la nuit (les véhicules ne sont pas là le jour). · Véhicules : Une Lamborghini et une moto violette.",
       "nb_sources": 2,
       "verifie_en_jeu": false
@@ -1723,7 +1723,7 @@
      {
       "id": "tip-4c0e1c117b03",
       "categorie": "argent",
-      "enonce": "Le code du coffre-fort situé au fond du bureau du chantier sur Waxman Island est 5800.",
+      "enonce": "Sur Waxman Island, près de Vice City et Vice Beach, un coffre contenant 10 000 $ en espèces se trouve dans un conteneur accessible par un saut sur la droite. Le code d'ouverture, 5800, est affiché sur un ordinateur portable situé dans ce conteneur, où se trouve également du C4 qui peut servir d'alternative pour faire sauter le coffre.",
       "precision": "Code : 5800 · Emplacement du coffre : fond de la pièce (bureau du chantier) · Alternative : utiliser le C4 trouvé sur la table du premier conteneur sous la tente pour faire sauter le coffre · Le code est également affiché sur l'ordinateur portable dans le premier conteneur sous la tente · Lieu : Waxman Island, près de Vice City et Vice Beach. · Accès : Sauter par la droite pour entrer dans la zone d'expédition. · Code du coffre : 5800 (trouvable sur un ordinateur portable dans le conteneur). · Contenu : 10 000 $ en espèces. · Alternative : Utiliser de la C4 pour faire sauter le coffre (C4 disponible sur place).",
       "nb_sources": 2,
       "verifie_en_jeu": false
