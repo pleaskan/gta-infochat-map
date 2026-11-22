@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-22T15:54:45+00:00",
+  "genere_le": "2026-11-22T16:01:58+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -65,14 +65,6 @@
     "rayon": 0.05,
     "carte_version": "v1-officielle",
     "tips": [
-     {
-      "id": "tip-0ae10122b4f5",
-      "categorie": "armes",
-      "enonce": "Un lance-roquettes HAT accompagné de quatre roquettes se trouve dans un bunker accessible par une trappe au sol d'un camping-car couvert d'antennes et de paraboles, situé dans un dépôt de véhicules saisis au sud-ouest du Griffin Firing Range, au nord de la zone de départ dans les Keys et à l'ouest de Vice City. Pour y accéder, il faut passer par la porte non verrouillée, entrer dans le véhicule par le nord, ouvrir la trappe et récupérer l'arme appuyée contre un coffre-fort.",
-      "precision": "Localisation : Nord de la zone de départ dans les Keys, juste à l'ouest de Vice City, près du Griffin Firing Range. · Emplacement précis : Dépôt de véhicules saisis (impound lot) au sud-ouest du champ de tir. · Accès : Passer par la porte non verrouillée. · Véhicule : RV couvert d'antennes et de paraboles. · Entrée : Par le nord du véhicule. · Action : Ouvrir le trappe du bunker (bunker hatch). · Butin : Lance-roquettes Honor's HAT appuyé contre un coffre-fort, avec 4 roquettes prêtes à l'emploi. · Ouvrir la carte et zoomer au maximum. · Se rendre au nord, dans la comté de Vicedale. · Viser le coin supérieur de cette zone, près du Griffin Shooting Range. · Aller vers le sud-ouest jusqu'à un grand parking avec un vieux camping-car (RV). · Chercher le camping-car complètement sale et couvert de paraboles dans cette aire de camping. · Ouvrir les grilles/portes pour accéder au véhicule. · Entrer dans le camping-car normalement. · Ouvrir le trappe (hatch) à l'intérieur pour descendre. · Récupérer la lance-roquettes au fond. · Repère sur la carte : zone « Leonida », sous la lettre D et la lettre A. · Lieu : Griffin Shooting Range. · Accès : traverser la route, sauter la clôture pour atteindre un parc de caravanes en ruine. · Emplacement exact : entrer dans la caravane située à gauche. · Mécanique : trouver une trappe secrète au sol, descendre l'échelle. · Position de l'arme : à côté d'un corps assis sur une chaise.",
-      "nb_sources": 3,
-      "verifie_en_jeu": false
-     },
      {
       "id": "tip-e4a462dac147",
       "categorie": "exploration",
@@ -464,14 +456,6 @@
     "rayon": 0.1,
     "carte_version": "v1-officielle",
     "tips": [
-     {
-      "id": "tip-443ad729ad7d",
-      "categorie": "armes",
-      "enonce": "Dans le sous-sol secret accessible via une trappe au sol de la remorque bleue en mauvais état située en face du stand de tir de Griffin, on trouve une SMG Conspiracist Type 9 de variante légendaire posée dans une mallette à armes sur un bureau, accompagnée de grenades à fragmentation, d'adrénaline, de zombics, d'un kit de premiers secours, d'un kit de traumatisme et d'une grande quantité de munitions diverses.",
-      "precision": "Arme : SMG Conspiracist Type 9 (variante de collection unique). · Consommables : Grenades à fragmentation (frag grenades), Adrénaline, Zombics. · Localisation : À l'intérieur du RV, avec le lance-roquettes. · Se trouve dans le bunker sous le mobilhome avec drapeau américain à Balzéro. · À récupérer avant de repartir. · Décrite comme « incroyable ». · Se trouve au fond du camping-car (après avoir ouvert la trappe). · Inclut : munitions diverses, grenades à fragmentation (frag grenades), munitions pour lance-roquettes, kit de premiers secours (first aid kit), kit de traumatisme (trauma kit), SMG Conspiracist Type 9 (légendaire). · Conseil : maximiser la quantité de tout ce qui est disponible. · Emplacement exact : sur le bureau, dans la même pièce que le corps. · État : posée dans une mallette à armes (gun case). · Variante : « Conspiracist » (légendaire). · Accès identique à celui du lance-roquettes : trappe au sol dans la caravane de gauche du parc de caravanes. · Lieu : Remorque bleue en mauvais état en face du stand de tir de Griffin · Accès : Ouvrir le trappe à l'intérieur · Armes : Lance-roquettes, grenades, Type 9 (fusil entièrement automatique qui s'insère dans le slot pistolet)",
-      "nb_sources": 5,
-      "verifie_en_jeu": false
-     },
      {
       "id": "tip-18a22d238959",
       "categorie": "missions",
@@ -2348,6 +2332,49 @@
       "categorie": "exploration",
       "enonce": "La région de Lumox, territoire du mont Calaga, offre la plus grande zone sauvage du jeu avec rivière, cascade et canoë, ainsi que la ville de Milleport à l'est qui pourrait contenir des parcs d'attractions.",
       "precision": "Mont Calaga : territoire principal · Activités : rivière, cascade, canoë · Milleport : à l'est, possible présence de parcs d'attractions façon Orlando",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 119,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.5704,
+     0.4749
+    ]
+   },
+   "properties": {
+    "lieu": "Griffin Firing Range",
+    "type": "point_interet",
+    "rayon": 0.006,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-443ad729ad7d",
+      "categorie": "armes",
+      "enonce": "Dans le sous-sol secret accessible via une trappe au sol de la remorque bleue en mauvais état située en face du stand de tir de Griffin, on trouve une SMG Conspiracist Type 9 de variante légendaire posée dans une mallette à armes sur un bureau, accompagnée de grenades à fragmentation, d'adrénaline, de zombics, d'un kit de premiers secours, d'un kit de traumatisme et d'une grande quantité de munitions diverses.",
+      "precision": "Arme : SMG Conspiracist Type 9 (variante de collection unique). · Consommables : Grenades à fragmentation (frag grenades), Adrénaline, Zombics. · Localisation : À l'intérieur du RV, avec le lance-roquettes. · Se trouve dans le bunker sous le mobilhome avec drapeau américain à Balzéro. · À récupérer avant de repartir. · Décrite comme « incroyable ». · Se trouve au fond du camping-car (après avoir ouvert la trappe). · Inclut : munitions diverses, grenades à fragmentation (frag grenades), munitions pour lance-roquettes, kit de premiers secours (first aid kit), kit de traumatisme (trauma kit), SMG Conspiracist Type 9 (légendaire). · Conseil : maximiser la quantité de tout ce qui est disponible. · Emplacement exact : sur le bureau, dans la même pièce que le corps. · État : posée dans une mallette à armes (gun case). · Variante : « Conspiracist » (légendaire). · Accès identique à celui du lance-roquettes : trappe au sol dans la caravane de gauche du parc de caravanes. · Lieu : Remorque bleue en mauvais état en face du stand de tir de Griffin · Accès : Ouvrir le trappe à l'intérieur · Armes : Lance-roquettes, grenades, Type 9 (fusil entièrement automatique qui s'insère dans le slot pistolet)",
+      "nb_sources": 5,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-0ae10122b4f5",
+      "categorie": "armes",
+      "enonce": "Un lance-roquettes HAT accompagné de quatre roquettes se trouve dans un bunker accessible par une trappe au sol d'un camping-car couvert d'antennes et de paraboles, situé dans un dépôt de véhicules saisis au sud-ouest du Griffin Firing Range, au nord de la zone de départ dans les Keys et à l'ouest de Vice City. Pour y accéder, il faut passer par la porte non verrouillée, entrer dans le véhicule par le nord, ouvrir la trappe et récupérer l'arme appuyée contre un coffre-fort.",
+      "precision": "Localisation : Nord de la zone de départ dans les Keys, juste à l'ouest de Vice City, près du Griffin Firing Range. · Emplacement précis : Dépôt de véhicules saisis (impound lot) au sud-ouest du champ de tir. · Accès : Passer par la porte non verrouillée. · Véhicule : RV couvert d'antennes et de paraboles. · Entrée : Par le nord du véhicule. · Action : Ouvrir le trappe du bunker (bunker hatch). · Butin : Lance-roquettes Honor's HAT appuyé contre un coffre-fort, avec 4 roquettes prêtes à l'emploi. · Ouvrir la carte et zoomer au maximum. · Se rendre au nord, dans la comté de Vicedale. · Viser le coin supérieur de cette zone, près du Griffin Shooting Range. · Aller vers le sud-ouest jusqu'à un grand parking avec un vieux camping-car (RV). · Chercher le camping-car complètement sale et couvert de paraboles dans cette aire de camping. · Ouvrir les grilles/portes pour accéder au véhicule. · Entrer dans le camping-car normalement. · Ouvrir le trappe (hatch) à l'intérieur pour descendre. · Récupérer la lance-roquettes au fond. · Repère sur la carte : zone « Leonida », sous la lettre D et la lettre A. · Lieu : Griffin Shooting Range. · Accès : traverser la route, sauter la clôture pour atteindre un parc de caravanes en ruine. · Emplacement exact : entrer dans la caravane située à gauche. · Mécanique : trouver une trappe secrète au sol, descendre l'échelle. · Position de l'arme : à côté d'un corps assis sur une chaise.",
+      "nb_sources": 3,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-28539698b7c1",
+      "categorie": "armes",
+      "enonce": "Mission « Débloquer le lance-roquette » : Un lance-roquette (lanceur HAT) est accessible dès le début du jeu dans un bunker situé dans la ville de Balzéro, accessible via un mobilhome avec drapeau américain.",
+      "precision": "Avancer au nord de Vice City pour atteindre la région au-dessus. · Se rendre dans la petite ville de Balzéro. · Repère : le stand de tir Griffin. · Libérer la zone pour placer un point de repère. · Aller dans le terrain vague protégé par un grillage situé en face du stand de tir. · Entrer dans la zone et aller à gauche vers un immense mobilhome avec un drapeau américain. · Entrer par la porte et avancer au bout pour trouver l'entrée d'un bunker. · Ouvrir la trappe (non verrouillée) et descendre. · Le lance-roquette (lanceur HAT) se trouve à côté du coffre-fort. · Optionnel : ranger l'arme dans le coffre de la voiture pour la garder, nécessitant l'achat de munitions régulièrement.",
       "nb_sources": 1,
       "verifie_en_jeu": false
      }
