@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-22T16:01:58+00:00",
+  "genere_le": "2026-11-22T16:39:35+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -28,6 +28,14 @@
       "enonce": "Le fusil Black Eagle Import M306 TMR, équipé d'un silencieux et d'une lunette à zoom ajustable, se trouve dans un casier à armes situé dans une zone grillagée d'un entrepôt adjacent au magasin de munitions Black Eagle, localisé juste sous la lettre D de Leonida. Pour y accéder, il faut assommer les employés présents, attendre que le niveau de recherche retombe, puis utiliser un chariot élévateur pour déplacer les caisses de stockage bloquant l'entrée de la zone grillagée.",
       "precision": "Le magasin est situé juste sous la lettre D sur la carte de Leonida. · Il ne faut pas entrer dans le magasin de munitions, mais dans l'entrepôt directement à côté. · Des employés sont présents et ordonnent de partir · il faut les assommer. · Il faut attendre que la chaleur (alerte) retombe avant de réentrer, car l'endroit sera vide. · Il faut utiliser un chariot élévateur pour déplacer des boîtes de stockage et dégager l'accès à la zone grillagée. · Le fusil est dans un casier à armes dans cette zone grillagée. · L'arme est un fusil Black Eagle Import M306 TMR Rifle, avec silencieux et lunette à zoom ajustable. · Durée de l'opération : environ 30 secondes. · Localisation : derrière un magasin (nom non précisé). · Obstacle : une pièce verrouillée inaccessible par l'entrée principale. · Méthode d'accès : utiliser un chariot élévateur (forklift truck) situé de l'autre côté pour déplacer les caisses bloquant l'entrée arrière. · Risque : présence de personnes à l'intérieur · les éliminer est nécessaire pour éviter l'arrivée de la police. · Butin : carabine légendaire (fully kitted out) et un lance-roquettes (launcher). · Lieu : Entrepôt à côté de la boutique Black Eagle Gun Shop · Accès : Utiliser un chariot élévateur pour déplacer trois palettes empilées · Armes : Lance-roquettes, N306 TMR (fusil avec silencieux et lunette, capable de tuer en un coup) · Nom de l'arme : Black Eagle Import M306 TMR · Coût : totalement gratuit · Caractéristiques : totalement silencieux, lunette avec zoom réglable · Localisation de l'armurerie : juste en dessous du dé de Leonida sur la carte · Accès : ne pas entrer dans l'armurerie, mais dans l'entrepôt juste à côté · Obstacle : les employés demandent de partir, il faut les assommer · Condition : attendre que le niveau de recherche retombe avant de revenir, ou suivre les étapes suivantes pour s'en occuper · Mécanisme d'accès : monter dans le chariot élévateur et pousser les caisses qui bloquent le passage · Emplacement final : dans une cage, dans une mallette · Lieu : À côté d'un magasin, dans un petit entrepôt. · Prérequis : Éliminer deux gardes à l'entrée. · Mécanique : Utiliser des chariots élévateurs pour déplacer les caisses (peut être buggé, prend du temps). · Risque : Arrivée de la police, nécessité de fuir rapidement. · Récompense : Mallette contenant le fusil silencieux.",
       "nb_sources": 5,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-0ae10122b4f5",
+      "categorie": "armes",
+      "enonce": "Un lance-roquettes HAT accompagné de quatre roquettes se trouve dans un bunker accessible par une trappe au sol d'un camping-car couvert d'antennes et de paraboles, situé dans un dépôt de véhicules saisis au sud-ouest du Griffin Firing Range, au nord de la zone de départ dans les Keys et à l'ouest de Vice City. Pour y accéder, il faut passer par la porte non verrouillée, entrer dans le véhicule par le nord, ouvrir la trappe et récupérer l'arme appuyée contre un coffre-fort.",
+      "precision": "Localisation : Nord de la zone de départ dans les Keys, juste à l'ouest de Vice City, près du Griffin Firing Range. · Emplacement précis : Dépôt de véhicules saisis (impound lot) au sud-ouest du champ de tir. · Accès : Passer par la porte non verrouillée. · Véhicule : RV couvert d'antennes et de paraboles. · Entrée : Par le nord du véhicule. · Action : Ouvrir le trappe du bunker (bunker hatch). · Butin : Lance-roquettes Honor's HAT appuyé contre un coffre-fort, avec 4 roquettes prêtes à l'emploi. · Ouvrir la carte et zoomer au maximum. · Se rendre au nord, dans la comté de Vicedale. · Viser le coin supérieur de cette zone, près du Griffin Shooting Range. · Aller vers le sud-ouest jusqu'à un grand parking avec un vieux camping-car (RV). · Chercher le camping-car complètement sale et couvert de paraboles dans cette aire de camping. · Ouvrir les grilles/portes pour accéder au véhicule. · Entrer dans le camping-car normalement. · Ouvrir le trappe (hatch) à l'intérieur pour descendre. · Récupérer la lance-roquettes au fond. · Repère sur la carte : zone « Leonida », sous la lettre D et la lettre A. · Lieu : Griffin Shooting Range. · Accès : traverser la route, sauter la clôture pour atteindre un parc de caravanes en ruine. · Emplacement exact : entrer dans la caravane située à gauche. · Mécanique : trouver une trappe secrète au sol, descendre l'échelle. · Position de l'arme : à côté d'un corps assis sur une chaise.",
+      "nb_sources": 3,
       "verifie_en_jeu": false
      },
      {
@@ -65,6 +73,30 @@
     "rayon": 0.05,
     "carte_version": "v1-officielle",
     "tips": [
+     {
+      "id": "tip-e3c33cc80e23",
+      "categorie": "vehicules",
+      "enonce": "La Mitsubishi Eclipse de Paul Walker (Fast & Furious) se trouve dans le garage d'une grande maison située sur Vespucci Island, accessible dès le début du jeu sans prérequis de mission. Pour y accéder, il faut forcer l'entrée de la propriété (via le portail ou en brisant la vitre), ce qui déclenche une alarme et attire la police ; le véhicule ne possède pas de traceur mais ne peut pas être stocké.",
+      "precision": "Lieu : Vespucci Island, devant une maison surveillée par des gardes armés. · Accès : Passer par la maison d'un côté, sauter par-dessus le mur, se diriger vers le garage. · Véhicule : Voiture de Paul Walker (Fast and Furious). · Lieu : Vespucci Island, au centre de Vice City, sur les îles avec les grandes maisons. · Position exacte : À un croisement précis, entrer dans la maison située sur le côté via le portail. · Action : Se rendre au garage et le forcer avec un tournevis. · Détail : La voiture n'a pas de traceur. · Condition : Attendre que l'alarme s'arrête après le vol pour pouvoir rouler. · 1. Ouvrir la carte et se rendre au nord de la zone de départ (starter area) jusqu'au comté de Vicedale County. · 2. Zoomer au maximum pour repérer une petite île nommée Rialto Islands. · 3. Identifier un très grand bâtiment situé au centre de l'île. · 4. Arriver sur place et entrer de force dans la maison/garage (briser l'entrée). · 5. Ouvrir le garage normalement avant d'accéder à la voiture. · 6. Briser la vitre de la Mitsubishi Eclipse (ce qui déclenche une alarme). · 7. Pirater le véhicule (hotwire). · 8. S'échapper en gérant la présence de la police. · Point de départ : aller vers le haut et la droite depuis le spawn principal. · Lieu : île des Rialto Islands. · Bâtiment : grande maison au centre de l'île. · Accès : forcer l'entrée par la porte ou par le garage. · Risque : la voiture est chère, ce qui attire la police · il faut s'échapper. · Accessible dès le début du jeu, avant d'avoir complété des missions. · Départ : maison de Jason. · Distance : environ 5 miles. · Lieu : île de Vespucci, près de Vice City. · Repère : une maison spécifique marquée sur la carte, avec deux voitures garées devant. · Action : forcer le garage pour trouver la voiture. · Lieu : Vespucci Island, devant une maison. · Risque : Plusieurs gardes armés surveillent la propriété. · Accès : Passer par la maison d'un côté, sauter par-dessus les buissons, se diriger vers le garage. · Accès : Se rendre à un croisement précis, entrer dans la maison sur le côté via le portail. · Action : Forcer le garage avec un tournevis. · État du véhicule : Pas de traceur, il faut attendre que l'alarme s'arrête pour la rouler. · Nom du véhicule : Paul Walker's Mr. PC Eclipse · Véhicule : Mitsubishi Eclipse (référence Fast and the Furious) · Avantage : pas de traceur · Inconvénient : impossible de la stocker (can't store it) · Localisation : dans un garage (non précisé nommément dans la transcription, mais distinct des supercars du 919) · La voiture est identifiée comme étant celle de Paul Walker.",
+      "nb_sources": 8,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-3dac9712a9d4",
+      "categorie": "vehicules",
+      "enonce": "Une Lamborghini Aventador entièrement dorée est stationnée non gardée au sommet d'une rampe située sur le côté droit du gratte-ciel Crimson Palms à Vice City, sur Washington Island, juste au-dessus des îles de Vespucci et Casanova. Pour y accéder, il faut suivre le côté droit du bâtiment et monter la rampe jusqu'en haut.",
+      "precision": "Lieu : Vice City, devant le gratte-ciel Crimson Palms. · Accès : Suivre le côté droit du bâtiment, monter la rampe jusqu'en haut. · Véhicule : Lamborghini entièrement dorée. · Lieu : Crimson Palace Condominiums, situé juste au-dessus des îles de Vespucci et Casanova. · Position : monter la rampe sur le côté droit. · Véhicule : Lamborghini Aventador en or massif (solid gold Lamborghini Aventador). · Sécurité : véhicule non surveillé (unattended). · Lieu : Washington Island, à côté de Casanova Island. · Accès : Conduire jusqu'au grand gratte-ciel, trouver la rampe à droite du panneau « crimson palm », suivre la rampe tout autour du bâtiment. · Véhicule : Lamborghini Aventador en or métallique (metallic gold). · Lieu : Vice City, bâtiment Crimson Palms. · Accès : Passer sur le côté droit du bâtiment, monter la rampe. · Conseil : Débloquer la possibilité de cloner les clés et d'immatriculer les véhicules avant de les voler pour les conserver définitivement. · Bâtiment : Crimson Palms · Position : Washington Island, juste à côté · Accès : Prendre la route normale comme un habitant · Emplacement exact : Premier étage du parking, directement à droite · Statut du véhicule : Considéré comme un véhicule remarquable (unique) dans le jeu · Lieu : Nord des îles, bâtiment Crimson Palms. · Emplacement précis : Côté droit du bâtiment. · Véhicule : Lamborghini Aventador dorée.",
+      "nb_sources": 6,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-0ae10122b4f5",
+      "categorie": "armes",
+      "enonce": "Un lance-roquettes HAT accompagné de quatre roquettes se trouve dans un bunker accessible par une trappe au sol d'un camping-car couvert d'antennes et de paraboles, situé dans un dépôt de véhicules saisis au sud-ouest du Griffin Firing Range, au nord de la zone de départ dans les Keys et à l'ouest de Vice City. Pour y accéder, il faut passer par la porte non verrouillée, entrer dans le véhicule par le nord, ouvrir la trappe et récupérer l'arme appuyée contre un coffre-fort.",
+      "precision": "Localisation : Nord de la zone de départ dans les Keys, juste à l'ouest de Vice City, près du Griffin Firing Range. · Emplacement précis : Dépôt de véhicules saisis (impound lot) au sud-ouest du champ de tir. · Accès : Passer par la porte non verrouillée. · Véhicule : RV couvert d'antennes et de paraboles. · Entrée : Par le nord du véhicule. · Action : Ouvrir le trappe du bunker (bunker hatch). · Butin : Lance-roquettes Honor's HAT appuyé contre un coffre-fort, avec 4 roquettes prêtes à l'emploi. · Ouvrir la carte et zoomer au maximum. · Se rendre au nord, dans la comté de Vicedale. · Viser le coin supérieur de cette zone, près du Griffin Shooting Range. · Aller vers le sud-ouest jusqu'à un grand parking avec un vieux camping-car (RV). · Chercher le camping-car complètement sale et couvert de paraboles dans cette aire de camping. · Ouvrir les grilles/portes pour accéder au véhicule. · Entrer dans le camping-car normalement. · Ouvrir le trappe (hatch) à l'intérieur pour descendre. · Récupérer la lance-roquettes au fond. · Repère sur la carte : zone « Leonida », sous la lettre D et la lettre A. · Lieu : Griffin Shooting Range. · Accès : traverser la route, sauter la clôture pour atteindre un parc de caravanes en ruine. · Emplacement exact : entrer dans la caravane située à gauche. · Mécanique : trouver une trappe secrète au sol, descendre l'échelle. · Position de l'arme : à côté d'un corps assis sur une chaise.",
+      "nb_sources": 3,
+      "verifie_en_jeu": false
+     },
      {
       "id": "tip-e4a462dac147",
       "categorie": "exploration",
@@ -110,6 +142,14 @@
       "categorie": "exploration",
       "enonce": "L'appartement du personnage Dexter est localisable à Vice City, et son toit contient tous les outils utilisés pour son travail.",
       "precision": "Lieu : appartement de Dexter à Vice City · Accès : toit du même bâtiment · Contenu : tous les outils qu'il utilise pour son travail",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-39efd19bd5a0",
+      "categorie": "argent",
+      "enonce": "Un coffre-fort contenant 2 800 $ de bonus furtif et 400 $ sur une table se trouve à l'intérieur d'un bâtiment sécurisé dans Little Cuba, accessible par le toit.",
+      "precision": "Lieu : bâtiment à grille dans Little Cuba, Vice City. · Accès : contourner le bâtiment par l'arrière, sauter le mur, monter par l'échafaudage jusqu'au toit, descendre par une échelle à l'intérieur. · Butin : montre de luxe, plancher lâche contenant 1 300 $, coffre-fort (2 800 $ bonus furtif), 400 $ sur la table, chapeau, 200 $ sur une petite table.",
       "nb_sources": 1,
       "verifie_en_jeu": false
      },
@@ -217,6 +257,33 @@
       "categorie": "vehicules",
       "enonce": "Une Gold Rope and Furnace est cachée sous le carport d'une petite maison à Ambrosia dans North Kelly County.",
       "precision": "Véhicule : Gold Rope and Furnace · Lieu : Ambrosia, North Kelly County · Position : sous le carport d'une petite maison",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 7,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4675,
+     0.2431
+    ]
+   },
+   "properties": {
+    "lieu": "Le Mont Kalaga",
+    "type": "region",
+    "rayon": 0.04,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-1c7546513114",
+      "categorie": "exploration",
+      "enonce": "La région de Lumox, territoire du mont Calaga, offre la plus grande zone sauvage du jeu avec rivière, cascade et canoë, ainsi que la ville de Milleport à l'est qui pourrait contenir des parcs d'attractions.",
+      "precision": "Mont Calaga : territoire principal · Activités : rivière, cascade, canoë · Milleport : à l'est, possible présence de parcs d'attractions façon Orlando",
       "nb_sources": 1,
       "verifie_en_jeu": false
      }
@@ -390,6 +457,14 @@
     "carte_version": "v1-officielle",
     "tips": [
      {
+      "id": "tip-0721f51bcd2d",
+      "categorie": "argent",
+      "enonce": "Un entrepôt rouge situé au sud du comté de Vicedale, près de Hamlet et des trois petits lacs, contient des ennemis déjà éliminés, un sac de butin de 6 000 $ sur une table, des armes (SMG Type 9, fusil d'assaut Duke 556, pistolet Kalinga Desert Eagle), de la cocaïne dans les camions et les bureaux, ainsi qu'un coffre-fort dans un bureau contenant 374 $, de la cocaïne et une carte à collectionner rare (Leroy Rook) vendable 6 000 $ dans un magasin de dépôt-vente.",
+      "precision": "Localisation : sud du comté de Vicedale, près de Hamlet, à environ 3 miles de la maison de Jason. · Repère : un entrepôt visible sur la carte. · Avant d'entrer : vérifier la boîte à outils jaune pour obtenir des lunettes de soleil. · À l'intérieur : les criminels sont déjà morts. · Sol à droite : SMG Type 9. · Table au centre : sac de butin massif. · Sol : fusil d'assaut Duke 556. · Camion à l'arrière (rempli d'ours en peluche) : cocaïne. · Premier bureau (même étage) : cocaïne sur la table et pistolet Kalinga Desert Eagle. · Deuxième bureau : tiroir-caisse avec 100 $, coffre-fort à ouvrir contenant plus d'argent, de la cocaïne et la carte à collectionner rare Leroy Rook (vendre à un magasin de dépôt-vente). · Avant de partir : ouvrir le rideau métallique pour accéder à un autre camion d'ours en peluche dehors, contenant encore plus de cocaïne. · Lieu : droite de la ville de Hamlet, près des bassins, juste avant Weiss del Cunti. · Bâtiment : usine rouge isolée au bord des bassins. · Contenu : première camionnette à l'extérieur, deuxième camion à l'intérieur, bureaux contenant plus de cargaisons, coffre-fort à forcer. · Gains : chaque paquet vaut plus de 400 $, total de plusieurs dizaines de milliers de dollars. · Objet bonus : une carte rare à collectionner dans le coffre-fort. · Sécurité : tous les ennemis à l'intérieur sont déjà éliminés. · Lieu : entrepôt au milieu des trois petits lacs, en remontant depuis la maison de Jason. · Action : enfoncer n'importe quelle porte pour entrer. · Butin initial : sac de butin sur une table contenant 6 000 $. · Autres objets : fouiller les corps inertes pour le cash, récupérer des mitrailleuses, fusils d'assaut et pistolets. · Drogue : de la cocaïne présente dans les bureaux et les camions. · Coffre-fort : situé dans les bureaux, contient de la cocaïne, du cash et une carte de collection à revendre dans un pawn shop. · Gains totaux : plus de 15 000 $ (armes incluses) avant la vente de la carte. · Dépot : déposer les sacs à l'entrepôt de Brandon. · Localisation : Sud du comté de Vicedale (South Vicedale County), accessible en allant au nord depuis Key Lento. · Repère : Grand entrepôt rouge situé entre plusieurs maisons de dépôt (pawn shops). · Contenu : Ennemis déjà éliminés (si première visite), cocaïne, objets de valeur, cartes, argent liquide. · Zones de butin : Arrière d'une fourgonnette dans le bâtiment, petit bureau/annexe à droite, deuxième bâtiment principal avec comptoir d'argent et coffre secret. · Réinitialisation : Le coffre et les butins se réinitialisent à chaque chargement de la sauvegarde. · Localisation : bâtiment situé juste en dessous de Vicedale County. · Contenu : beaucoup de cocaïne (coke) et un coffre-fort (safe) contenant de l'argent. · Méthode : 1. Entrer dans le bâtiment et prendre tout le butin (cocaïne et argent du coffre). 2. Vendre tous les objets. 3. Sauvegarder la partie. 4. Recharger la sauvegarde. 5. Reprendre les objets qui sont encore présents (certains réapparaissent). 6. Répéter le processus (sauvegarder/recharger) pour générer de l'argent indéfiniment. · Coffre-fort : situé dans les bureaux, contient de la cocaïne, du cash et une carte de collection. · Capacité de stockage : peut remplir deux sacs entiers et plus, nécessitant parfois le stockage dans un véhicule. · Dépôt : rendre les sacs à l'entrepôt de Brian. · Gain total estimé : plus de 15 000 $ (armes incluses, avant revente de la carte). · Localisation : Nord-est d'Amlet, en dessous de la lettre L de Vice del County. · Contenu : Produits illicites, cash, coffre-fort avec carte à collectionner (valeur 6 000 $). · Dépôt du butin : Chez Brian dans sa planque. · Échange de la carte : Prêteur sur gage d'Amlet. · Gain total : 20 000 $. · Condition : Aucune balle tirée nécessaire. · Lieu : comté de South Vicedale, au nord de Key Lento. · Bâtiment : entrepôt rouge. · Contenu : coffre-fort (vault/safe) à forcer, contenant de l'argent et des produits. · Lieu : entrepôt rouge juste à côté de Hamlet · État : corps présents, quelqu'un est passé avant · Contenu 1 : sac de 6 960 dollars dans la camionnette · Contenu 2 : marchandise dans une salle pleine de peluches éventrées · Contenu 3 : carte à collectionner rare dans le coffre · Accès : Petite porte juste à côté de la salle de cocaïne. · Contenu : Argent sur le bureau, 100 $ sur le distributeur. · Coffre-fort : Contient une carte ultra rare et 374 $. · Action : Prendre l'argent et la carte. · Objet : Carte ultra rare. · Lieu de revente : Pound shop (présents partout en ville, icônes sur la carte). · Prix de revente : 6 000 $. · Lieu : entrepôt au nord du comté de Mariana. · Accès : briser l'entrée du bureau. · Contenu : machine à compter l'argent, coffre-fort (facile à ouvrir), carte collectionnable (valeur 6 000 $), briques d'argent supplémentaires. · Montant : environ 1 500 $. · Emplacement : dans l'entrepôt, à ouvrir après le combat. · Action : briser/ouvrir le coffre-fort. · Localisation : côté Hamlet, environ 5 km de la maison de Jason. · Prérequis : début du jeu. · Contenu total : 13 000 $, carte de collection, 3 armes. · Action finale : vendre les butins à un receleur pour Jason. · Emplacement : coffre-fort. · Contenu : cash, poudre blanche. · Lieu : 5 km de chez Jason, au sud de Hamlet, près de l'autoroute. · Repère : Entrepôt rouge. · Accès : Ouvre la caisse à outils jaunes devant (contient des lunettes de soleil pour Jason), force la porte grise. · Contenu intérieur : Mitraillette à droite en entrant, fusil d'assaut plus loin, pistolet dans un bureau. · Butin : Sac de 6 000 $ en billets marqués sur la table, paquets de marchandises (300 $ pièce) dans les camionnettes et bureaux, 100 $ dans le tiroir caisse. · Coffre : À forcer, contient du liquide, de la marchandise et la carte de collection argentée de Leroy Rook (valeur 6 000 $ chez un prêteur sur gage). · Lieu : intérieur de l'entrepôt rouge. · Condition : première visite du lieu. · Action : piller les corps au sol pour obtenir de l'argent et des objets. · Action : forcer le coffre (vault/safe). · Contenu : argent et produits.",
+      "nb_sources": 13,
+      "verifie_en_jeu": false
+     },
+     {
       "id": "tip-17fd910ed648",
       "categorie": "armes",
       "enonce": "Une mitraillette de type 9 se trouve à l'intérieur de l'entrepôt au nord du comté de Mariana, à droite de l'entrée, par terre. Un rack de stockage contenant 6 000 $ est également présent sur une table à proximité.",
@@ -457,6 +532,38 @@
     "carte_version": "v1-officielle",
     "tips": [
      {
+      "id": "tip-0721f51bcd2d",
+      "categorie": "argent",
+      "enonce": "Un entrepôt rouge situé au sud du comté de Vicedale, près de Hamlet et des trois petits lacs, contient des ennemis déjà éliminés, un sac de butin de 6 000 $ sur une table, des armes (SMG Type 9, fusil d'assaut Duke 556, pistolet Kalinga Desert Eagle), de la cocaïne dans les camions et les bureaux, ainsi qu'un coffre-fort dans un bureau contenant 374 $, de la cocaïne et une carte à collectionner rare (Leroy Rook) vendable 6 000 $ dans un magasin de dépôt-vente.",
+      "precision": "Localisation : sud du comté de Vicedale, près de Hamlet, à environ 3 miles de la maison de Jason. · Repère : un entrepôt visible sur la carte. · Avant d'entrer : vérifier la boîte à outils jaune pour obtenir des lunettes de soleil. · À l'intérieur : les criminels sont déjà morts. · Sol à droite : SMG Type 9. · Table au centre : sac de butin massif. · Sol : fusil d'assaut Duke 556. · Camion à l'arrière (rempli d'ours en peluche) : cocaïne. · Premier bureau (même étage) : cocaïne sur la table et pistolet Kalinga Desert Eagle. · Deuxième bureau : tiroir-caisse avec 100 $, coffre-fort à ouvrir contenant plus d'argent, de la cocaïne et la carte à collectionner rare Leroy Rook (vendre à un magasin de dépôt-vente). · Avant de partir : ouvrir le rideau métallique pour accéder à un autre camion d'ours en peluche dehors, contenant encore plus de cocaïne. · Lieu : droite de la ville de Hamlet, près des bassins, juste avant Weiss del Cunti. · Bâtiment : usine rouge isolée au bord des bassins. · Contenu : première camionnette à l'extérieur, deuxième camion à l'intérieur, bureaux contenant plus de cargaisons, coffre-fort à forcer. · Gains : chaque paquet vaut plus de 400 $, total de plusieurs dizaines de milliers de dollars. · Objet bonus : une carte rare à collectionner dans le coffre-fort. · Sécurité : tous les ennemis à l'intérieur sont déjà éliminés. · Lieu : entrepôt au milieu des trois petits lacs, en remontant depuis la maison de Jason. · Action : enfoncer n'importe quelle porte pour entrer. · Butin initial : sac de butin sur une table contenant 6 000 $. · Autres objets : fouiller les corps inertes pour le cash, récupérer des mitrailleuses, fusils d'assaut et pistolets. · Drogue : de la cocaïne présente dans les bureaux et les camions. · Coffre-fort : situé dans les bureaux, contient de la cocaïne, du cash et une carte de collection à revendre dans un pawn shop. · Gains totaux : plus de 15 000 $ (armes incluses) avant la vente de la carte. · Dépot : déposer les sacs à l'entrepôt de Brandon. · Localisation : Sud du comté de Vicedale (South Vicedale County), accessible en allant au nord depuis Key Lento. · Repère : Grand entrepôt rouge situé entre plusieurs maisons de dépôt (pawn shops). · Contenu : Ennemis déjà éliminés (si première visite), cocaïne, objets de valeur, cartes, argent liquide. · Zones de butin : Arrière d'une fourgonnette dans le bâtiment, petit bureau/annexe à droite, deuxième bâtiment principal avec comptoir d'argent et coffre secret. · Réinitialisation : Le coffre et les butins se réinitialisent à chaque chargement de la sauvegarde. · Localisation : bâtiment situé juste en dessous de Vicedale County. · Contenu : beaucoup de cocaïne (coke) et un coffre-fort (safe) contenant de l'argent. · Méthode : 1. Entrer dans le bâtiment et prendre tout le butin (cocaïne et argent du coffre). 2. Vendre tous les objets. 3. Sauvegarder la partie. 4. Recharger la sauvegarde. 5. Reprendre les objets qui sont encore présents (certains réapparaissent). 6. Répéter le processus (sauvegarder/recharger) pour générer de l'argent indéfiniment. · Coffre-fort : situé dans les bureaux, contient de la cocaïne, du cash et une carte de collection. · Capacité de stockage : peut remplir deux sacs entiers et plus, nécessitant parfois le stockage dans un véhicule. · Dépôt : rendre les sacs à l'entrepôt de Brian. · Gain total estimé : plus de 15 000 $ (armes incluses, avant revente de la carte). · Localisation : Nord-est d'Amlet, en dessous de la lettre L de Vice del County. · Contenu : Produits illicites, cash, coffre-fort avec carte à collectionner (valeur 6 000 $). · Dépôt du butin : Chez Brian dans sa planque. · Échange de la carte : Prêteur sur gage d'Amlet. · Gain total : 20 000 $. · Condition : Aucune balle tirée nécessaire. · Lieu : comté de South Vicedale, au nord de Key Lento. · Bâtiment : entrepôt rouge. · Contenu : coffre-fort (vault/safe) à forcer, contenant de l'argent et des produits. · Lieu : entrepôt rouge juste à côté de Hamlet · État : corps présents, quelqu'un est passé avant · Contenu 1 : sac de 6 960 dollars dans la camionnette · Contenu 2 : marchandise dans une salle pleine de peluches éventrées · Contenu 3 : carte à collectionner rare dans le coffre · Accès : Petite porte juste à côté de la salle de cocaïne. · Contenu : Argent sur le bureau, 100 $ sur le distributeur. · Coffre-fort : Contient une carte ultra rare et 374 $. · Action : Prendre l'argent et la carte. · Objet : Carte ultra rare. · Lieu de revente : Pound shop (présents partout en ville, icônes sur la carte). · Prix de revente : 6 000 $. · Lieu : entrepôt au nord du comté de Mariana. · Accès : briser l'entrée du bureau. · Contenu : machine à compter l'argent, coffre-fort (facile à ouvrir), carte collectionnable (valeur 6 000 $), briques d'argent supplémentaires. · Montant : environ 1 500 $. · Emplacement : dans l'entrepôt, à ouvrir après le combat. · Action : briser/ouvrir le coffre-fort. · Localisation : côté Hamlet, environ 5 km de la maison de Jason. · Prérequis : début du jeu. · Contenu total : 13 000 $, carte de collection, 3 armes. · Action finale : vendre les butins à un receleur pour Jason. · Emplacement : coffre-fort. · Contenu : cash, poudre blanche. · Lieu : 5 km de chez Jason, au sud de Hamlet, près de l'autoroute. · Repère : Entrepôt rouge. · Accès : Ouvre la caisse à outils jaunes devant (contient des lunettes de soleil pour Jason), force la porte grise. · Contenu intérieur : Mitraillette à droite en entrant, fusil d'assaut plus loin, pistolet dans un bureau. · Butin : Sac de 6 000 $ en billets marqués sur la table, paquets de marchandises (300 $ pièce) dans les camionnettes et bureaux, 100 $ dans le tiroir caisse. · Coffre : À forcer, contient du liquide, de la marchandise et la carte de collection argentée de Leroy Rook (valeur 6 000 $ chez un prêteur sur gage). · Lieu : intérieur de l'entrepôt rouge. · Condition : première visite du lieu. · Action : piller les corps au sol pour obtenir de l'argent et des objets. · Action : forcer le coffre (vault/safe). · Contenu : argent et produits.",
+      "nb_sources": 13,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-e3c33cc80e23",
+      "categorie": "vehicules",
+      "enonce": "La Mitsubishi Eclipse de Paul Walker (Fast & Furious) se trouve dans le garage d'une grande maison située sur Vespucci Island, accessible dès le début du jeu sans prérequis de mission. Pour y accéder, il faut forcer l'entrée de la propriété (via le portail ou en brisant la vitre), ce qui déclenche une alarme et attire la police ; le véhicule ne possède pas de traceur mais ne peut pas être stocké.",
+      "precision": "Lieu : Vespucci Island, devant une maison surveillée par des gardes armés. · Accès : Passer par la maison d'un côté, sauter par-dessus le mur, se diriger vers le garage. · Véhicule : Voiture de Paul Walker (Fast and Furious). · Lieu : Vespucci Island, au centre de Vice City, sur les îles avec les grandes maisons. · Position exacte : À un croisement précis, entrer dans la maison située sur le côté via le portail. · Action : Se rendre au garage et le forcer avec un tournevis. · Détail : La voiture n'a pas de traceur. · Condition : Attendre que l'alarme s'arrête après le vol pour pouvoir rouler. · 1. Ouvrir la carte et se rendre au nord de la zone de départ (starter area) jusqu'au comté de Vicedale County. · 2. Zoomer au maximum pour repérer une petite île nommée Rialto Islands. · 3. Identifier un très grand bâtiment situé au centre de l'île. · 4. Arriver sur place et entrer de force dans la maison/garage (briser l'entrée). · 5. Ouvrir le garage normalement avant d'accéder à la voiture. · 6. Briser la vitre de la Mitsubishi Eclipse (ce qui déclenche une alarme). · 7. Pirater le véhicule (hotwire). · 8. S'échapper en gérant la présence de la police. · Point de départ : aller vers le haut et la droite depuis le spawn principal. · Lieu : île des Rialto Islands. · Bâtiment : grande maison au centre de l'île. · Accès : forcer l'entrée par la porte ou par le garage. · Risque : la voiture est chère, ce qui attire la police · il faut s'échapper. · Accessible dès le début du jeu, avant d'avoir complété des missions. · Départ : maison de Jason. · Distance : environ 5 miles. · Lieu : île de Vespucci, près de Vice City. · Repère : une maison spécifique marquée sur la carte, avec deux voitures garées devant. · Action : forcer le garage pour trouver la voiture. · Lieu : Vespucci Island, devant une maison. · Risque : Plusieurs gardes armés surveillent la propriété. · Accès : Passer par la maison d'un côté, sauter par-dessus les buissons, se diriger vers le garage. · Accès : Se rendre à un croisement précis, entrer dans la maison sur le côté via le portail. · Action : Forcer le garage avec un tournevis. · État du véhicule : Pas de traceur, il faut attendre que l'alarme s'arrête pour la rouler. · Nom du véhicule : Paul Walker's Mr. PC Eclipse · Véhicule : Mitsubishi Eclipse (référence Fast and the Furious) · Avantage : pas de traceur · Inconvénient : impossible de la stocker (can't store it) · Localisation : dans un garage (non précisé nommément dans la transcription, mais distinct des supercars du 919) · La voiture est identifiée comme étant celle de Paul Walker.",
+      "nb_sources": 8,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-443ad729ad7d",
+      "categorie": "armes",
+      "enonce": "Dans le sous-sol secret accessible via une trappe au sol de la remorque bleue en mauvais état située en face du stand de tir de Griffin, on trouve une SMG Conspiracist Type 9 de variante légendaire posée dans une mallette à armes sur un bureau, accompagnée de grenades à fragmentation, d'adrénaline, de zombics, d'un kit de premiers secours, d'un kit de traumatisme et d'une grande quantité de munitions diverses.",
+      "precision": "Arme : SMG Conspiracist Type 9 (variante de collection unique). · Consommables : Grenades à fragmentation (frag grenades), Adrénaline, Zombics. · Localisation : À l'intérieur du RV, avec le lance-roquettes. · Se trouve dans le bunker sous le mobilhome avec drapeau américain à Balzéro. · À récupérer avant de repartir. · Décrite comme « incroyable ». · Se trouve au fond du camping-car (après avoir ouvert la trappe). · Inclut : munitions diverses, grenades à fragmentation (frag grenades), munitions pour lance-roquettes, kit de premiers secours (first aid kit), kit de traumatisme (trauma kit), SMG Conspiracist Type 9 (légendaire). · Conseil : maximiser la quantité de tout ce qui est disponible. · Emplacement exact : sur le bureau, dans la même pièce que le corps. · État : posée dans une mallette à armes (gun case). · Variante : « Conspiracist » (légendaire). · Accès identique à celui du lance-roquettes : trappe au sol dans la caravane de gauche du parc de caravanes. · Lieu : Remorque bleue en mauvais état en face du stand de tir de Griffin · Accès : Ouvrir le trappe à l'intérieur · Armes : Lance-roquettes, grenades, Type 9 (fusil entièrement automatique qui s'insère dans le slot pistolet)",
+      "nb_sources": 5,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-0ae10122b4f5",
+      "categorie": "armes",
+      "enonce": "Un lance-roquettes HAT accompagné de quatre roquettes se trouve dans un bunker accessible par une trappe au sol d'un camping-car couvert d'antennes et de paraboles, situé dans un dépôt de véhicules saisis au sud-ouest du Griffin Firing Range, au nord de la zone de départ dans les Keys et à l'ouest de Vice City. Pour y accéder, il faut passer par la porte non verrouillée, entrer dans le véhicule par le nord, ouvrir la trappe et récupérer l'arme appuyée contre un coffre-fort.",
+      "precision": "Localisation : Nord de la zone de départ dans les Keys, juste à l'ouest de Vice City, près du Griffin Firing Range. · Emplacement précis : Dépôt de véhicules saisis (impound lot) au sud-ouest du champ de tir. · Accès : Passer par la porte non verrouillée. · Véhicule : RV couvert d'antennes et de paraboles. · Entrée : Par le nord du véhicule. · Action : Ouvrir le trappe du bunker (bunker hatch). · Butin : Lance-roquettes Honor's HAT appuyé contre un coffre-fort, avec 4 roquettes prêtes à l'emploi. · Ouvrir la carte et zoomer au maximum. · Se rendre au nord, dans la comté de Vicedale. · Viser le coin supérieur de cette zone, près du Griffin Shooting Range. · Aller vers le sud-ouest jusqu'à un grand parking avec un vieux camping-car (RV). · Chercher le camping-car complètement sale et couvert de paraboles dans cette aire de camping. · Ouvrir les grilles/portes pour accéder au véhicule. · Entrer dans le camping-car normalement. · Ouvrir le trappe (hatch) à l'intérieur pour descendre. · Récupérer la lance-roquettes au fond. · Repère sur la carte : zone « Leonida », sous la lettre D et la lettre A. · Lieu : Griffin Shooting Range. · Accès : traverser la route, sauter la clôture pour atteindre un parc de caravanes en ruine. · Emplacement exact : entrer dans la caravane située à gauche. · Mécanique : trouver une trappe secrète au sol, descendre l'échelle. · Position de l'arme : à côté d'un corps assis sur une chaise.",
+      "nb_sources": 3,
+      "verifie_en_jeu": false
+     },
+     {
       "id": "tip-18a22d238959",
       "categorie": "missions",
       "enonce": "Pour accéder au butin sans déclencher d'alerte, il est conseillé d'approcher par l'arrière du bâtiment et d'éliminer les ennemis un par un à l'aide de bouteilles.",
@@ -469,6 +576,22 @@
       "categorie": "missions",
       "enonce": "Mission « Chatfield storage building » : Se rendre au bâtiment de stockage de Chatfield dans Vicedale County pour déclencher une mission secondaire en observant une McLaren violette entrer dans la cour.",
       "precision": "1. Partir de la maison de Jason. · 2. Se rendre à Vicedale County. · 3. Aller au bâtiment de stockage spécifique de Chatfield. · 4. Attendre que la McLaren violette entre dans la cour pour activer la mission secondaire. · 5. Contourner la zone et grimper sur les conteneurs de stockage pour entrer secrètement. · 6. Éliminer tous les gardes.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-5361ca07ce9d",
+      "categorie": "missions",
+      "enonce": "Mission « Obtention de la Rolls Royce dorée » : Depuis la maison de Jason, rendez-vous au champ de stockage à Vicedale County, contournez les ennemis par l'arrière, éliminez la garde discrètement, pillez les sacs blancs et emmenez la voiture dorée jusqu'à une carrosserie pour l'enregistrer.",
+      "precision": "1. Partir de la maison de Jason. · 2. Se rendre à Vicedale County, spécifiquement au champ de stockage (stockyard). · 3. Contourner les ennemis situés à l'avant en passant par l'arrière. · 4. Sauter sur une voiture, franchir la clôture et passer par les portes arrière. · 5. Éliminer discrètement un ennemi, puis les autres. · 6. Piller tous les sacs blancs pour obtenir de l'argent. · 7. Placer le sac dans le coffre de la Rolls Royce dorée (déjà déverrouillée). · 8. Conduire la voiture hors du garage, tourner à droite et traverser les clôtures. · 9. Se débarrasser de la police grâce à la vitesse du véhicule. · 10. Conduire la voiture jusqu'à n'importe quelle carrosserie (paint shop) et l'enregistrer à son nom.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-54277de6874a",
+      "categorie": "argent",
+      "enonce": "En sauvant un personnage impliqué dans un accident à Terquesta et en acceptant de témoigner, il est possible de le faire chanter pour obtenir 18 000 $ après quelques jours de jeu.",
+      "precision": "Se rendre dans la zone de Terquesta, sous Vicedale County. · Repérer un accident de voiture aléatoire. · Sortir de son véhicule et extraire la personne de sa voiture. · Attendre que la personne remonte dans son véhicule après avoir réalisé qu'elle recevra une indemnité. · Accepter la demande de témoignage. · Ne pas quitter les lieux immédiatement. · Attendre un peu plus longtemps pour déclencher l'option de chantage. · Chantager la personne pour la moitié de son indemnité. · Attendre quelques jours de jeu pour recevoir le paiement de 18 000 $.",
       "nb_sources": 1,
       "verifie_en_jeu": false
      },
@@ -516,10 +639,42 @@
     "carte_version": "v1-officielle",
     "tips": [
      {
+      "id": "tip-666876aeb465",
+      "categorie": "exploration",
+      "enonce": "Le club Delights se trouve sur le bord de l'autoroute dans la zone de Port Gellhorn, dans le comté de Kelly, accessible en prenant l'autoroute depuis Vice City. Il est possible d'entrer directement à l'intérieur sans aucune condition de progression.",
+      "precision": "Situé sur le bord de l'autoroute · Accessible sans problème · Visible dans les images officielles de Rockstar · Localisation : Port Gellhorn, comté de Kelly, sur le côté de l'autoroute venant de Vice City. · Accès : on peut entrer directement sans problème. · Référence : vu dans les bandes-annonces de Rockstar.",
+      "nb_sources": 2,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-382ff6ffbe9a",
+      "categorie": "missions",
+      "enonce": "Mission « La Vérité est ailleurs » : Pour débloquer le trophée, rendez-vous au nord du comté de Kelly en direction de Port Gellhorn, sortez de l'autoroute après les stations essence, puis montez la route sur la gauche jusqu'à un croisement précis où vous devez vous trouver entre 2h et 5h du matin. Attendez l'apparition d'une voiture arrêtée aux phares clignotants et aux bruits étranges (en vous éloignant et revenant si l'événement est incorrect), suivez les bruits dans la forêt pour effrayer les extraterrestres et leur soucoupe, aidez la personne enlevée à récupérer sa voiture, puis laissez-vous enlever par les aliens pour déclencher la disparition de Jason pendant 3 jours et l'appel de Lucia.",
+      "precision": "1. Se rendre en direction de Port Gellhorn, en plein milieu du comté de Kelly. · 2. Sortir de l'autoroute à l'endroit indiqué et monter la route jusqu'à un croisement précis. · 3. Se trouver à cet endroit entre 2h et 5h du matin. · 4. Attendre l'apparition d'une voiture arrêtée avec les phares qui clignotent et des bruits bizarres (si l'événement n'est pas le bon, partir très loin et revenir). · 5. S'enfoncer dans la forêt en suivant les bruits bizarres pour trouver les extraterrestres et la soucoupe volante en train d'enlever quelqu'un. · 6. Effrayer les extraterrestres pour qu'ils repartent et laissent tomber la personne. · 7. Aller rechercher la voiture de la personne qui demande de l'aide. · 8. Être enlevé par les extraterrestres (Jason est absent 3 jours). · 9. Recevoir l'appel de Lucia qui annonce la disparition de Jason pendant 3 jours, ce qui débloque le trophée « La Vérité est ailleurs ». · 1. Se rendre au nord du comté de Kelly en direction de Port Gellhorn. · 2. S'arrêter un peu plus tôt, après être sorti de l'autoroute et avoir passé les stations essence. · 3. Continuer le chemin sur la gauche et monter jusqu'à un croisement précis. · 4. Être présent dans cette zone uniquement entre 2h et 5h du matin. · 5. Si rien ne se passe, faire demi-tour, s'éloigner suffisamment (jusqu'aux stations essence) et revenir au croisement pour réessayer (événement aléatoire). · 6. Attendre de voir une voiture arrêtée avec des feux qui clignotent de manière erratique et des bruits étranges. · 7. Suivre la direction des phares de la voiture pour s'enfoncer dans la forêt. · 8. Observer la soucoupe volante apparaître et effrayer les extraterrestres en arrivant, ce qui les fait relâcher leur cible. · 9. Parler à la femme perdue qui demande d'aller chercher sa voiture. · 10. Faire demi-tour pour aller chercher la voiture. · 11. Au moment de prendre la voiture, une lumière blanche apparaît, le trophée « La Vérité est ailleurs » est débloqué et le joueur est enlevé. · 12. Après un écran noir, le personnage Jason réapparaît en bonne santé et reçoit un appel de Lucia indiquant qu'il a disparu depuis environ 3 jours.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
       "id": "tip-7643785aa6ca",
       "categorie": "armes",
       "enonce": "Une SMG légendaire silencieuse (VF5C) se trouve sur le toit de l'entrepôt du comté de Kells, après avoir éliminé les ennemis et surmonté les obstacles.",
       "precision": "Se rendre sur le toit du bâtiment. · Éliminer les ennemis et surmonter les obstacles sur le chemin. · Ramasser la SMG silencieuse « scrapper legendary VF5C ». · Des pièces d'armure et de l'argent sont également disponibles sur le chemin. · Les armes légendaires sont débloquées de manière permanente.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-915bfcb69693",
+      "categorie": "exploration",
+      "enonce": "Un événement easter egg impliquant des aliens se déclenche dans le comté de Kelly, près de Port Gellhorn, après 2h du matin, et entraîne la perte de trois jours de jeu ainsi que le déblocage d'un trophée secret.",
+      "precision": "Lieu : Kelly County, près de Port Gellhorn. · Heure : après 2h du matin. · Déclencheur : une voiture garée au bord de la route avec les phares qui clignotent, le coffre ouvert et des vêtements par terre. · Action : suivre la piste dans les bois jusqu'à une lueur bleue. · Événement : un OVNI aspire une femme, puis Jason. · Conséquence : Jason se réveille trois jours plus tard, Lucia appelle pour demander où il était. · Récompense : déblocage d'un trophée secret.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-37485831cfd3",
+      "categorie": "exploration",
+      "enonce": "Le comté de Kelly, situé au centre de la carte, comprend Emerald Springs (eau turquoise, marais), Port Gellhorn (motels, circuit de dragster, raffinerie) et Ambrosia (ville des bikers, usine à sucre, terrain de motocross).",
+      "precision": "Emerald Springs : au centre, eau turquoise au milieu des marais · Port Gellhorn : motels fatigués, circuit avec piste de dragster, énorme raffinerie · Ambrosia : ville des bikers, immense usine à sucre, terrain de motocross",
       "nb_sources": 1,
       "verifie_en_jeu": false
      },
@@ -558,6 +713,14 @@
     "rayon": 0.1,
     "carte_version": "v1-officielle",
     "tips": [
+     {
+      "id": "tip-42f994a118d0",
+      "categorie": "exploration",
+      "enonce": "Le comté de Léonard est la plus petite région, contenant le lac Leonida (inspiré du lac Okichobi) et des petites villes comme Waning Sands, qui dispose de centres commerciaux adaptés au shopping ou aux braquages.",
+      "precision": "Lac Leonida : inspiré du lac Okichobi · Waning Sands : petite ville avec centres commerciaux parfaits pour le shopping ou les braquages",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
      {
       "id": "tip-ab4a0e89814e",
       "categorie": "argent",
@@ -606,6 +769,14 @@
       "categorie": "armes",
       "enonce": "Un sniper est obtenu en le ramassant sur le corps de l'ennemi tué lors de la séquence sur l'île de Squid Game.",
       "precision": "Arme : Sniper. · Emplacement : sur le corps de l'ennemi tué.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-1c7546513114",
+      "categorie": "exploration",
+      "enonce": "La région de Lumox, territoire du mont Calaga, offre la plus grande zone sauvage du jeu avec rivière, cascade et canoë, ainsi que la ville de Milleport à l'est qui pourrait contenir des parcs d'attractions.",
+      "precision": "Mont Calaga : territoire principal · Activités : rivière, cascade, canoë · Milleport : à l'est, possible présence de parcs d'attractions façon Orlando",
       "nb_sources": 1,
       "verifie_en_jeu": false
      }
@@ -1261,6 +1432,14 @@
       "categorie": "missions",
       "enonce": "Mission « Secret des OVNIS » (Étape 3) : Se rendre juste en dessous de Hamlet, tirer sur le cadenas de la grille du bâtiment en face avec une arme, enfoncer la porte, monter sur le toit par l'échelle arrière et entrer par la trappe ouverte pour libérer l'alien et le rendre à l'OVNI.",
       "precision": "1. Se rendre juste en dessous de Hamlet. · 2. Identifier le bâtiment juste en face. · 3. Tirer sur le cadenas de la grille avec une arme (« gun »). · 4. Enfoncer la porte. · 5. Faire le tour du bâtiment et monter sur le toit par l'échelle située derrière. · 6. Entrer par la trappe ouverte sur le toit. · 7. Libérer l'alien et le rendre à l'OVNI.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-60d2953be895",
+      "categorie": "missions",
+      "enonce": "La collecte de butin initial se fait à Apollo Aggregates, situé à l'est de Hamlet près de trois grands étangs, en pillant deux vans spécifiques.",
+      "precision": "1. Se rendre à Apollo Aggregates (à l'est de Hamlet, près de trois grands étangs). · 2. Appeler son van via Scooter Bros et le garer devant la porte. · 3. Pillar le van avec l'ours en peluche à l'extérieur. · 4. Pillar le deuxième van à l'intérieur. · 5. Gain initial : 7 200 $.",
       "nb_sources": 1,
       "verifie_en_jeu": false
      },
@@ -1976,6 +2155,14 @@
       "verifie_en_jeu": false
      },
      {
+      "id": "tip-b260dec0832e",
+      "categorie": "vehicules",
+      "enonce": "Une Emerus violette équipée de nitro se trouve dans un conteneur d'expédition à Chatfield Storage sur Waxman Island. Pour y accéder, il faut rejoindre la zone d'activité criminelle près du port de Vice City, s'infiltrer jusqu'au centre de l'île où le véhicule est caché, puis ouvrir un portail pour s'enfuir avec la voiture.",
+      "precision": "Véhicule : Emerus (NOS-equipped) · Lieu : Conteneurs d'expédition (shipping containers) à Chatfield Storage · Région : Waxman Island · Véhicule : Progen Emerus (couleur violette, équipée de nitro) · Lieu : Waxman Island, au centre de Vice City · Accès : Côté du port, zone d'activité criminelle · Méthode : Faire le tour par le port pour entrer dans la zone, s'infiltrer jusqu'au centre où la voiture est dans un conteneur · Risque : Présence d'énormément de monde dans la zone · Sortie : Ouvrir un portail pour partir avec la voiture",
+      "nb_sources": 2,
+      "verifie_en_jeu": false
+     },
+     {
       "id": "tip-94b9243d6fb8",
       "categorie": "armes",
       "enonce": "Une pistolet silencieux légendaire Quarter Mile ES9 se trouve dans un étui à armes sur le bureau, après avoir récupéré l'argent du coffre.",
@@ -1988,14 +2175,6 @@
       "categorie": "exploration",
       "enonce": "Le zoo se trouve sur l'île de Waxman, à l'est de Vice City, et contient un tigre du Bengale.",
       "precision": "Localisation : Waxman Island, à l'est de Vice City. · Contenu : Un tigre du Bengale est présent dans le zoo. · Interaction : Il est possible de sauter dans la cage du tigre, mais le joueur subit des dégâts importants.",
-      "nb_sources": 1,
-      "verifie_en_jeu": false
-     },
-     {
-      "id": "tip-b260dec0832e",
-      "categorie": "vehicules",
-      "enonce": "Une Emerus équipée de NOS se trouve dans les conteneurs d'expédition de Chatfield Storage sur Waxman Island.",
-      "precision": "Véhicule : Emerus (NOS-equipped) · Lieu : Conteneurs d'expédition (shipping containers) à Chatfield Storage · Région : Waxman Island",
       "nb_sources": 1,
       "verifie_en_jeu": false
      }
@@ -2224,6 +2403,60 @@
   },
   {
    "type": "Feature",
+   "id": 85,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4909,
+     0.2799
+    ]
+   },
+   "properties": {
+    "lieu": "North Kelly County",
+    "type": "autre",
+    "rayon": 0.04,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-2b4ea5a6367c",
+      "categorie": "vehicules",
+      "enonce": "Une Gold Rope and Furnace est cachée sous le carport d'une petite maison à Ambrosia dans North Kelly County.",
+      "precision": "Véhicule : Gold Rope and Furnace · Lieu : Ambrosia, North Kelly County · Position : sous le carport d'une petite maison",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 88,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.6068,
+     0.433
+    ]
+   },
+   "properties": {
+    "lieu": "South Leonard County",
+    "type": "autre",
+    "rayon": 0.04,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-d7fd6ebcb914",
+      "categorie": "exploration",
+      "enonce": "Un spot de butin oublié se trouve dans une ferme de méthamphétamine située juste au-dessus de Belleville, au sud du comté de Leonard, contenant une moto custom, une arme légendaire et de l'argent.",
+      "precision": "Lieu : ferme de méthamphétamine (meth farm lab) juste au-dessus de Belleville, au sud du comté de Leonard (South Leonard County).",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": 89,
    "geometry": {
     "type": "Point",
@@ -2398,6 +2631,14 @@
     "carte_version": "v1-officielle",
     "tips": [
      {
+      "id": "tip-e3c33cc80e23",
+      "categorie": "vehicules",
+      "enonce": "La Mitsubishi Eclipse de Paul Walker (Fast & Furious) se trouve dans le garage d'une grande maison située sur Vespucci Island, accessible dès le début du jeu sans prérequis de mission. Pour y accéder, il faut forcer l'entrée de la propriété (via le portail ou en brisant la vitre), ce qui déclenche une alarme et attire la police ; le véhicule ne possède pas de traceur mais ne peut pas être stocké.",
+      "precision": "Lieu : Vespucci Island, devant une maison surveillée par des gardes armés. · Accès : Passer par la maison d'un côté, sauter par-dessus le mur, se diriger vers le garage. · Véhicule : Voiture de Paul Walker (Fast and Furious). · Lieu : Vespucci Island, au centre de Vice City, sur les îles avec les grandes maisons. · Position exacte : À un croisement précis, entrer dans la maison située sur le côté via le portail. · Action : Se rendre au garage et le forcer avec un tournevis. · Détail : La voiture n'a pas de traceur. · Condition : Attendre que l'alarme s'arrête après le vol pour pouvoir rouler. · 1. Ouvrir la carte et se rendre au nord de la zone de départ (starter area) jusqu'au comté de Vicedale County. · 2. Zoomer au maximum pour repérer une petite île nommée Rialto Islands. · 3. Identifier un très grand bâtiment situé au centre de l'île. · 4. Arriver sur place et entrer de force dans la maison/garage (briser l'entrée). · 5. Ouvrir le garage normalement avant d'accéder à la voiture. · 6. Briser la vitre de la Mitsubishi Eclipse (ce qui déclenche une alarme). · 7. Pirater le véhicule (hotwire). · 8. S'échapper en gérant la présence de la police. · Point de départ : aller vers le haut et la droite depuis le spawn principal. · Lieu : île des Rialto Islands. · Bâtiment : grande maison au centre de l'île. · Accès : forcer l'entrée par la porte ou par le garage. · Risque : la voiture est chère, ce qui attire la police · il faut s'échapper. · Accessible dès le début du jeu, avant d'avoir complété des missions. · Départ : maison de Jason. · Distance : environ 5 miles. · Lieu : île de Vespucci, près de Vice City. · Repère : une maison spécifique marquée sur la carte, avec deux voitures garées devant. · Action : forcer le garage pour trouver la voiture. · Lieu : Vespucci Island, devant une maison. · Risque : Plusieurs gardes armés surveillent la propriété. · Accès : Passer par la maison d'un côté, sauter par-dessus les buissons, se diriger vers le garage. · Accès : Se rendre à un croisement précis, entrer dans la maison sur le côté via le portail. · Action : Forcer le garage avec un tournevis. · État du véhicule : Pas de traceur, il faut attendre que l'alarme s'arrête pour la rouler. · Nom du véhicule : Paul Walker's Mr. PC Eclipse · Véhicule : Mitsubishi Eclipse (référence Fast and the Furious) · Avantage : pas de traceur · Inconvénient : impossible de la stocker (can't store it) · Localisation : dans un garage (non précisé nommément dans la transcription, mais distinct des supercars du 919) · La voiture est identifiée comme étant celle de Paul Walker.",
+      "nb_sources": 8,
+      "verifie_en_jeu": false
+     },
+     {
       "id": "tip-210d1d3dc84c",
       "categorie": "vehicules",
       "enonce": "Sur Vespucci Island, une hypercar parmi les plus rapides du jeu se trouve à l'intérieur d'une propriété située juste à côté de la maison contenant la voiture de Paul Walker. Pour y accéder, il faut contourner les gardes armés en passant par un mur spécifique, puis regarder à droite une fois à l'intérieur.",
@@ -2478,6 +2719,33 @@
       "enonce": "Un easter egg dédié au personnage Dexter se trouve dans les Trinity Apartments sur Washington Island, avec des objets spécifiques sur le toit.",
       "precision": "Quartier : Washington Island · Bâtiment : Trinity Apartments (référence au personnage) · Localisation des objets : sur le toit du bâtiment · Objets trouvés : une corde, une paire de gants, une paire de menottes, des aiguilles, un couteau · Détail architectural : le bâtiment possède une piscine",
       "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 202,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.7953,
+     0.4734
+    ]
+   },
+   "properties": {
+    "lieu": "Casanova Island",
+    "type": "region",
+    "rayon": 0.012,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-dd6c2a19a547",
+      "categorie": "vehicules",
+      "enonce": "Une Lamborghini Urus entièrement dorée se trouve dans le garage d'une maison sur Casanova Island, accessible en sautant par-dessus la grille et en forçant la porte du garage. Deux cartes collectibles se trouvent également à l'arrière de ce même garage.",
+      "precision": "Lieu : Casanova Island, devant une maison spécifique. · Accès : Sauter par-dessus la grille, se diriger vers le garage, forcer la porte du garage. · Véhicule : Lamborghini Urus entièrement dorée. · Bonus : Deux cartes collectibles se trouvent à l'arrière de ce même garage. · Lieu : maison marquée sur la carte sur Casanova Island. · Accès : sauter la grille (gate) et entrer par la porte arrière du garage. · Véhicule : Lamborghini en or massif (solid gold Lamborghini). · Objets : plusieurs cartes collectibles (collectible cards) disponibles dans le garage. · Accès : Sauter par-dessus le portail, se diriger vers le garage, forcer la porte. · Bonus : Deux cartes à collectionner se trouvent au fond du même garage. · Position : Casanova Island, juste en face d'une villa · Accès : Pousser le portail (pas besoin de sauter) · Emplacement exact : Face au garage, à l'intérieur du garage · Statut du véhicule : Non considéré comme un véhicule remarquable par le jeu · Lieu : Île juste à droite (par rapport aux Vespucci Islands). · Emplacement précis : Dans le garage de la maison. · Contenu : Lamborghini Urus dorée, coffre rempli d'argent. · Lieu : près de Vice Beach. · Action : forcer l'entrée du garage (la porte ne s'ouvre pas automatiquement). · Résultat : le véhicule est visible immédiatement à l'intérieur.",
+      "nb_sources": 6,
       "verifie_en_jeu": false
      }
     ]
