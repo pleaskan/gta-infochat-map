@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "metadata": {
-  "genere_le": "2026-11-22T06:49:42+00:00",
+  "genere_le": "2026-11-22T12:24:14+00:00",
   "source": "gta6-tips (pipeline TikTok)",
   "repere": "image normalisée : x, y dans [0, 1], origine en haut à gauche"
  },
@@ -312,6 +312,14 @@
       "verifie_en_jeu": false
      },
      {
+      "id": "tip-858a799a7e57",
+      "categorie": "argent",
+      "enonce": "Pour maximiser les gains de la drogue obtenue via le glitch, il est conseillé de ne pas vendre à Dunk mais d'attendre le chapitre 3 pour vendre à Tyrone qui paie mieux.",
+      "precision": "Vendeur 1 : Dunk, situé à Port Gellhorn (paie mal). · Vendeur 2 : Tyrone, situé à La Perle, en plein Vice City (meilleur prix). · Condition : Attendre le chapitre 3 pour utiliser Tyrone.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
       "id": "tip-5df50d855a2c",
       "categorie": "vehicules",
       "enonce": "Un camion Smuggler's Karakara peut apparaître pendant l'activité du quai au Port Gellhorn, sur le côté gauche du complexe.",
@@ -541,6 +549,14 @@
       "categorie": "missions",
       "enonce": "Mission « Obtention de la Rolls Royce dorée » : Depuis la maison de Jason, rendez-vous au champ de stockage à Vicedale County, contournez les ennemis par l'arrière, éliminez la garde discrètement, pillez les sacs blancs et emmenez la voiture dorée jusqu'à une carrosserie pour l'enregistrer.",
       "precision": "1. Partir de la maison de Jason. · 2. Se rendre à Vicedale County, spécifiquement au champ de stockage (stockyard). · 3. Contourner les ennemis situés à l'avant en passant par l'arrière. · 4. Sauter sur une voiture, franchir la clôture et passer par les portes arrière. · 5. Éliminer discrètement un ennemi, puis les autres. · 6. Piller tous les sacs blancs pour obtenir de l'argent. · 7. Placer le sac dans le coffre de la Rolls Royce dorée (déjà déverrouillée). · 8. Conduire la voiture hors du garage, tourner à droite et traverser les clôtures. · 9. Se débarrasser de la police grâce à la vitesse du véhicule. · 10. Conduire la voiture jusqu'à n'importe quelle carrosserie (paint shop) et l'enregistrer à son nom.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-54277de6874a",
+      "categorie": "argent",
+      "enonce": "En sauvant un personnage impliqué dans un accident à Terquesta et en acceptant de témoigner, il est possible de le faire chanter pour obtenir 18 000 $ après quelques jours de jeu.",
+      "precision": "Se rendre dans la zone de Terquesta, sous Vicedale County. · Repérer un accident de voiture aléatoire. · Sortir de son véhicule et extraire la personne de sa voiture. · Attendre que la personne remonte dans son véhicule après avoir réalisé qu'elle recevra une indemnité. · Accepter la demande de témoignage. · Ne pas quitter les lieux immédiatement. · Attendre un peu plus longtemps pour déclencher l'option de chantage. · Chantager la personne pour la moitié de son indemnité. · Attendre quelques jours de jeu pour recevoir le paiement de 18 000 $.",
       "nb_sources": 1,
       "verifie_en_jeu": false
      },
@@ -1216,6 +1232,14 @@
       "verifie_en_jeu": false
      },
      {
+      "id": "tip-410264fc5d2a",
+      "categorie": "missions",
+      "enonce": "Mission « Secret des OVNIS » (Étape 3) : Se rendre juste en dessous de Hamlet, tirer sur le cadenas de la grille du bâtiment en face avec une arme, enfoncer la porte, monter sur le toit par l'échelle arrière et entrer par la trappe ouverte pour libérer l'alien et le rendre à l'OVNI.",
+      "precision": "1. Se rendre juste en dessous de Hamlet. · 2. Identifier le bâtiment juste en face. · 3. Tirer sur le cadenas de la grille avec une arme (« gun »). · 4. Enfoncer la porte. · 5. Faire le tour du bâtiment et monter sur le toit par l'échelle située derrière. · 6. Entrer par la trappe ouverte sur le toit. · 7. Libérer l'alien et le rendre à l'OVNI.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
       "id": "tip-d9d6a8fc4031",
       "categorie": "armes",
       "enonce": "Une AK-47 dorée se trouve sur une table dans un petit complexe situé juste au nord de la maison de Jason, dans la ville de Hamlet.",
@@ -1308,6 +1332,14 @@
       "categorie": "argent",
       "enonce": "La casse Nova, située au nord-est de Hamlet, contient un coffre accessible avec le code 7777, un fusil doré et une voiture revendant 3 700 dollars, pour un total potentiel de 27 000 dollars.",
       "precision": "Localisation : nord-est de Hamlet · Position du coffre : dans le petit bureau à côté du bus jaune · Code du coffre : écrit sur le mur juste derrière (mentionné comme 7777 dans la légende) · Butin : fusil doré · Véhicule : voiture du garage se revend 3 700 dollars · Gain total : jusqu'à 27 000 dollars",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-f0d11e11ef35",
+      "categorie": "argent",
+      "enonce": "Mission « Glitch d'argent illimité » : Un entrepôt spécifique se remplit de cocaïne à chaque rechargement de sauvegarde, permettant de générer jusqu'à 10 000 $ par cycle.",
+      "precision": "Prérequis : Chapitre 2 de GTA VI. · Lieu : Entrepôt rouge « Apollo Aggregates » situé à l'est de Hamlet, au nord de Caylento, à côté de trois bassins au bord de l'autoroute. · État initial : Les gardes sont déjà morts, le butin est accessible. · Véhicule : Utiliser sa voiture personnelle (le coffre garde le butin) ou la camionnette garée devant (10 emplacements). · Étape 1 : Vider les deux fourgons (celui avec le nounours dehors et celui dans l'entrepôt). · Étape 2 : Au premier passage uniquement, prendre aussi le bureau et le coffre-fort. · Étape 3 : Ranger tous les sacs dans le coffre du véhicule, ne rien garder sur soi. · Étape 4 : Faire une sauvegarde manuelle. · Étape 5 : Recharger cette sauvegarde. · Résultat : Les sacs restent dans le coffre, les fourgons sont de nouveau pleins. · Gain : Jusqu'à 10 000 $ par tour. · Risque : Le glitch peut être corrigé par un patch.",
       "nb_sources": 1,
       "verifie_en_jeu": false
      },
@@ -1445,6 +1477,33 @@
   },
   {
    "type": "Feature",
+   "id": 49,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.6732,
+     0.5948
+    ]
+   },
+   "properties": {
+    "lieu": "Tequesta",
+    "type": "autre",
+    "rayon": 0.02,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-54277de6874a",
+      "categorie": "argent",
+      "enonce": "En sauvant un personnage impliqué dans un accident à Terquesta et en acceptant de témoigner, il est possible de le faire chanter pour obtenir 18 000 $ après quelques jours de jeu.",
+      "precision": "Se rendre dans la zone de Terquesta, sous Vicedale County. · Repérer un accident de voiture aléatoire. · Sortir de son véhicule et extraire la personne de sa voiture. · Attendre que la personne remonte dans son véhicule après avoir réalisé qu'elle recevra une indemnité. · Accepter la demande de témoignage. · Ne pas quitter les lieux immédiatement. · Attendre un peu plus longtemps pour déclencher l'option de chantage. · Chantager la personne pour la moitié de son indemnité. · Attendre quelques jours de jeu pour recevoir le paiement de 18 000 $.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": 51,
    "geometry": {
     "type": "Point",
@@ -1550,6 +1609,33 @@
       "categorie": "vehicules",
       "enonce": "Un garage de tuning exclusif orienté lowriders et intérieurs de véhicules se trouve à l'ouest de Vice City, dans le quartier de Crosstown.",
       "precision": "Type de garage : tuning exclusif pour lowriders et intérieurs, modifications classiques possibles. · Localisation : à l'ouest de Vice City, quartier de Crosstown.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 57,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.6795,
+     0.4641
+    ]
+   },
+   "properties": {
+    "lieu": "La Perle",
+    "type": "autre",
+    "rayon": null,
+    "carte_version": "v1-officielle",
+    "tips": [
+     {
+      "id": "tip-858a799a7e57",
+      "categorie": "argent",
+      "enonce": "Pour maximiser les gains de la drogue obtenue via le glitch, il est conseillé de ne pas vendre à Dunk mais d'attendre le chapitre 3 pour vendre à Tyrone qui paie mieux.",
+      "precision": "Vendeur 1 : Dunk, situé à Port Gellhorn (paie mal). · Vendeur 2 : Tyrone, situé à La Perle, en plein Vice City (meilleur prix). · Condition : Attendre le chapitre 3 pour utiliser Tyrone.",
       "nb_sources": 1,
       "verifie_en_jeu": false
      }
@@ -1772,6 +1858,14 @@
     "carte_version": "v1-officielle",
     "tips": [
      {
+      "id": "tip-dd6c2a19a547",
+      "categorie": "vehicules",
+      "enonce": "Une Lamborghini Urus entièrement dorée se trouve dans le garage d'une maison sur Casanova Island, accessible en sautant par-dessus la grille et en forçant la porte du garage. Deux cartes collectibles se trouvent également à l'arrière de ce même garage.",
+      "precision": "Lieu : Casanova Island, devant une maison spécifique. · Accès : Sauter par-dessus la grille, se diriger vers le garage, forcer la porte du garage. · Véhicule : Lamborghini Urus entièrement dorée. · Bonus : Deux cartes collectibles se trouvent à l'arrière de ce même garage. · Lieu : maison marquée sur la carte sur Casanova Island. · Accès : sauter la grille (gate) et entrer par la porte arrière du garage. · Véhicule : Lamborghini en or massif (solid gold Lamborghini). · Objets : plusieurs cartes collectibles (collectible cards) disponibles dans le garage. · Accès : Sauter par-dessus le portail, se diriger vers le garage, forcer la porte. · Bonus : Deux cartes à collectionner se trouvent au fond du même garage. · Position : Casanova Island, juste en face d'une villa · Accès : Pousser le portail (pas besoin de sauter) · Emplacement exact : Face au garage, à l'intérieur du garage · Statut du véhicule : Non considéré comme un véhicule remarquable par le jeu · Lieu : Île juste à droite (par rapport aux Vespucci Islands). · Emplacement précis : Dans le garage de la maison. · Contenu : Lamborghini Urus dorée, coffre rempli d'argent. · Lieu : près de Vice Beach. · Action : forcer l'entrée du garage (la porte ne s'ouvre pas automatiquement). · Résultat : le véhicule est visible immédiatement à l'intérieur.",
+      "nb_sources": 6,
+      "verifie_en_jeu": false
+     },
+     {
       "id": "tip-65d82a351823",
       "categorie": "armes",
       "enonce": "Une arme légendaire en or et un gilet pare-balles se trouvent à l'étage d'une villa à Vice Beach, derrière une porte verrouillée gardée par un trafiquant.",
@@ -1788,6 +1882,14 @@
       "verifie_en_jeu": false
      },
      {
+      "id": "tip-c57707ef4dca",
+      "categorie": "exploration",
+      "enonce": "Des cartes rares à collectionner se trouvent dans la même pièce que le premier Lamborghini Urus doré, près de Vice Beach.",
+      "precision": "Lieu : à l'intérieur du garage contenant le premier Urus doré. · Condition : rester dans la pièce après avoir récupéré le véhicule.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
       "id": "tip-ba108d88c055",
       "categorie": "argent",
       "enonce": "Deux coffres-forts contenant du cash se trouvent dans la même pièce que l'arme en or, à l'étage de la villa de Vice Beach.",
@@ -1796,10 +1898,26 @@
       "verifie_en_jeu": false
      },
      {
+      "id": "tip-a745f677336a",
+      "categorie": "argent",
+      "enonce": "Une cache d'argent se trouve dans un petit box adjacent au garage du premier Lamborghini Urus doré, accessible en forçant l'ouverture.",
+      "precision": "Lieu : juste à droite du garage principal (près de Vice Beach). · Action : forcer l'ouverture du petit box. · Note : la somme n'est pas très élevée mais utile pour le portefeuille.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
       "id": "tip-41ac9fa0203c",
       "categorie": "vehicules",
       "enonce": "Une Ferrari se trouve à l'extérieur d'une villa située à Vice Beach, accessible après avoir éliminé les gardiens.",
       "precision": "Lieu : Vice Beach, devant une villa. · Prérequis : Éliminer les gardiens (décrits comme très résistants). · Action : Monter dans le véhicule et le mettre de côté avant d'entrer dans la villa.",
+      "nb_sources": 1,
+      "verifie_en_jeu": false
+     },
+     {
+      "id": "tip-06869a697730",
+      "categorie": "vehicules",
+      "enonce": "Un second véhicule doré (Lamborghini) se trouve derrière un grand bâtiment près de Vice Beach, mais il faut cloner la clé pour pouvoir le conduire.",
+      "precision": "Lieu : près de Vice Beach, derrière une grande tour/bâtiment. · Accès : rouler tout droit, tourner à gauche, placer le véhicule devant. · Contrainte : il faut cloner la clé pour conduire le véhicule doré.",
       "nb_sources": 1,
       "verifie_en_jeu": false
      }
